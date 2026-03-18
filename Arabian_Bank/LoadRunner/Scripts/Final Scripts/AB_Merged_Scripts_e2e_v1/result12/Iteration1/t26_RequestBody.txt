@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Mr.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14-"
+"10-1994&gender1=Male&maritalstatus=Single&Qualification=Diploma&phonenumber=1234567830&mobile="
+"7290825030&currentaddress=DNo11-16&country=USA&state=Mississippi&city=Batesville&pincode=52318"
+"6&yearsatresidence=1&numberofdependents=1&residentstatus=company+Provided&officeaddress=Madhap"
+"ur-30&email=Akon1%40gmail.com&pannumber=BZJPB999930&youare=Electrical+Engineer&nameofcompany=Q"
+"uantum-30&companynature=Non-IT&totalyearsofexperience=5&totalyearsofexperience1=2"

@@ -1,0 +1,188 @@
+Virtual User Script started at: 12-03-2026 10:48:16
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 11; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\Offline\Arabian_Bank\LoadRunner\Scripts\Final Scripts\AB_DDRequest_e2e_v1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(7): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(7): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(10): Notify: Transaction "AB_DDRequest_T01_Launch" started.
+Action.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_url("LoanIQ_2") started  	[MsgId: MMSG-26355]
+Action.c(15): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(15): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(15): Found resource "http://192.168.1.4:7001/LoanIQ/images/personal.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+Action.c(15): Found resource "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+Action.c(15): Found resource "http://192.168.1.4:7001/LoanIQ/images/business.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+Action.c(15): Found resource "http://192.168.1.4:7001/LoanIQ/images/nri.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+Action.c(15): Registered web_reg_find successful for "Text=Welcome To LoanIQ" (count=3)  	[MsgId: MMSG-26364]
+Action.c(15): web_url("LoanIQ_2") was successful, 122614 body bytes, 1004 header bytes  	[MsgId: MMSG-26386]
+Action.c(25): Notify: Transaction "AB_DDRequest_T01_Launch" ended with a "Pass" status (Duration: 0.2349 Wasted Time: 0.0554).
+Action.c(27): lr_think_time: 4.00 seconds.
+Action.c(29): Notify: Transaction "AB_DDRequest_T02_AccessPersonalBanking" started.
+correlations.c(3): web_reg_save_param started  	[MsgId: MMSG-26355]
+correlations.c(3): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): web_url("login.jsp") started  	[MsgId: MMSG-26355]
+Action.c(36): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(36): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(36): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(36): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(36): Notify: Saving Parameter "c_JSESSIONID = fR7gezTv28ISH0xfc6xifh6HcKK5YPjbOTNlQiOFHaxg4UUzLNtW!1311516965!1773292696815".
+Action.c(36): Found resource "http://192.168.1.4:7001/LoanIQ/images/login.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/login.jsp"  	[MsgId: MMSG-26659]
+Action.c(36): Found resource "http://192.168.1.4:7001/LoanIQ/images/signup.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/login.jsp"  	[MsgId: MMSG-26659]
+Action.c(36): Registered web_reg_find successful for "Text=Forgot Password?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(36): web_url("login.jsp") was successful, 13636 body bytes, 550 header bytes  	[MsgId: MMSG-26386]
+Action.c(46): Notify: Transaction "AB_DDRequest_T02_AccessPersonalBanking" ended with a "Pass" status (Duration: 0.0467 Wasted Time: 0.0041).
+Action.c(48): lr_think_time: 5.00 seconds.
+Action.c(50): Notify: Transaction "AB_DDRequest_T03_UserLogin" started.
+Action.c(52): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(52): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(55): web_submit_data("Login") started  	[MsgId: MMSG-26355]
+Action.c(55): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(55): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(55): Notify: Parameter Substitution: parameter "c_JSESSIONID" =  "fR7gezTv28ISH0xfc6xifh6HcKK5YPjbOTNlQiOFHaxg4UUzLNtW!1311516965!1773292696815"
+Action.c(55): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(55): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(55): Notify: Parameter Substitution: parameter "p_accno" =  "IQ14319"
+Action.c(55): Notify: Parameter Substitution: parameter "p_password" =  "Akon@186"
+Action.c(55): Found resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=fR7gezTv28ISH0xfc6xifh6HcKK5YPjbOTNlQiOFHaxg4UUzLNtW!1311516965!1773292696815"  	[MsgId: MMSG-26659]
+Action.c(55): Found resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=fR7gezTv28ISH0xfc6xifh6HcKK5YPjbOTNlQiOFHaxg4UUzLNtW!1311516965!1773292696815"  	[MsgId: MMSG-26659]
+Action.c(55): Found resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=fR7gezTv28ISH0xfc6xifh6HcKK5YPjbOTNlQiOFHaxg4UUzLNtW!1311516965!1773292696815"  	[MsgId: MMSG-26659]
+Action.c(55): Found resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=fR7gezTv28ISH0xfc6xifh6HcKK5YPjbOTNlQiOFHaxg4UUzLNtW!1311516965!1773292696815"  	[MsgId: MMSG-26659]
+Action.c(55): Found resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=fR7gezTv28ISH0xfc6xifh6HcKK5YPjbOTNlQiOFHaxg4UUzLNtW!1311516965!1773292696815"  	[MsgId: MMSG-26659]
+Action.c(55): Found resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=fR7gezTv28ISH0xfc6xifh6HcKK5YPjbOTNlQiOFHaxg4UUzLNtW!1311516965!1773292696815"  	[MsgId: MMSG-26659]
+Action.c(55): Registered web_reg_find successful for "Text=Welcome" (count=1)  	[MsgId: MMSG-26364]
+Action.c(55): web_submit_data("Login") was successful, 71940 body bytes, 1243 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "AB_DDRequest_T03_UserLogin" ended with a "Pass" status (Duration: 0.0805 Wasted Time: 0.0108).
+Action.c(74): lr_think_time: 5.00 seconds.
+Action.c(76): Notify: Transaction "AB_DDRequest_T04_SelectAccount" started.
+Action.c(78): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(78): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(81): web_url("accounts.jsp") started  	[MsgId: MMSG-26355]
+Action.c(81): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(81): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(81): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(81): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(81): Notify: Parameter Substitution: parameter "c_JSESSIONID" =  "fR7gezTv28ISH0xfc6xifh6HcKK5YPjbOTNlQiOFHaxg4UUzLNtW!1311516965!1773292696815"
+Action.c(81): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(81): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(81): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(81): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(81): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(81): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(81): Registered web_reg_find successful for "Text=Service" (count=2)  	[MsgId: MMSG-26364]
+Action.c(81): web_url("accounts.jsp") was successful, 3571 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(91): Notify: Transaction "AB_DDRequest_T04_SelectAccount" ended with a "Pass" status (Duration: 0.0409 Wasted Time: 0.0066).
+Action.c(93): lr_think_time: 3.00 seconds.
+Action.c(95): Notify: Transaction "AB_DDRequest_T05_SelectServiceRequests" started.
+Action.c(97): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(97): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(100): web_url("ServiceRequests.jsp") started  	[MsgId: MMSG-26355]
+Action.c(100): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(100): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(100): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(100): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(100): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(100): Registered web_reg_find successful for "Text=Cheque" (count=1)  	[MsgId: MMSG-26364]
+Action.c(100): web_url("ServiceRequests.jsp") was successful, 3558 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(110): Notify: Transaction "AB_DDRequest_T05_SelectServiceRequests" ended with a "Pass" status (Duration: 0.0335 Wasted Time: 0.0059).
+Action.c(112): lr_think_time: 4.00 seconds.
+Action.c(114): Notify: Transaction "AB_DDRequest_T06_SelectDDRequest" started.
+Action.c(116): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(116): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(119): web_url("ddrequest.jsp") started  	[MsgId: MMSG-26355]
+Action.c(119): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(119): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(119): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(119): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(119): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(119): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(119): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(119): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(119): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(119): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(119): Registered web_reg_find successful for "Text=Commission" (count=3)  	[MsgId: MMSG-26364]
+Action.c(119): web_url("ddrequest.jsp") was successful, 6272 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(129): Notify: Transaction "AB_DDRequest_T06_SelectDDRequest" ended with a "Pass" status (Duration: 0.0630 Wasted Time: 0.0030).
+Action.c(131): lr_think_time: 5.00 seconds.
+Action.c(133): Notify: Transaction "AB_DDRequest_T07_SubmitPayee" started.
+correlations.c(11): web_reg_save_param started  	[MsgId: MMSG-26355]
+correlations.c(11): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(137): web_submit_data("ddrequest.jsp_2") started  	[MsgId: MMSG-26355]
+Action.c(137): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(137): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(137): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(137): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(137): Notify: Parameter Substitution: parameter "p_amount" =  "100"
+Action.c(137): Notify: Saving Parameter "c_commission = 50".
+Action.c(137): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(137): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(137): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(137): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(137): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(137): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(137): web_submit_data("ddrequest.jsp_2") was successful, 6298 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(151): web_submit_data("ddresponse.jsp") started  	[MsgId: MMSG-26355]
+Action.c(151): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(151): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(151): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(151): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(151): Notify: Parameter Substitution: parameter "c_commission" =  "50"
+Action.c(151): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(151): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(151): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(151): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(151): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(151): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(151): web_submit_data("ddresponse.jsp") was successful, 3121 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(168): web_submit_data("ddresponseresult.jsp") started  	[MsgId: MMSG-26355]
+Action.c(168): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(168): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(168): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(168): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(168): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(168): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(168): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(168): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(168): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(168): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(168): web_submit_data("ddresponseresult.jsp") was successful, 3148 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+File already exists, skipping header
+Action.c(203): Notify: Parameter Substitution: parameter "p_amount" =  "100"
+Action.c(203): Notify: Parameter Substitution: parameter "c_commission" =  "50"
+Action.c(208): Notify: Parameter Substitution: parameter "p_amount" =  "100"
+Action.c(208): Notify: Parameter Substitution: parameter "c_commission" =  "50"
+Data Written — User: 100 | Balance: 50
+Action.c(215): Notify: Transaction "AB_DDRequest_T07_SubmitPayee" ended with a "Pass" status (Duration: 0.1419 Wasted Time: 0.0097).
+Action.c(217): lr_think_time: 5.00 seconds.
+Action.c(219): Notify: Transaction "AB_DDRequest_T08_UserLogout" started.
+Action.c(221): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(221): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(224): web_url("Logout.jsp") started  	[MsgId: MMSG-26355]
+Action.c(224): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(224): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(224): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(224): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(224): Registered web_reg_find successful for "Text=You Are Successfully Logged Out" (count=1)  	[MsgId: MMSG-26364]
+Action.c(224): web_url("Logout.jsp") was successful, 2027 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(234): Notify: Transaction "AB_DDRequest_T08_UserLogout" ended with a "Pass" status (Duration: 0.0500 Wasted Time: 0.0036).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 14156), ended OK."

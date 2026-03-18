@@ -1,0 +1,13 @@
+[t7]
+SnapshotXmlFile=snapshot_7.xml
+ContentType=text/html
+StepName=Submit Data: ddrequest.jsp_2
+Total=1
+FileName1=t7.html
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=1773292655646
+RawStepName=ddrequest.jsp_2
+RequestBodyFile=t7_RequestBody.txt
+RawStepStartTime=1773292655620
+URL1=http://192.168.1.4:7001/LoanIQ/ddrequest.jsp

@@ -1,0 +1,76 @@
+
+
+<html>
+	<head>
+		<title>Welcome To LoanIQ</title>
+	</head>
+	
+	
+	<script>
+		var ws ='Welcome To LoanIQ.....      '
+		function marqueStatus()
+		{
+			window.status=ws
+			ws=ws.substring(1,ws.length) + ws.substring(0,1)
+			setTimeout('marqueStatus()',150)
+		}
+		function validLogin()
+		{
+			var lname=document.login.accno.value;
+			var pass=document.login.password.value;
+
+
+			if (login.accno.value.length==0)
+			{
+				alert('Must Enter Accountno');
+				login.accno.focus();
+				return false;
+			}
+			if (login.password.value.length==0)
+			{
+				alert('Must Enter Password');
+				login.password.focus();
+				return false;
+			}
+			return true;
+		}
+
+	</script>
+
+	
+	<body style="background-color:#FFCC99" onLoad="marqueStatus()">
+		<form name="login" action="./Login?JSESSIONID=jD6ZQL-Prnw6CXnJfo79KAPBPxFOgmqvvrFd_k08U7OCtzpUm0zd!1522688009!1772097683343" method="post" onsubmit="return validLogin()">
+		
+			<table bgcolor="#FFCC99" width='700' border='0' align='center'>
+				<tr> 
+					<td width='252' height='87' background=''>&nbsp;</td>
+					<td width='60%' height='87' valign='top' background=''><div align='left'><div align='left'><font size='1'><br>
+						<font size='2' face='Arial, Helvetica, sans-serif'><strong> <span class='datestyle'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						<font color='#000000'>
+
+
+
+						&nbsp;</font></span></strong></font></font></div></div>
+					</td>
+				</tr> 
+				<tr bgcolor='#6699CC'> 
+					<td height='20' colspan='2' valign='middle'><marquee><span class='welcome'><font color='#FFFF00'><strong>Welcome To LoanIQ</strong></font></span></marquee></td>
+				</tr>
+			</table>
+			<table width='700' border='0' cellspacing='0' cellpadding='0' align='center'>	
+				<tr>
+					<td align='center'>								
+						<table>
+							<br><br><br>
+							<tr><td><b>Account No:</b></td><td><input name='accno' type="text" onKeyPress="return valid()"/></td></tr>
+							
+							<tr><td><b>Password</b></td><td><input name='password' type="password" onKeyPress="return valid()"/></td></tr>
+							<tr><td></td><td colspan="2"><input type="image" src="images/login.JPG" height="25" width="65" align="left"/></img><a href="register.jsp"><img src="images/signup.JPG" height="25" width="65" align="right" border='0'></a></img></td></tr>
+							<tr><td width="50%"><a href="forgotpassword.jsp">Forgot Password?</a></td></tr>
+						</table>							
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

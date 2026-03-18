@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Date: Sat, 28 Feb 2026 10:00:34 GMT
+Pragma: no-cache
+Content-Length: 2477
+Content-Type: text/html; charset=ISO-8859-1
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: JSESSIONID=JxijsVaZ9yodQvqJ_OHN__td6sTNl50zDFE-mDWA9NqjloCgLQzB!93127723; path=/; HttpOnly
+

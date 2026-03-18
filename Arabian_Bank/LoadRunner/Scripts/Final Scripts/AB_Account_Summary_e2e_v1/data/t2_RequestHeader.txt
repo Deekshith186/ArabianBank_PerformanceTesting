@@ -1,0 +1,10 @@
+GET http://192.168.1.29:7001/LoanIQ/login.jsp HTTP/1.1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.1.29:7001/LoanIQ/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=EwtHFEpAQ5gjuEXV2GOFjLppC1n6sDgHtVcwrZb19TEBtIRLbtAN!861341624; dtCookie=v_4_srv_-2D17984_sn_JE5JC9TGGM0QPIODKHEJER3VE68AJLLH; rxVisitor=1770719038267736H6MS84NOKUDGBKV3BVB6L8KR6A7T2; rxvt=1770720838367|1770719038267; dtPC=-17984$119038262_963h-vEFHRGBMSVNKGGMLUVFPMFHVPWDULRACI-0e0; dtCookie1zefxo3e=v_4_srv_2_sn_JE5JC9TGGM0QPIODKHEJER3VE68AJLLH_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; dtSa1zefxo3e=true%7CC%7C-1%7Cimage1%7C-%7C1770719070120%7C119038262_963%7Chttp%3A%2F%2F192.168.1.29%3A7001%2FLoanIQ%2F%7C%7C%7C%7C
+Host: 192.168.1.29:7001
+

@@ -1,0 +1,5 @@
+"loginName=%7Bc_accno%7D&title=Mr.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14-"
+"10-1994&gender1=Female&maritalstatus=Married&Qualification=Post+Graduate&phonenumber=123456783"
+"0&mobile=7290825030&pincode=523186&yearsatresidence=5&numberofdependents=4&residentstatus=Own+"
+"house&officeaddress=Madhapur-30&email=Akon1%40gmail.com&pannumber=BZJPB999930&currentaddress=D"
+"No11-16&state=Gujarat&city=sidhpur"

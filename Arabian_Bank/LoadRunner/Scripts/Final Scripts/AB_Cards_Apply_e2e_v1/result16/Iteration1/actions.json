@@ -1,0 +1,138 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1773121979966
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: personal.JPG",
+                "infFile": "t2.inf",
+                "time": 1773121980056
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1773121980175
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: cards.JPG",
+                "infFile": "t4.inf",
+                "time": 1773121980206
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: AmericonExpress Card",
+                "infFile": "t5.inf",
+                "time": 1773121980232
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Apply",
+                "infFile": "t14.inf",
+                "time": 1773121980281
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: americonapply.jsp",
+                "infFile": "t16.inf",
+                "time": 1773121980330
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: americonapply.jsp_2",
+                "infFile": "t18.inf",
+                "time": 1773121980436
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: americonapply1.jsp",
+                "infFile": "t24.inf",
+                "time": 1773121980500
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: AmericonCard",
+                "infFile": "t26.inf",
+                "time": 1773121980562
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: Logout.jsp",
+                "infFile": "t27.inf",
+                "time": 1773121980586
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_CardsApply_T01_Launch",
+                "rawStartTime": 1773121979633,
+                "rawEndTime": 1773121979969,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06206154823303223
+            },
+            {
+                "transactionName": "AB_CardsApply_T02_AccessPersonalBanking",
+                "rawStartTime": 1773121979969,
+                "rawEndTime": 1773121980056,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005163908004760742
+            },
+            {
+                "transactionName": "AB_CardsApply_T03_UserLogin",
+                "rawStartTime": 1773121980056,
+                "rawEndTime": 1773121980175,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008400201797485352
+            },
+            {
+                "transactionName": "AB_CardsApply_T04_SelectCreditCards",
+                "rawStartTime": 1773121980175,
+                "rawEndTime": 1773121980206,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004558563232421875
+            },
+            {
+                "transactionName": "AB_CardsApply_T05_SelectAmericanExpressCard",
+                "rawStartTime": 1773121980207,
+                "rawEndTime": 1773121980233,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003844022750854492
+            },
+            {
+                "transactionName": "AB_CardsApply_T06_SelectApply",
+                "rawStartTime": 1773121980233,
+                "rawEndTime": 1773121980283,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010978221893310547
+            },
+            {
+                "transactionName": "AB_CardsApply_T07_FillPersonalDetails",
+                "rawStartTime": 1773121980283,
+                "rawEndTime": 1773121980501,
+                "thinkTime": 0.0,
+                "wastedTime": 0.019639015197753907
+            },
+            {
+                "transactionName": "AB_CardsApply_T08_FillCompanyDetails",
+                "rawStartTime": 1773121980501,
+                "rawEndTime": 1773121980563,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004377126693725586
+            },
+            {
+                "transactionName": "AB_CardsApply_T09_UserLogout",
+                "rawStartTime": 1773121980563,
+                "rawEndTime": 1773121980586,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0038139820098876955
+            }
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Ms.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14-"
+"10-1994&gender1=Male&maritalstatus=Single&Qualification=Diploma&phonenumber=1234567830&mobile="
+"7290825030&currentaddress=DNo11-16&country=USA&state=Washington&city=Dayton&pincode=523186&yea"
+"rsatresidence=2&numberofdependents=0&residentstatus=company+Provided&officeaddress=Madhapur-30"
+"&email=Akon1%40gmail.com&pannumber=BZJPB999930&youare=Electrical+Engineer&nameofcompany=Quantu"
+"m-30&companynature=IT&totalyearsofexperience=4&totalyearsofexperience1=2"

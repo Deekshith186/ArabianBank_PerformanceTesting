@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Mr.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14-"
+"10-1994&gender1=Male&maritalstatus=Single&Qualification=Diploma&phonenumber=1234567830&mobile="
+"7290825030&currentaddress=DNo11-16&country=IND&state=JK&city=Pahalgam&pincode=523186&yearsatre"
+"sidence=0&numberofdependents=4&residentstatus=company+Provided&officeaddress=Madhapur-30&email"
+"=Akon1%40gmail.com&pannumber=BZJPB999930&youare=Software+Engineer&nameofcompany=Quantum-30&com"
+"panynature=IT&totalyearsofexperience=5&totalyearsofexperience1=1"

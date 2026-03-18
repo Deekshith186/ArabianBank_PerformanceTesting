@@ -1,0 +1,61 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1772098406182
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: personal.JPG",
+                "infFile": "t2.inf",
+                "time": 1772098406248
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1772098406332
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Accounts.JPG",
+                "infFile": "t4.inf",
+                "time": 1772098406371
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_FundTransfer_T01_Launch",
+                "rawStartTime": 1772098405787,
+                "rawEndTime": 1772098406184,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06145524978637695
+            },
+            {
+                "transactionName": "AB_FundTransfer_T02_AccessPersonalBanking",
+                "rawStartTime": 1772098406184,
+                "rawEndTime": 1772098406248,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005288839340209961
+            },
+            {
+                "transactionName": "AB_FundTransfer_T03_UserLogin",
+                "rawStartTime": 1772098406249,
+                "rawEndTime": 1772098406332,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010818958282470703
+            },
+            {
+                "transactionName": "AB_FundTransfer_T04_SelectAccount",
+                "rawStartTime": 1772098406332,
+                "rawEndTime": 1772098406372,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004034280776977539
+            }
+        ]
+    }
+]

@@ -1,0 +1,9 @@
+[hosts]
+192.168.1.29=
+edge.microsoft.com=
+www.bing.com=
+substrate.office.com=
+nav-edge.smartscreen.microsoft.com=
+graph.microsoft.com=
+edge-consumer-static.azureedge.net=
+edge-cloud-resource-static.azureedge.net=

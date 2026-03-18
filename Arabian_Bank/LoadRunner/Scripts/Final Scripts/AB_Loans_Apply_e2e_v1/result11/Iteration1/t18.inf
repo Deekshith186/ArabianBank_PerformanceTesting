@@ -1,0 +1,13 @@
+[t18]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=text/html
+StepName=Submit Data: HomeLoan
+Total=1
+FileName1=t18.html
+RequestHeaderFile=t18_RequestHeader.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+RawStepEndTime=1772800423538
+RawStepName=HomeLoan
+RequestBodyFile=t18_RequestBody.txt
+RawStepStartTime=1772800423493
+URL1=http://192.168.1.4:7001/LoanIQ/HomeLoan?loginName=IQ14285&loanamountrequiredrupees=214002&tenure=24&title=Mr.&firstname=Akon2&middlename=&lastname=Shon2&dateofbirth=14-10-1994&gender1=Male&maritalstatus=Single&Qualification=Post+Graduate&phonenumber=9848022331&mobile=7290825095&currentaddress=D.No.11-12&country=USA&state=California&city=Los+Angeles&pincode=523186&yearsatresidence=5&numberofdependents=3&residentstatus=Own+house&officeaddress=Madhapur-2&email=Akon2@gmail.com&pannumber=BZJPB99992&youare=Software+Engineer&nameofcompany=Quantum-1&companynature=IT&totalyearsofexperience=5&totalyearsofexperience1=5&otherloan=no

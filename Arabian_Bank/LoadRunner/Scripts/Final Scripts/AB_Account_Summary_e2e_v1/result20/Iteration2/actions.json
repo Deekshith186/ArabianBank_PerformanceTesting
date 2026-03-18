@@ -1,0 +1,80 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1770798986414
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: login.jsp",
+                "infFile": "t2.inf",
+                "time": 1770798986513
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1770798986625
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: accounts.jsp",
+                "infFile": "t4.inf",
+                "time": 1770798986672
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: AccountSummary.jsp",
+                "infFile": "t5.inf",
+                "time": 1770798986723
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: Logout.jsp",
+                "infFile": "t6.inf",
+                "time": 1770798986758
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_AccountSummary_T02_AccessPersonalBanking",
+                "rawStartTime": 1770798986415,
+                "rawEndTime": 1770798986513,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005914211273193359
+            },
+            {
+                "transactionName": "AB_AccountSummary_T03_UserLogin",
+                "rawStartTime": 1770798986514,
+                "rawEndTime": 1770798986625,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011656999588012696
+            },
+            {
+                "transactionName": "AB_AccountSummary_T04_SelectAccount",
+                "rawStartTime": 1770798986625,
+                "rawEndTime": 1770798986672,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011408090591430664
+            },
+            {
+                "transactionName": "AB_AccountSummary_T05_ViewAccountSummary",
+                "rawStartTime": 1770798986672,
+                "rawEndTime": 1770798986723,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0058362483978271488
+            },
+            {
+                "transactionName": "AB_AccountSummary_T06_UserLogout",
+                "rawStartTime": 1770798986723,
+                "rawEndTime": 1770798986758,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006991147994995117
+            }
+        ]
+    }
+]

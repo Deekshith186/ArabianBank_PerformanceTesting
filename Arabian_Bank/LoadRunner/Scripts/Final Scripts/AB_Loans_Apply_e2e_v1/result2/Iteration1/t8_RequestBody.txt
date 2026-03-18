@@ -1,0 +1,5 @@
+"loanamountrequiredrupees=214000&Tenure=24&title=Mr.&firstname=Akon1&middlename=&lastname=Shon1"
+"&dateofbirth=14-10-1994&gender1=Male&maritalstatus=Single&Qualification=Post+Graduate&phonenum"
+"ber=9848022331&mobile=7290825091&currentaddress=11-16&country=USA&state=California&city=&pinco"
+"de=523186&yearsatresidence=5&numberofdependents=3&residentstatus=Own+house&officeaddress=Madha"
+"pur-1&email=Akon1%40gmail.com&pannumber=BZJPB9999M1"

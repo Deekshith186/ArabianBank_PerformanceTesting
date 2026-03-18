@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Mr.&firstname=Akon1&middlename=&lastname=Shon2&dateofbirth=14-10"
+"-1994&gender1=Male&maritalstatus=Married&Qualification=Diploma&phonenumber=9848022331&mobile=7"
+"290825091&currentaddress=DNo11-16&country=USA&state=Alaska&city=Badger&pincode=523186&yearsatr"
+"esidence=2&numberofdependents=2&residentstatus=Own+house&officeaddress=Madhapur-1&email=Akon1%"
+"40gmail.com&pannumber=BZJPB99991&youare=Hardware+Engineer&nameofcompany=Quantum-1&companynatur"
+"e=Non-IT&totalyearsofexperience=1&totalyearsofexperience1=2"

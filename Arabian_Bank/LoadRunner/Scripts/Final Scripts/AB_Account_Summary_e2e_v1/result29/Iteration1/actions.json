@@ -1,0 +1,67 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1771565832210
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: login.jsp",
+                "infFile": "t2.inf",
+                "time": 1771565832283
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1771565832382
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: accounts.jsp",
+                "infFile": "t4.inf",
+                "time": 1771565832427
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: AccountSummary.jsp",
+                "infFile": "t6.inf",
+                "time": 1771565832488
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_AccountSummary_T02_AccessPersonalBanking",
+                "rawStartTime": 1771565832215,
+                "rawEndTime": 1771565832283,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0054931640625
+            },
+            {
+                "transactionName": "AB_AccountSummary_T03_UserLogin",
+                "rawStartTime": 1771565832283,
+                "rawEndTime": 1771565832382,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008511781692504883
+            },
+            {
+                "transactionName": "AB_AccountSummary_T04_SelectAccount",
+                "rawStartTime": 1771565832382,
+                "rawEndTime": 1771565832427,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0022263526916503908
+            },
+            {
+                "transactionName": "AB_AccountSummary_T05_ViewAccountSummary",
+                "rawStartTime": 1771565832428,
+                "rawEndTime": 1771565832489,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006553173065185547
+            }
+        ]
+    }
+]

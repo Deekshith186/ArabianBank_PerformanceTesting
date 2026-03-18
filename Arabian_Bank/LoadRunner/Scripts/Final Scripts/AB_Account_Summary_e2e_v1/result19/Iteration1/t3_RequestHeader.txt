@@ -1,0 +1,12 @@
+POST /LoanIQ/Login?JSESSIONID=vbFLROVjFMOFECJkyvpnEKDwpAX4pBN1_qe81oJ4lqd-ITcZ1cyO!-1863815702!1770789332323 HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://192.168.1.29:7001/LoanIQ/login.jsp
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.1.29:7001
+Cookie: dtCookie1zefxo3e=v_4_srv_4_sn_9C22ED7B5752B3B933255106AFEA7E48_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; JSESSIONID=vbFLROVjFMOFECJkyvpnEKDwpAX4pBN1_qe81oJ4lqd-ITcZ1cyO!-1863815702
+Content-Length: 43
+

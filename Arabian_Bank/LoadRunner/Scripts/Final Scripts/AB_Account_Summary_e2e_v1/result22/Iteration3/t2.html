@@ -1,0 +1,76 @@
+
+
+<html>
+	<head>
+		<title>Welcome To LoanIQ</title>
+	<script type="text/javascript" src="/LoanIQ/ruxitagentjs_ICA15789NPRTUVXfqrux_10331260218130851.js" data-dtconfig="app=ea7c4b59f27d43eb|owasp=1|featureHash=ICA15789NPRTUVXfqrux|rdnt=1|uxrgce=1|cuc=1zefxo3e|mel=100000|expw=1|dpvc=1|lastModification=1771507651721|postfix=1zefxo3e|tp=500,50,0|srbbv=2|agentUri=/LoanIQ/ruxitagentjs_ICA15789NPRTUVXfqrux_10331260218130851.js|reportUrl=/LoanIQ/rb_bf18472vnr|rid=RID_1318254503|rpid=1037219250" data-config='{"revision":1771507651721,"beaconUri":"\/LoanIQ\/rb_bf18472vnr","agentUri":"\/LoanIQ\/ruxitagentjs_ICA15789NPRTUVXfqrux_10331260218130851.js","environmentId":"1zefxo3e","modules":"ICA15789NPRTUVXfqrux"}' data-envconfig='{"tracestateKeyPrefix":"125feb6f-695a4262"}' data-appconfig='{"app":"ea7c4b59f27d43eb"}'></script></head>
+	
+	
+	<script>
+		var ws ='Welcome To LoanIQ.....      '
+		function marqueStatus()
+		{
+			window.status=ws
+			ws=ws.substring(1,ws.length) + ws.substring(0,1)
+			setTimeout('marqueStatus()',150)
+		}
+		function validLogin()
+		{
+			var lname=document.login.accno.value;
+			var pass=document.login.password.value;
+
+
+			if (login.accno.value.length==0)
+			{
+				alert('Must Enter Accountno');
+				login.accno.focus();
+				return false;
+			}
+			if (login.password.value.length==0)
+			{
+				alert('Must Enter Password');
+				login.password.focus();
+				return false;
+			}
+			return true;
+		}
+
+	</script>
+
+	
+	<body style="background-color:#FFCC99" onLoad="marqueStatus()">
+		<form name="login" action="./Login?JSESSIONID=QHV5cV348nh7aooZXZ8IH5UKnHWV9iqWJkVQqcxMqMTly1FTbDfR!90905618!1771563998712" method="post" onsubmit="return validLogin()">
+		
+			<table bgcolor="#FFCC99" width='700' border='0' align='center'>
+				<tr> 
+					<td width='252' height='87' background=''>&nbsp;</td>
+					<td width='60%' height='87' valign='top' background=''><div align='left'><div align='left'><font size='1'><br>
+						<font size='2' face='Arial, Helvetica, sans-serif'><strong> <span class='datestyle'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						<font color='#000000'>
+
+
+
+						&nbsp;</font></span></strong></font></font></div></div>
+					</td>
+				</tr> 
+				<tr bgcolor='#6699CC'> 
+					<td height='20' colspan='2' valign='middle'><marquee><span class='welcome'><font color='#FFFF00'><strong>Welcome To LoanIQ</strong></font></span></marquee></td>
+				</tr>
+			</table>
+			<table width='700' border='0' cellspacing='0' cellpadding='0' align='center'>	
+				<tr>
+					<td align='center'>								
+						<table>
+							<br><br><br>
+							<tr><td><b>Account No:</b></td><td><input name='accno' type="text" onKeyPress="return valid()"/></td></tr>
+							
+							<tr><td><b>Password</b></td><td><input name='password' type="password" onKeyPress="return valid()"/></td></tr>
+							<tr><td></td><td colspan="2"><input type="image" src="images/login.JPG" height="25" width="65" align="left"/></img><a href="register.jsp"><img src="images/signup.JPG" height="25" width="65" align="right" border='0'></a></img></td></tr>
+							<tr><td width="50%"><a href="forgotpassword.jsp">Forgot Password?</a></td></tr>
+						</table>							
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

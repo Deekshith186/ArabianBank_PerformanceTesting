@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "vuser_end",
+        "steps": [
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Logout.jsp",
+                "infFile": "t8.inf",
+                "time": 1773743672410
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_AccountSummary_T06_UserLogout",
+                "rawStartTime": 1773743672377,
+                "rawEndTime": 1773743672410,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0031952857971191408
+            }
+        ]
+    }
+]

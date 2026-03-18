@@ -1,0 +1,13 @@
+[t8]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/html
+StepName=Url: Logout.jsp
+Total=1
+FileName1=t8.html
+RequestHeaderFile=t8_RequestHeader.txt
+ResponseHeaderFile=t8_ResponseHeader.txt
+RawStepEndTime=1771567870921
+RawStepName=Logout.jsp
+RequestBodyFile=t8_RequestBody.txt
+RawStepStartTime=1771567870895
+URL1=http://192.168.1.29:7001/LoanIQ/Logout.jsp

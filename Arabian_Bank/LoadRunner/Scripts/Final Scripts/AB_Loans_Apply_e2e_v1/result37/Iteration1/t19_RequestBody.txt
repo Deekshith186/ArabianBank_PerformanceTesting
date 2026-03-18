@@ -1,0 +1,5 @@
+"loanamountrequiredrupees=214002&Tenure=48&title=Mrs.&firstname=Akon2&middlename=&lastname=Shon"
+"2&dateofbirth=14-10-1994&gender1=Male&maritalstatus=Married&Qualification=Diploma&phonenumber="
+"9848022331&mobile=7290825095&currentaddress=D.No.11-12&country=Germany&state=Baden-Wurttemberg"
+"&city=&pincode=523186&yearsatresidence=2&numberofdependents=0&residentstatus=company+Provided&"
+"officeaddress=Madhapur-2&email=Akon2%40gmail.com&pannumber=BZJPB99992"

@@ -1,0 +1,13 @@
+[t19]
+SnapshotXmlFile=snapshot_11.xml
+ContentType=text/html
+StepName=Submit Data: FundTransfer1.jsp
+Total=1
+FileName1=t19.html
+RequestHeaderFile=t19_RequestHeader.txt
+ResponseHeaderFile=t19_ResponseHeader.txt
+RawStepEndTime=1773142766208
+RawStepName=FundTransfer1.jsp
+RequestBodyFile=t19_RequestBody.txt
+RawStepStartTime=1773142766043
+URL1=http://192.168.1.4:7001/LoanIQ/FundTransfer1.jsp

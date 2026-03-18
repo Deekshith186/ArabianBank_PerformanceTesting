@@ -1,0 +1,13 @@
+[t26]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=text/html
+StepName=Submit Data: HomeLoan
+Total=1
+FileName1=t26.html
+RequestHeaderFile=t26_RequestHeader.txt
+ResponseHeaderFile=t26_ResponseHeader.txt
+RawStepEndTime=1773032121834
+RawStepName=HomeLoan
+RequestBodyFile=t26_RequestBody.txt
+RawStepStartTime=1773032121753
+URL1=http://192.168.1.4:7001/LoanIQ/HomeLoan?loginName=IQ14314&loanamountrequiredrupees=214002&tenure=36&title=Mr.&firstname=Akon2&middlename=&lastname=Shon2&dateofbirth=14-10-1994&gender1=Female&maritalstatus=Single&Qualification=Post+Graduate&phonenumber=9848022331&mobile=7290825095&currentaddress=D.No.11-12&country=Germany&state=Bavaria&city=Bamberg&pincode=523186&yearsatresidence=1&numberofdependents=1&residentstatus=Own+house&officeaddress=Madhapur-2&email=Akon2@gmail.com&pannumber=BZJPB99992&youare=Electronics+Engineer&nameofcompany=Quantum-2&companynature=yes&totalyearsofexperience=4&totalyearsofexperience1=3&otherloan=yes

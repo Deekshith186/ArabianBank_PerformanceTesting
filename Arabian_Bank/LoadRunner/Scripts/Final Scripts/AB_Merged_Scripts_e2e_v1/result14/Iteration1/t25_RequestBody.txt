@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Mrs.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14"
+"-10-1994&gender1=Female&maritalstatus=Single&Qualification=Under+Graduate&phonenumber=12345678"
+"30&mobile=7290825030&currentaddress=DNo11-16&country=AUS&state=Norfolk+Island&city=Cemetery+Ba"
+"y&pincode=523186&yearsatresidence=0&numberofdependents=5&residentstatus=company+Provided&offic"
+"eaddress=Madhapur-30&email=Akon1%40gmail.com&pannumber=BZJPB999930&youare=Software+Engineer&na"
+"meofcompany=Quantum-30&companynature=IT&totalyearsofexperience=4&totalyearsofexperience1=5"

@@ -1,0 +1,878 @@
+Virtual User Script started at: 17-03-2026 16:06:04
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 11; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\Offline\Arabian_Bank\LoadRunner\Scripts\Final Scripts\AB_Account_Summary_e2e_v1\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(3): Notify: Transaction "AB_AccountSummary_T01_Launch" started.
+vuser_init.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(8): web_url("LoanIQ") started  	[MsgId: MMSG-26355]
+vuser_init.c(8): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+vuser_init.c(8): Notify: Parameter Substitution: parameter "port" =  "7001"
+vuser_init.c(8): t=179ms: 313-byte response headers for "http://192.168.1.4:7001/LoanIQ/" (RelFrameId=1, Internal ID=1)
+vuser_init.c(8):     HTTP/1.1 200 OK\r\n
+vuser_init.c(8):     Cache-Control: no-cache\r\n
+vuser_init.c(8):     Date: Tue, 17 Mar 2026 10:36:05 GMT\r\n
+vuser_init.c(8):     Pragma: no-cache\r\n
+vuser_init.c(8):     Content-Length: 2477\r\n
+vuser_init.c(8):     Content-Type: text/html; charset=ISO-8859-1\r\n
+vuser_init.c(8):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+vuser_init.c(8):     Set-Cookie: JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911; p
+vuser_init.c(8):     ath=/; HttpOnly\r\n
+vuser_init.c(8):     \r\n
+vuser_init.c(8): t=184ms: 2477-byte response body for "http://192.168.1.4:7001/LoanIQ/" (RelFrameId=1, Internal ID=1)
+vuser_init.c(8):     \n
+vuser_init.c(8):     \n
+vuser_init.c(8):     <html>\n
+vuser_init.c(8):     \t<head>\n
+vuser_init.c(8):     \t\t<title>Welcome To LoanIQ</title>\n
+vuser_init.c(8):     \t</head>\n
+vuser_init.c(8):     \t<script>\n
+vuser_init.c(8):     \t\t\tvar ws ='Welcome To LoanIQ.....      '\n
+vuser_init.c(8):     \t\t\tfunction marqueStatus()\n
+vuser_init.c(8):     \t\t\t{\n
+vuser_init.c(8):     \t\t\t\twindow.status=ws\n
+vuser_init.c(8):     \t\t\t\tws=ws.substring(1,ws.length) + ws.substring(0,1)\n
+vuser_init.c(8):     \t\t\t\tsetTimeout('marqueStatus()',150)\n
+vuser_init.c(8):     \t\t\t}\n
+vuser_init.c(8):     \t</script>\n
+vuser_init.c(8):     \t<body style="background-color:#FFCC99" onload="marqueStatus()">\n
+vuser_init.c(8):     \t\t<table width='700' border='0' align='center'>\n
+vuser_init.c(8):     \t\t\t<tr> \n
+vuser_init.c(8):     \t\t\t\t<td width='252' height='87' background=''>&nbsp;</td>\n
+vuser_init.c(8):     \t\t\t\t<td width='60%' height='87' valign='top' background=''><div align='left'><div alig
+vuser_init.c(8):     n='left'><font size='1'><br>\n
+vuser_init.c(8):     \t\t\t\t\t<font size='2' face='Arial, Helvetica, sans-serif'><strong> <span class='datesty
+vuser_init.c(8):     le'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n
+vuser_init.c(8):     bsp;&nbsp;&nbsp;&nbsp; \n
+vuser_init.c(8):     \t\t\t\t\t<font color='#000000'>\n
+vuser_init.c(8):     \n
+vuser_init.c(8):     \n
+vuser_init.c(8):     \n
+vuser_init.c(8):     \t\t\t\t\t&nbsp;</font></span></strong></font></font></div>\n
+vuser_init.c(8):     \t\t\t\t</td>\n
+vuser_init.c(8):     \t\t\t</tr> \n
+vuser_init.c(8):     \t\t\t<tr bgcolor='#6699CC'> \n
+vuser_init.c(8):     \t\t\t\t<td height='20' colspan='2' valign='right'><marquee><span class='welcome'><font co
+vuser_init.c(8):     lor='#FFFF00'><strong>Welcome To LoanIQ</strong></font></span></marquee></td>\n
+vuser_init.c(8):     \t\t\t</tr>\n
+vuser_init.c(8):     \t\t\t<tr> \n
+vuser_init.c(8):     \t\t\t\t<td height="42" colspan="3"> \n
+vuser_init.c(8):     \t\t\t\t\t<table width='700' border='0' align="center">\n
+vuser_init.c(8):     \t\t\t\t\t\t<td align="left" width="21%" height="23" valign="top" bordercolor="#6699CC" bo
+vuser_init.c(8):     rder=1><a href="login.jsp"><img src="images/personal.JPG" name="image1" width="155" height
+vuser_init.c(8):     ="38" border="0" id="image1"></a></td>\n
+vuser_init.c(8):     \t\t\t\t\t\t<td align="right" width="17%" height="23" valign="top" bordercolor="#6699CC" b
+vuser_init.c(8):     order=1><a href="#"><img src="images/corporative.JPG" name="image2" width="170" height="38
+vuser_init.c(8):     " border="0" id="image2"></a></td>\n
+vuser_init.c(8):     \t\t\t\t\t\t<td align="center" width="23%" height="23" valign="top" bordercolor="#6699CC" 
+vuser_init.c(8):     border=1><a href="#"><img src="images/business.JPG" name="image3" width="160" height="38" 
+vuser_init.c(8):     border="0" id="image3"></a></td>\n
+vuser_init.c(8):     \t\t\t\t\t\t<td align="left" width="22%" height="23" valign="top" bordercolor="#6699CC" bo
+vuser_init.c(8):     rder=1><a href="#"><img src="images/nri.JPG" width="150" height="38" border="0"></a></td>\n
+vuser_init.c(8):     \n
+vuser_init.c(8):     \t\t\t\t\t</table>\n
+vuser_init.c(8):     \t\t\t\t</td>\n
+vuser_init.c(8):     \t\t\t</tr>\n
+vuser_init.c(8):     \t\t\t<tr>\n
+vuser_init.c(8):     \t\t\t\t<td><table>\n
+vuser_init.c(8):     \t\t\t\t\t<BR><BR><BR><BR><BR><BR><BR><BR>\n
+vuser_init.c(8):     \t\t\t\t\t<BR><BR><BR><BR><BR><BR><BR><BR>\n
+vuser_init.c(8):     \t\t\t\t\t<tr valign="top" bgcolor="#FFCC99">\n
+vuser_init.c(8):     \t\t\t\t\t\t<td height="16" colspan="50">\n
+vuser_init.c(8):     \t\t\t\t\t\t</td>\n
+vuser_init.c(8):     \t\t\t\t\t</tr></td>\n
+vuser_init.c(8):     \t\t\t\t</table>\n
+vuser_init.c(8):     \t\t\t</tr>\n
+vuser_init.c(8):     \t\t\t<tr valign="top" bgcolor="#6699CC"> \n
+vuser_init.c(8):     \t\t\t\t<td height="16" colspan="3"> \n
+vuser_init.c(8):     \t\t\t\t\t<div align="center"><font color="#FFFFFF">Copyright \n
+vuser_init.c(8):     \t\t\t\t\t2007 www.arabianbank.com All Rights Reserved</font>\n
+vuser_init.c(8):     \t\t\t\t\t</div>\n
+vuser_init.c(8):     \t\t\t\t</td>\n
+vuser_init.c(8):     \t\t\t</tr>\n
+vuser_init.c(8):     \t\t</table>\n
+vuser_init.c(8):     \t</body>\n
+vuser_init.c(8):     </html>
+vuser_init.c(8): Found resource "http://192.168.1.4:7001/LoanIQ/images/personal.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+vuser_init.c(8): Found resource "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+vuser_init.c(8): Found resource "http://192.168.1.4:7001/LoanIQ/images/business.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+vuser_init.c(8): Found resource "http://192.168.1.4:7001/LoanIQ/images/nri.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+vuser_init.c(8): t=202ms: 173-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/personal.JPG" (RelFrameId=, Internal ID=2)
+vuser_init.c(8):     HTTP/1.1 200 OK\r\n
+vuser_init.c(8):     Date: Tue, 17 Mar 2026 10:36:05 GMT\r\n
+vuser_init.c(8):     Accept-Ranges: bytes\r\n
+vuser_init.c(8):     Content-Length: 19487\r\n
+vuser_init.c(8):     Content-Type: image/jpeg\r\n
+vuser_init.c(8):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(8):     \r\n
+vuser_init.c(8): t=202ms: 12114-byte response body for "http://192.168.1.4:7001/LoanIQ/images/personal.JPG" (RelFrameId=, Internal ID=2)
+vuser_init.c(8): t=202ms: 1562-byte response body for "http://192.168.1.4:7001/LoanIQ/images/personal.JPG" (RelFrameId=, Internal ID=2)
+vuser_init.c(8): t=202ms: 173-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" (RelFrameId=, Internal ID=3)
+vuser_init.c(8):     HTTP/1.1 200 OK\r\n
+vuser_init.c(8):     Date: Tue, 17 Mar 2026 10:36:05 GMT\r\n
+vuser_init.c(8):     Accept-Ranges: bytes\r\n
+vuser_init.c(8):     Content-Length: 64274\r\n
+vuser_init.c(8):     Content-Type: image/jpeg\r\n
+vuser_init.c(8):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(8):     \r\n
+vuser_init.c(8): t=203ms: 12114-byte response body for "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" (RelFrameId=, Internal ID=3)
+vuser_init.c(8): t=203ms: 1562-byte response body for "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" (RelFrameId=, Internal ID=3)
+vuser_init.c(8): t=203ms: 173-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/business.JPG" (RelFrameId=, Internal ID=4)
+vuser_init.c(8):     HTTP/1.1 200 OK\r\n
+vuser_init.c(8):     Date: Tue, 17 Mar 2026 10:36:05 GMT\r\n
+vuser_init.c(8):     Accept-Ranges: bytes\r\n
+vuser_init.c(8):     Content-Length: 20792\r\n
+vuser_init.c(8):     Content-Type: image/jpeg\r\n
+vuser_init.c(8):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(8):     \r\n
+vuser_init.c(8): t=203ms: 9604-byte response body for "http://192.168.1.4:7001/LoanIQ/images/business.JPG" (RelFrameId=, Internal ID=4)
+vuser_init.c(8): t=218ms: 11188-byte response body for "http://192.168.1.4:7001/LoanIQ/images/business.JPG" (RelFrameId=, Internal ID=4)
+vuser_init.c(8): t=220ms: 5811-byte response body for "http://192.168.1.4:7001/LoanIQ/images/personal.JPG" (RelFrameId=, Internal ID=2)
+vuser_init.c(8): t=220ms: 12287-byte response body for "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" (RelFrameId=, Internal ID=3)
+vuser_init.c(8): t=220ms: 12287-byte response body for "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" (RelFrameId=, Internal ID=3)
+vuser_init.c(8): t=220ms: 1706-byte response body for "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" (RelFrameId=, Internal ID=3)
+vuser_init.c(8): t=220ms: 173-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/nri.JPG" (RelFrameId=, Internal ID=5)
+vuser_init.c(8):     HTTP/1.1 200 OK\r\n
+vuser_init.c(8):     Date: Tue, 17 Mar 2026 10:36:05 GMT\r\n
+vuser_init.c(8):     Accept-Ranges: bytes\r\n
+vuser_init.c(8):     Content-Length: 15584\r\n
+vuser_init.c(8):     Content-Type: image/jpeg\r\n
+vuser_init.c(8):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(8):     \r\n
+vuser_init.c(8): t=221ms: 12114-byte response body for "http://192.168.1.4:7001/LoanIQ/images/nri.JPG" (RelFrameId=, Internal ID=5)
+vuser_init.c(8): t=221ms: 1562-byte response body for "http://192.168.1.4:7001/LoanIQ/images/nri.JPG" (RelFrameId=, Internal ID=5)
+vuser_init.c(8): t=234ms: 12287-byte response body for "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" (RelFrameId=, Internal ID=3)
+vuser_init.c(8): t=234ms: 12031-byte response body for "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" (RelFrameId=, Internal ID=3)
+vuser_init.c(8): t=234ms: 1908-byte response body for "http://192.168.1.4:7001/LoanIQ/images/nri.JPG" (RelFrameId=, Internal ID=5)
+vuser_init.c(8): Registered web_reg_find successful for "Text=Welcome To LoanIQ" (count=3)  	[MsgId: MMSG-26364]
+vuser_init.c(8): web_url("LoanIQ") was successful, 122614 body bytes, 1005 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(18): Notify: Transaction "AB_AccountSummary_T01_Launch" ended with a "Pass" status (Duration: 0.2228 Wasted Time: 0.0542).
+vuser_init.c(22): lr_think_time: 5.00 seconds.
+vuser_init.c(24): Notify: Transaction "AB_AccountSummary_T02_AccessPersonalBanking" started.
+vuser_init.c(26): web_reg_save_param started  	[MsgId: MMSG-26355]
+vuser_init.c(26): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+vuser_init.c(32): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(32): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(35): web_url("login.jsp") started  	[MsgId: MMSG-26355]
+vuser_init.c(35): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+vuser_init.c(35): Notify: Parameter Substitution: parameter "port" =  "7001"
+vuser_init.c(35): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+vuser_init.c(35): Notify: Parameter Substitution: parameter "port" =  "7001"
+vuser_init.c(35): t=5399ms: 206-byte response headers for "http://192.168.1.4:7001/LoanIQ/login.jsp" (RelFrameId=1, Internal ID=6)
+vuser_init.c(35):     HTTP/1.1 200 OK\r\n
+vuser_init.c(35):     Cache-Control: no-cache\r\n
+vuser_init.c(35):     Date: Tue, 17 Mar 2026 10:36:10 GMT\r\n
+vuser_init.c(35):     Pragma: no-cache\r\n
+vuser_init.c(35):     Content-Length: 2495\r\n
+vuser_init.c(35):     Content-Type: text/html; charset=ISO-8859-1\r\n
+vuser_init.c(35):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+vuser_init.c(35):     \r\n
+vuser_init.c(35): t=5401ms: 2495-byte response body for "http://192.168.1.4:7001/LoanIQ/login.jsp" (RelFrameId=1, Internal ID=6)
+vuser_init.c(35):     \n
+vuser_init.c(35):     \n
+vuser_init.c(35):     <html>\n
+vuser_init.c(35):     \t<head>\n
+vuser_init.c(35):     \t\t<title>Welcome To LoanIQ</title>\n
+vuser_init.c(35):     \t</head>\n
+vuser_init.c(35):     \t\n
+vuser_init.c(35):     \t\n
+vuser_init.c(35):     \t<script>\n
+vuser_init.c(35):     \t\tvar ws ='Welcome To LoanIQ.....      '\n
+vuser_init.c(35):     \t\tfunction marqueStatus()\n
+vuser_init.c(35):     \t\t{\n
+vuser_init.c(35):     \t\t\twindow.status=ws\n
+vuser_init.c(35):     \t\t\tws=ws.substring(1,ws.length) + ws.substring(0,1)\n
+vuser_init.c(35):     \t\t\tsetTimeout('marqueStatus()',150)\n
+vuser_init.c(35):     \t\t}\n
+vuser_init.c(35):     \t\tfunction validLogin()\n
+vuser_init.c(35):     \t\t{\n
+vuser_init.c(35):     \t\t\tvar lname=document.login.accno.value;\n
+vuser_init.c(35):     \t\t\tvar pass=document.login.password.value;\n
+vuser_init.c(35):     \n
+vuser_init.c(35):     \n
+vuser_init.c(35):     \t\t\tif (login.accno.value.length==0)\n
+vuser_init.c(35):     \t\t\t{\n
+vuser_init.c(35):     \t\t\t\talert('Must Enter Accountno');\n
+vuser_init.c(35):     \t\t\t\tlogin.accno.focus();\n
+vuser_init.c(35):     \t\t\t\treturn false;\n
+vuser_init.c(35):     \t\t\t}\n
+vuser_init.c(35):     \t\t\tif (login.password.value.length==0)\n
+vuser_init.c(35):     \t\t\t{\n
+vuser_init.c(35):     \t\t\t\talert('Must Enter Password');\n
+vuser_init.c(35):     \t\t\t\tlogin.password.focus();\n
+vuser_init.c(35):     \t\t\t\treturn false;\n
+vuser_init.c(35):     \t\t\t}\n
+vuser_init.c(35):     \t\t\treturn true;\n
+vuser_init.c(35):     \t\t}\n
+vuser_init.c(35):     \n
+vuser_init.c(35):     \t</script>\n
+vuser_init.c(35):     \n
+vuser_init.c(35):     \t\n
+vuser_init.c(35):     \t<body style="background-color:#FFCC99" onLoad="marqueStatus()">\n
+vuser_init.c(35):     \t\t<form name="login" action="./Login?JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2e
+vuser_init.c(35):     aNcKITylUC8P!-1294739911!1773743765149" method="post" onsubmit="return validLogin()">\n
+vuser_init.c(35):     \t\t\n
+vuser_init.c(35):     \t\t\t<table bgcolor="#FFCC99" width='700' border='0' align='center'>\n
+vuser_init.c(35):     \t\t\t\t<tr> \n
+vuser_init.c(35):     \t\t\t\t\t<td width='252' height='87' background=''>&nbsp;</td>\n
+vuser_init.c(35):     \t\t\t\t\t<td width='60%' height='87' valign='top' background=''><div align='left'><div al
+vuser_init.c(35):     ign='left'><font size='1'><br>\n
+vuser_init.c(35):     \t\t\t\t\t\t<font size='2' face='Arial, Helvetica, sans-serif'><strong> <span class='dates
+vuser_init.c(35):     tyle'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+vuser_init.c(35):     &nbsp;&nbsp;&nbsp;&nbsp; \n
+vuser_init.c(35):     \t\t\t\t\t\t<font color='#000000'>\n
+vuser_init.c(35):     \n
+vuser_init.c(35):     \n
+vuser_init.c(35):     \n
+vuser_init.c(35):     \t\t\t\t\t\t&nbsp;</font></span></strong></font></font></div></div>\n
+vuser_init.c(35):     \t\t\t\t\t</td>\n
+vuser_init.c(35):     \t\t\t\t</tr> \n
+vuser_init.c(35):     \t\t\t\t<tr bgcolor='#6699CC'> \n
+vuser_init.c(35):     \t\t\t\t\t<td height='20' colspan='2' valign='middle'><marquee><span class='welcome'><font
+vuser_init.c(35):      color='#FFFF00'><strong>Welcome To LoanIQ</strong></font></span></marquee></td>\n
+vuser_init.c(35):     \t\t\t\t</tr>\n
+vuser_init.c(35):     \t\t\t</table>\n
+vuser_init.c(35):     \t\t\t<table width='700' border='0' cellspacing='0' cellpadding='0' align='center'>\t\n
+vuser_init.c(35):     \t\t\t\t<tr>\n
+vuser_init.c(35):     \t\t\t\t\t<td align='center'>\t\t\t\t\t\t\t\t\n
+vuser_init.c(35):     \t\t\t\t\t\t<table>\n
+vuser_init.c(35):     \t\t\t\t\t\t\t<br><br><br>\n
+vuser_init.c(35):     \t\t\t\t\t\t\t<tr><td><b>Account No:</b></td><td><input name='accno' type="text" onKeyPres
+vuser_init.c(35):     s="return valid()"/></td></tr>\n
+vuser_init.c(35):     \t\t\t\t\t\t\t\n
+vuser_init.c(35):     \t\t\t\t\t\t\t<tr><td><b>Password</b></td><td><input name='password' type="password" onKey
+vuser_init.c(35):     Press="return valid()"/></td></tr>\n
+vuser_init.c(35):     \t\t\t\t\t\t\t<tr><td></td><td colspan="2"><input type="image" src="images/login.JPG" heig
+vuser_init.c(35):     ht="25" width="65" align="left"/></img><a href="register.jsp"><img src="images/signup.JPG"
+vuser_init.c(35):      height="25" width="65" align="right" border='0'></a></img></td></tr>\n
+vuser_init.c(35):     \t\t\t\t\t\t\t<tr><td width="50%"><a href="forgotpassword.jsp">Forgot Password?</a></td></
+vuser_init.c(35):     tr>\n
+vuser_init.c(35):     \t\t\t\t\t\t</table>\t\t\t\t\t\t\t\n
+vuser_init.c(35):     \t\t\t\t\t</td>\n
+vuser_init.c(35):     \t\t\t\t</tr>\n
+vuser_init.c(35):     \t\t\t</table>\n
+vuser_init.c(35):     \t\t</form>\n
+vuser_init.c(35):     \t</body>\n
+vuser_init.c(35):     </html>
+vuser_init.c(35): Notify: Saving Parameter "c_JSESSIONID = mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149".
+vuser_init.c(35): Found resource "http://192.168.1.4:7001/LoanIQ/images/login.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/login.jsp"  	[MsgId: MMSG-26659]
+vuser_init.c(35): Found resource "http://192.168.1.4:7001/LoanIQ/images/signup.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/login.jsp"  	[MsgId: MMSG-26659]
+vuser_init.c(35): t=5411ms: 172-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/login.JPG" (RelFrameId=, Internal ID=7)
+vuser_init.c(35):     HTTP/1.1 200 OK\r\n
+vuser_init.c(35):     Date: Tue, 17 Mar 2026 10:36:10 GMT\r\n
+vuser_init.c(35):     Accept-Ranges: bytes\r\n
+vuser_init.c(35):     Content-Length: 5123\r\n
+vuser_init.c(35):     Content-Type: image/jpeg\r\n
+vuser_init.c(35):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(35):     \r\n
+vuser_init.c(35): t=5427ms: 5123-byte response body for "http://192.168.1.4:7001/LoanIQ/images/login.JPG" (RelFrameId=, Internal ID=7)
+vuser_init.c(35): t=5428ms: 172-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/signup.JPG" (RelFrameId=, Internal ID=8)
+vuser_init.c(35):     HTTP/1.1 200 OK\r\n
+vuser_init.c(35):     Date: Tue, 17 Mar 2026 10:36:10 GMT\r\n
+vuser_init.c(35):     Accept-Ranges: bytes\r\n
+vuser_init.c(35):     Content-Length: 6019\r\n
+vuser_init.c(35):     Content-Type: image/jpeg\r\n
+vuser_init.c(35):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(35):     \r\n
+vuser_init.c(35): t=5428ms: 6019-byte response body for "http://192.168.1.4:7001/LoanIQ/images/signup.JPG" (RelFrameId=, Internal ID=8)
+vuser_init.c(35): Registered web_reg_find successful for "Text=Password" (count=3)  	[MsgId: MMSG-26364]
+vuser_init.c(35): web_url("login.jsp") was successful, 13637 body bytes, 550 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(45): Notify: Transaction "AB_AccountSummary_T02_AccessPersonalBanking" ended with a "Pass" status (Duration: 0.0644 Wasted Time: 0.0037).
+vuser_init.c(47): lr_think_time: 3.00 seconds.
+vuser_init.c(49): Notify: Transaction "AB_AccountSummary_T03_UserLogin" started.
+vuser_init.c(51): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(51): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(54): web_submit_data("Login") started  	[MsgId: MMSG-26355]
+vuser_init.c(54): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+vuser_init.c(54): Notify: Parameter Substitution: parameter "port" =  "7001"
+vuser_init.c(54): Notify: Parameter Substitution: parameter "c_JSESSIONID" =  "mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149"
+vuser_init.c(54): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+vuser_init.c(54): Notify: Parameter Substitution: parameter "port" =  "7001"
+vuser_init.c(54): Notify: Parameter Substitution: parameter "p_accno" =  "IQ14313"
+vuser_init.c(54): Notify: Parameter Substitution: parameter "p_password" =  "Akon@186"
+vuser_init.c(54): t=8495ms: 206-byte response headers for "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149" (RelFrameId=1, Internal ID=9)
+vuser_init.c(54):     HTTP/1.1 200 OK\r\n
+vuser_init.c(54):     Cache-Control: no-cache\r\n
+vuser_init.c(54):     Date: Tue, 17 Mar 2026 10:36:13 GMT\r\n
+vuser_init.c(54):     Pragma: no-cache\r\n
+vuser_init.c(54):     Content-Length: 2854\r\n
+vuser_init.c(54):     Content-Type: text/html; charset=ISO-8859-1\r\n
+vuser_init.c(54):     Expires: Thu, 01 Jan 1970 00:00:00 GMT\r\n
+vuser_init.c(54):     \r\n
+vuser_init.c(54): t=8501ms: 2854-byte response body for "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149" (RelFrameId=1, Internal ID=9)
+vuser_init.c(54):     \n
+vuser_init.c(54):     \n
+vuser_init.c(54):     \n
+vuser_init.c(54):     <html>\n
+vuser_init.c(54):     \t<head>\n
+vuser_init.c(54):     \t\t<title>LoanIQ: Customerhome</title>\n
+vuser_init.c(54):     \t</head>\n
+vuser_init.c(54):     \t<body bgcolor="#FFCC99">\n
+vuser_init.c(54):     \t\t<table width="80%" border="0" cellpadding="0" cellspacing="0">\n
+vuser_init.c(54):     \t\t\t<tr>\n
+vuser_init.c(54):     \t\t\t\t<td height="89"></td>\n
+vuser_init.c(54):     \t\t\t\t<td width="35%">&nbsp;</td>\n
+vuser_init.c(54):     \t\t\t\t<td width="55%" height="89" valign="top">\n
+vuser_init.c(54):     \t\t\t\t<font size="2" face="Arial, Helvetica, sans-serif">\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t<strong>\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t<span class="datestyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+vuser_init.c(54):     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t\t<font color="#000000">\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t\t\t<!-- #BeginDate format:acAm1a -->\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t\t\t\t   \n
+vuser_init.c(54):     \n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t\t\t\n
+vuser_init.c(54):     \n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t\t\t\t<!-- #EndDate -->\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t\t\t\t&nbsp;\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t\t</font>\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t</span>\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t</strong>\n
+vuser_init.c(54):     \t\t\t\t\t\t\t</font>\n
+vuser_init.c(54):     \t\t\t\t\t\t</td>\n
+vuser_init.c(54):     \t\t\t</tr>\n
+vuser_init.c(54):     \t\t\t<tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99"> \n
+vuser_init.c(54):     \t\t\t\t<td height="18" colspan="3"> \n
+vuser_init.c(54):     \t\t\t\t\t<div align="right" class="welcome">\n
+vuser_init.c(54):     \t\t\t\t\t\t<font color="#000000">\n
+vuser_init.c(54):     \t\t\t\t\t\t\t<strong>\n
+vuser_init.c(54):     \n
+vuser_init.c(54):     \t\t\t\t\t\t\t\tWelcome Mr.\t\tIQ14313  &nbsp;&nbsp;\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\tLast Login:   \n
+vuser_init.c(54):     \n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t17/3/2026 &nbsp;&nbsp;\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t4-6-13PM\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\n
+vuser_init.c(54):     \t\t\t\t\t\t\t</strong>\n
+vuser_init.c(54):     \t\t\t\t\t\t</font>\n
+vuser_init.c(54):     \t\t\t\t\t</div>\n
+vuser_init.c(54):     \t\t\t\t</td>\n
+vuser_init.c(54):     \t\t\t</tr>\n
+vuser_init.c(54):     \t\t\t<tr width="100%"> \n
+vuser_init.c(54):     \t\t\t\t<td height="42" colspan="3">\n
+vuser_init.c(54):     \t\t\t\t\t<table width="100%" border="0" cellpadding="0" cellspacing="0">\n
+vuser_init.c(54):     \t\t\t\t\t\t<tr> \n
+vuser_init.c(54):     \t\t\t\t\t\t<td width="49%" height="35" valign="top" bordercolor="#6699CC" border=1> \n
+vuser_init.c(54):     \t\t\t\t\t\t<div align="right"><a href="accounts.jsp"><img src="images/Accounts.JPG" name=
+vuser_init.c(54):     "image1" width="90" height="30" border="0" id="image1"></a></div></td>\n
+vuser_init.c(54):     \t\t\t\t\t\t<td width="12%"><div align="right"><a href="loans.jsp"><img src="images/Loans.
+vuser_init.c(54):     JPG" name="image2" width="70" height="30" border="0"></a></div></td>\n
+vuser_init.c(54):     \t\t\t\t\t\t<td width="14%"><div align="center"><a href="BillPay.jsp"><img src="images/Bil
+vuser_init.c(54):     lpay.JPG" name="image3" width="75" height="30" border="0"></a></div></td>\n
+vuser_init.c(54):     \t\t\t\t\t\t<td width="12%"><div align="center"><a href="CreditCards.jsp"><img src="images
+vuser_init.c(54):     /cards.JPG" name="image4" width="100" height="30" border="0" id="image4"></a></div></td>\n
+vuser_init.c(54):     \t\t\t\t\t\t<td width="14%"><div align="center"><a href="Demat.jsp"><img src="images/Demat
+vuser_init.c(54):     .JPG" name="image5" width="70" height="30" border="0"></a></div></td>\n
+vuser_init.c(54):     \t\t\t\t\t\t<td width="12%"><div align="right"><a href="Logout.jsp"><img src="images/logou
+vuser_init.c(54):     t.JPG" width="70" height="30" border="0"></a></div></td>\n
+vuser_init.c(54):     \t\t\t\t\t\t</tr>\n
+vuser_init.c(54):     \t\t\t\t\t\t\n
+vuser_init.c(54):     \t\t\t\t\t</table>\n
+vuser_init.c(54):     \t\t\t\t\t<table width="100%" border="0" cellpadding="0" cellspacing="0">\n
+vuser_init.c(54):     \t\t\t\t\t\t<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>\n
+vuser_init.c(54):     \t\t\t\t\t</table>\n
+vuser_init.c(54):     \t\t\t\t\t</td>\n
+vuser_init.c(54):     \t\t\t\t\t</tr>\n
+vuser_init.c(54):     \t\t\t\t\t</table>\n
+vuser_init.c(54):     \t\t\t\t\t<table width="100%" border="0" cellpadding="0" cellspacing="0">\n
+vuser_init.c(54):     \t\t\t\t\t\t<tr valign="top" align="center" width="100%">\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\n
+vuser_init.c(54):     \t\t\t\t\t\t\t<td width="105%" bgcolor="#6699CC">\t\t\t\t\t\t\t\t\t\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t\t\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t\t\t<font color="#FFFFFF">Copyright \n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\t2007 www.arabianbank.com All Rights Reserved</font>\t\t\t\t\t\t\t\t\t\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\t\n
+vuser_init.c(54):     \t\t\t\t\t\t\t</td>\n
+vuser_init.c(54):     \t\t\t\t\t\t\t\n
+vuser_init.c(54):     \t\t\t\t\t\t</tr>\n
+vuser_init.c(54):     \t\t\t\t\t</table>\t\t\t\t\n
+vuser_init.c(54):     \t</body>\n
+vuser_init.c(54):     </html>\n
+vuser_init.c(54): Found resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149"  	[MsgId: MMSG-26659]
+vuser_init.c(54): Found resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149"  	[MsgId: MMSG-26659]
+vuser_init.c(54): Found resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149"  	[MsgId: MMSG-26659]
+vuser_init.c(54): Found resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149"  	[MsgId: MMSG-26659]
+vuser_init.c(54): Found resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149"  	[MsgId: MMSG-26659]
+vuser_init.c(54): Found resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149"  	[MsgId: MMSG-26659]
+vuser_init.c(54): t=8537ms: 173-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" (RelFrameId=, Internal ID=15)
+vuser_init.c(54):     HTTP/1.1 200 OK\r\n
+vuser_init.c(54):     Date: Tue, 17 Mar 2026 10:36:13 GMT\r\n
+vuser_init.c(54):     Accept-Ranges: bytes\r\n
+vuser_init.c(54):     Content-Length: 10813\r\n
+vuser_init.c(54):     Content-Type: image/jpeg\r\n
+vuser_init.c(54):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(54):     \r\n
+vuser_init.c(54): t=8537ms: 1460-byte response body for "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" (RelFrameId=, Internal ID=15)
+vuser_init.c(54): t=8538ms: 9353-byte response body for "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" (RelFrameId=, Internal ID=15)
+vuser_init.c(54): t=8542ms: 173-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" (RelFrameId=, Internal ID=11)
+vuser_init.c(54):     HTTP/1.1 200 OK\r\n
+vuser_init.c(54):     Date: Tue, 17 Mar 2026 10:36:13 GMT\r\n
+vuser_init.c(54):     Accept-Ranges: bytes\r\n
+vuser_init.c(54):     Content-Length: 10330\r\n
+vuser_init.c(54):     Content-Type: image/jpeg\r\n
+vuser_init.c(54):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(54):     \r\n
+vuser_init.c(54): t=8543ms: 4072-byte response body for "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" (RelFrameId=, Internal ID=11)
+vuser_init.c(54): t=8543ms: 6258-byte response body for "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" (RelFrameId=, Internal ID=11)
+vuser_init.c(54): t=8544ms: 173-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" (RelFrameId=, Internal ID=10)
+vuser_init.c(54):     HTTP/1.1 200 OK\r\n
+vuser_init.c(54):     Date: Tue, 17 Mar 2026 10:36:13 GMT\r\n
+vuser_init.c(54):     Accept-Ranges: bytes\r\n
+vuser_init.c(54):     Content-Length: 13310\r\n
+vuser_init.c(54):     Content-Type: image/jpeg\r\n
+vuser_init.c(54):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(54):     \r\n
+vuser_init.c(54): t=8544ms: 1460-byte response body for "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" (RelFrameId=, Internal ID=10)
+vuser_init.c(54): t=8544ms: 10756-byte response body for "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" (RelFrameId=, Internal ID=10)
+vuser_init.c(54): t=8545ms: 1094-byte response body for "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" (RelFrameId=, Internal ID=10)
+vuser_init.c(54): t=8545ms: 173-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" (RelFrameId=, Internal ID=12)
+vuser_init.c(54):     HTTP/1.1 200 OK\r\n
+vuser_init.c(54):     Date: Tue, 17 Mar 2026 10:36:13 GMT\r\n
+vuser_init.c(54):     Accept-Ranges: bytes\r\n
+vuser_init.c(54):     Content-Length: 10448\r\n
+vuser_init.c(54):     Content-Type: image/jpeg\r\n
+vuser_init.c(54):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(54):     \r\n
+vuser_init.c(54): t=8545ms: 10448-byte response body for "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" (RelFrameId=, Internal ID=12)
+vuser_init.c(54): t=8545ms: 173-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" (RelFrameId=, Internal ID=13)
+vuser_init.c(54):     HTTP/1.1 200 OK\r\n
+vuser_init.c(54):     Date: Tue, 17 Mar 2026 10:36:13 GMT\r\n
+vuser_init.c(54):     Accept-Ranges: bytes\r\n
+vuser_init.c(54):     Content-Length: 14303\r\n
+vuser_init.c(54):     Content-Type: image/jpeg\r\n
+vuser_init.c(54):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(54):     \r\n
+vuser_init.c(54): t=8546ms: 9604-byte response body for "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" (RelFrameId=, Internal ID=13)
+vuser_init.c(54): t=8546ms: 4699-byte response body for "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" (RelFrameId=, Internal ID=13)
+vuser_init.c(54): t=8550ms: 172-byte response headers for "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" (RelFrameId=, Internal ID=14)
+vuser_init.c(54):     HTTP/1.1 200 OK\r\n
+vuser_init.c(54):     Date: Tue, 17 Mar 2026 10:36:13 GMT\r\n
+vuser_init.c(54):     Accept-Ranges: bytes\r\n
+vuser_init.c(54):     Content-Length: 9879\r\n
+vuser_init.c(54):     Content-Type: image/jpeg\r\n
+vuser_init.c(54):     Last-Modified: Tue, 05 Sep 2017 09:29:52 GMT\r\n
+vuser_init.c(54):     \r\n
+vuser_init.c(54): t=8550ms: 9879-byte response body for "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" (RelFrameId=, Internal ID=14)
+vuser_init.c(54): Registered web_reg_find successful for "Text=Welcome" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(54): web_submit_data("Login") was successful, 71937 body bytes, 1243 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(70): Notify: Transaction "AB_AccountSummary_T03_UserLogin" ended with a "Pass" status (Duration: 0.1365 Wasted Time: 0.0129).
+vuser_init.c(72): lr_think_time: 5.00 seconds.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): Notify: Transaction "AB_AccountSummary_T04_SelectAccount" started.
+Action.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_url("accounts.jsp") started  	[MsgId: MMSG-26355]
+Action.c(11): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+Action.c(11): Notify: Parameter Substitution: parameter "port" =  "7001"
+Action.c(11): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+Action.c(11): Notify: Parameter Substitution: parameter "port" =  "7001"
+Action.c(11): Notify: Parameter Substitution: parameter "c_JSESSIONID" =  "mST7XfadlvzlRVPAfGQk081plM-qUh9SMe7Q-X2eaNcKITylUC8P!-1294739911!1773743765149"
+Action.c(11): t=13622ms: 123-byte response headers for "http://192.168.1.4:7001/LoanIQ/accounts.jsp" (RelFrameId=1, Internal ID=16)
+Action.c(11):     HTTP/1.1 200 OK\r\n
+Action.c(11):     Date: Tue, 17 Mar 2026 10:36:18 GMT\r\n
+Action.c(11):     Content-Length: 3568\r\n
+Action.c(11):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(11):     \r\n
+Action.c(11): t=13623ms: 3568-byte response body for "http://192.168.1.4:7001/LoanIQ/accounts.jsp" (RelFrameId=1, Internal ID=16)
+Action.c(11):     \n
+Action.c(11):     \n
+Action.c(11):     <html>\n
+Action.c(11):     <head>\n
+Action.c(11):     <title>LoanIQ: Accounts</title>\n
+Action.c(11):     <script language="JavaScript">\n
+Action.c(11):     </script>\n
+Action.c(11):     </head>\n
+Action.c(11):     <body bgcolor="#FFCC99">\n
+Action.c(11):     <table bgcolor="#FFCC99" width="80%" border="0" cellpadding="0" cellspacing="0">\n
+Action.c(11):       <tr valign="bottom"> \n
+Action.c(11):         <td height="89" bgcolor="#FFCC99"><div align="right"></div></td>\n
+Action.c(11):         <td width="35%" background="" bgcolor="#FFCC99">&nbsp;</td>\n
+Action.c(11):         <td width="55%" height="89" valign="top" background="" bgcolor="#FFCC99"><div align="l
+Action.c(11):     eft"><font size="1"><br>\n
+Action.c(11):             <font size="2" face="Arial, Helvetica, sans-serif"><strong> <span class="datestyle
+Action.c(11):     ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
+Action.c(11):     p;&nbsp;&nbsp;&nbsp; \n
+Action.c(11):             <font color="#000000">\n
+Action.c(11):             <!-- #BeginDate format:acAm1a -->\n
+Action.c(11):            \n
+Action.c(11):     \n
+Action.c(11):     \n
+Action.c(11):     \n
+Action.c(11):             <!-- #EndDate -->\n
+Action.c(11):             &nbsp;</font></span></strong></font></font></div></td>\n
+Action.c(11):       </tr>\n
+Action.c(11):        <tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99"> \n
+Action.c(11):         <td height="18" colspan="3"> \n
+Action.c(11):           <div align="right" class="welcome"><font color="#000000"><strong>\n
+Action.c(11):     \n
+Action.c(11):     Welcome Mr.      IQ14313  &nbsp;&nbsp;\n
+Action.c(11):     Last Login:   \n
+Action.c(11):     \n
+Action.c(11):     17/3/2026 &nbsp;&nbsp;\n
+Action.c(11):     4-6-18PM\n
+Action.c(11):     \n
+Action.c(11):     </font></div></td>\n
+Action.c(11):       </tr>\n
+Action.c(11):       <tr> \n
+Action.c(11):         <td height="42" colspan="3"> <table width="100%" border="0" cellpadding="0" cellspacin
+Action.c(11):     g="0">\n
+Action.c(11):           <tr> \n
+Action.c(11):               <td width="49%" height="35" valign="top" bordercolor="#6699CC" border=1> \n
+Action.c(11):                 <div align="right"><a href="accounts.jsp"><img src="images/Accounts.JPG" name=
+Action.c(11):     "image1" width="90" height="30" border="0" id="image1"></a></div></td>\n
+Action.c(11):               <td width="12%"><div align="right"><a href="loans.jsp"><img src="images/Loans.JP
+Action.c(11):     G" name="image2" width="70" height="30" border="0"></a></div></td>\n
+Action.c(11):               <td width="14%"><div align="center"><a href="BillPay.jsp"><img src="images/Billp
+Action.c(11):     ay.JPG" name="image3" width="75" height="30" border="0"></a></div></td>\n
+Action.c(11):               <td width="12%"><div align="center"><a href="CreditCards.jsp"><img src="images/c
+Action.c(11):     ards.JPG" name="image4" width="100" height="30" border="0" id="image4"></a></div></td>\n
+Action.c(11):               <td width="14%"><div align="center"><a href="Demat.jsp"><img src="images/Demat.J
+Action.c(11):     PG" name="image5" width="70" height="30" border="0"></a></div></td>\n
+Action.c(11):               <td width="12%"><div align="right"><a href="Logout.jsp"><img src="images/logout.
+Action.c(11):     JPG" width="70" height="30" border="0"></a></div></td>\n
+Action.c(11):             </tr>\n
+Action.c(11):           </table></td>\n
+Action.c(11):       </tr>\n
+Action.c(11):       <tr valign="top"> \n
+Action.c(11):         <td height="20" colspan="3"> <blockquote> \n
+Action.c(11):             <blockquote> \n
+Action.c(11):               <p><span class="subhead"><font color="#0000FF"><a href="customerhome.jsp">Bank A
+Action.c(11):     ccounts&gt;</a></font></span></p>\n
+Action.c(11):             </blockquote>\n
+Action.c(11):           </blockquote></td>\n
+Action.c(11):       </tr>\n
+Action.c(11):       <tr valign="top" bgcolor="#FFCC99"> \n
+Action.c(11):         <td height="230" colspan="3"> \n
+Action.c(11):           <blockquote>\n
+Action.c(11):             <blockquote> \n
+Action.c(11):            \n
+Action.c(11):     \n
+Action.c(11):     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="AccountSummary.jsp">A
+Action.c(11):     ccount&nbsp;Summary</a><br>\n
+Action.c(11):     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="FundTransfer.jsp">Fun
+Action.c(11):     d&nbsp;Transfer</a><br>\n
+Action.c(11):     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="ServiceRequests.jsp">
+Action.c(11):     Service&nbsp;Requests</a><br>\n
+Action.c(11):     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="stmt.jsp">Statements<
+Action.c(11):     /a><br>\n
+Action.c(11):     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="MobileRecharge.jsp">M
+Action.c(11):     obile&nbsp;Recharge</a><br>\n
+Action.c(11):     \n
+Action.c(11):     \n
+Action.c(11):     \n
+Action.c(11):     </tr>\n
+Action.c(11):     <tr valign="top" bgcolor="#6699CC"> \n
+Action.c(11):         <td height="16" colspan="3"> \n
+Action.c(11):           <div align="center" class="conditions"><font color="#FFFFFF">Copyright \n
+Action.c(11):             2007 www.arabianbank.com All Rights Reserved</font></div></td>\n
+Action.c(11):       </tr>\n
+Action.c(11):     </table>\n
+Action.c(11):     </body>\n
+Action.c(11):     </html>\n
+Action.c(11): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(11): Registered web_reg_find successful for "Text=Service" (count=2)  	[MsgId: MMSG-26364]
+Action.c(11): web_url("accounts.jsp") was successful, 3568 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(21): Notify: Transaction "AB_AccountSummary_T04_SelectAccount" ended with a "Pass" status (Duration: 0.0289 Wasted Time: 0.0028).
+Action.c(23): lr_think_time: 4.00 seconds.
+Action.c(25): Notify: Transaction "AB_AccountSummary_T05_ViewAccountSummary" started.
+Action.c(27): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+correlation.c(3): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+correlation.c(3): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+correlation.c(11): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+correlation.c(11): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_url("AccountSummary.jsp") started  	[MsgId: MMSG-26355]
+Action.c(33): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+Action.c(33): Notify: Parameter Substitution: parameter "port" =  "7001"
+Action.c(33): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+Action.c(33): Notify: Parameter Substitution: parameter "port" =  "7001"
+Action.c(33): t=17676ms: 123-byte response headers for "http://192.168.1.4:7001/LoanIQ/AccountSummary.jsp" (RelFrameId=1, Internal ID=17)
+Action.c(33):     HTTP/1.1 200 OK\r\n
+Action.c(33):     Date: Tue, 17 Mar 2026 10:36:22 GMT\r\n
+Action.c(33):     Content-Length: 6149\r\n
+Action.c(33):     Content-Type: text/html; charset=ISO-8859-1\r\n
+Action.c(33):     \r\n
+Action.c(33): t=17678ms: 4072-byte response body for "http://192.168.1.4:7001/LoanIQ/AccountSummary.jsp" (RelFrameId=1, Internal ID=17)
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     <html>\n
+Action.c(33):     <head>\n
+Action.c(33):     <title>LoanIQ: Account Summary</title>\n
+Action.c(33):     </head>\n
+Action.c(33):     <body bgcolor="#FFCC99">\n
+Action.c(33):     <form>\n
+Action.c(33):     <table bgcolor="#FFCC99" width="100%" border="0" cellpadding="0" cellspacing="0">\n
+Action.c(33):       <tr valign="bottom"> \n
+Action.c(33):         <td height="89" bgcolor="#FFCC99"><div align="right"></div></td>\n
+Action.c(33):         <td width="35%" background="" bgcolor="#FFCC99">&nbsp;</td>\n
+Action.c(33):         <td width="55%" height="89" valign="top" background="" bgcolor="#FFCC99"><div align="l
+Action.c(33):     eft"><font size="1"><br>\n
+Action.c(33):             <font size="2" face="Arial, Helvetica, sans-serif"><strong> <span class="datestyle
+Action.c(33):     ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
+Action.c(33):     p;&nbsp;&nbsp;&nbsp; \n
+Action.c(33):             <font color="#000000">\n
+Action.c(33):             <!-- #BeginDate format:acAm1a -->\n
+Action.c(33):             \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):             <!-- #EndDate -->\n
+Action.c(33):             &nbsp;</font></span></strong></font></font></div></td>\n
+Action.c(33):       </tr>\n
+Action.c(33):        <tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99"> \n
+Action.c(33):         <td height="18" colspan="3"> \n
+Action.c(33):           <div align="right" class="welcome"><font color="#000000"><strong>\n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     Welcome Mr.      IQ14313  &nbsp;&nbsp;\n
+Action.c(33):     Last Login:   \n
+Action.c(33):     \n
+Action.c(33):     17/3/2026 &nbsp;&nbsp;\n
+Action.c(33):     4-6-22PM\n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     </font></div></td>\n
+Action.c(33):       </tr>\n
+Action.c(33):       <tr> \n
+Action.c(33):         <td height="42" colspan="3"> <table width="100%" border="0" cellpadding="0" cellspacin
+Action.c(33):     g="0">\n
+Action.c(33):             <tr> \n
+Action.c(33):               <td width="49%" height="35" valign="top" bordercolor="#6699CC" border=1> \n
+Action.c(33):                 <div align="right"><a href="accounts.jsp"><img src="images/Accounts.JPG" name=
+Action.c(33):     "image1" width="90" height="30" border="0" id="image1"></a></div></td>\n
+Action.c(33):               <td width="12%"><div align="right"><a href="loans.jsp"><img src="images/Loans.JP
+Action.c(33):     G" name="image2" width="70" height="30" border="0"></a></div></td>\n
+Action.c(33):               <td width="14%"><div align="center"><a href="BillPay.jsp"><img src="images/Billp
+Action.c(33):     ay.JPG" name="image3" width="75" height="30" border="0"></a></div></td>\n
+Action.c(33):               <td width="12%"><div align="center"><a href="CreditCards.jsp"><img src="images/c
+Action.c(33):     ards.JPG" name="image4" width="100" height="30" border="0" id="image4"></a></div></td>\n
+Action.c(33):               <td width="14%"><div align="center"><a href="Demat.jsp"><img src="images/Demat.J
+Action.c(33):     PG" name="image5" width="70" height="30" border="0"></a></div></td>\n
+Action.c(33):               <td width="12%"><div align="right"><a href="Logout.jsp"><img src="images/logout.
+Action.c(33):     JPG" width="70" height="30" border="0"></a></div></td>\n
+Action.c(33):             </tr>\n
+Action.c(33):           </table></td>\n
+Action.c(33):       </tr>\n
+Action.c(33):       <tr valign="top"> \n
+Action.c(33):         <td height="20" colspan="3"> <blockquote> \n
+Action.c(33):             <blockquote> \n
+Action.c(33):               <p><span class="subhead"><font color="#6699CC"><a href="accounts.jsp">Accounts</
+Action.c(33):     a>&gt;</font></span> \n
+Action.c(33):                 <span class="welcome"><font color="#000000"><strong>Account Summary</strong></
+Action.c(33):     font></span></p>\n
+Action.c(33):             </blockquote>\n
+Action.c(33):           </blockquote></td>\n
+Action.c(33):       </tr>\n
+Action.c(33):       <tr valign="top" bgcolor="#FFCC99"> \n
+Action.c(33):         <td height="230" colspan="3"> \n
+Action.c(33):           <blockquote>\n
+Action.c(33):             <blockquote> \n
+Action.c(33):            \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):     <p><strong>Personal Profile</strong></p>\n
+Action.c(33):               <table width="62%" border="1" align="center" cellpadding="2" cellspacing="1" bor
+Action.c(33):     dercolor="#000000" bgcolor="#FFCC99">\n
+Action.c(33):                 <tr> \n
+Action.c(33):                   <td width="41%" class="PersonalData"> <div align="right"><strong>Account \n
+Action.c(33):                       No. &nbsp;&nbsp;&nbsp;&nbsp;</strong></div></td>\n
+Action.c(33):                   <td width="59%" class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;IQ14313</td>\n
+Action.c(33):                 </tr>\n
+Action.c(33):                 <tr> \n
+Action.c(33):                   <td height="23" class="PersonalData"> <div align="right"><strong>Account \n
+Action.c(33):                       Type &nbsp;&nbsp;&nbsp;&nbsp; </strong></div></td>\n
+Action.c(33):                   <td class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;S</td>\n
+Action.c(33):                 </tr>\n
+Action.c(33):                 <tr> \n
+Action.c(33):                   <td class="PersonalData"> <div align="right"><strong>Name &nbsp;&nbsp;&nbsp;
+Action.c(33):     &nbsp; \n
+Action.c(33):                       </strong></div></td>\n
+Action.c(33):                   <td class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;Akon9</td>\n
+Action.c(33):                 </tr>\n
+Action.c(33):                 <tr> \n
+Action.c(33):                   <td valign="top" class="PersonalData"> <div align="right"><strong>Address \n
+Action.c(33):                       &nbsp;&nbsp;&nbsp;&nbsp; </strong></div></td>\n
+Action.c(33):                   <td valign="top" class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;11-16 \n
+Action.c(33):                   </td>\n
+Action.c(33):                 </tr>\n
+Action.c(33): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(33): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(33): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(33): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(33): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(33): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(33): t=17683ms: 2077-byte response body for "http://192.168.1.4:7001/LoanIQ/AccountSummary.jsp" (RelFrameId=1, Internal ID=17)
+Action.c(33):                 <tr>\n
+Action.c(33):                   <td valign="top" class="PersonalData"><div align="right"><strong>City</stron
+Action.c(33):     g>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \n
+Action.c(33):                     </div></td>\n
+Action.c(33):                   <td valign="top" class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;Alldays</td>\n
+Action.c(33):                 </tr>\n
+Action.c(33):                 <tr> \n
+Action.c(33):                   <td valign="top" class="PersonalData"><div align="right"><strong>Phoneno \n
+Action.c(33):                       &nbsp;</strong>&nbsp;&nbsp;&nbsp;</div></td>\n
+Action.c(33):                   <td valign="top" class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;1234567891</td
+Action.c(33):     >\n
+Action.c(33):                 </tr>\n
+Action.c(33):                 <tr> \n
+Action.c(33):                   <td valign="top" class="PersonalData"> <div align="right"><strong>Email \n
+Action.c(33):                       &nbsp;&nbsp;&nbsp;&nbsp; </strong></div></td>\n
+Action.c(33):                   <td valign="top" class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;Akon9@gmail.co
+Action.c(33):     m</td>\n
+Action.c(33):                 </tr>\n
+Action.c(33):                 <tr> \n
+Action.c(33):                   <td valign="top" class="PersonalData"> <div align="right"><strong>Balance \n
+Action.c(33):     \t\t&nbsp;&nbsp;&nbsp;&nbsp; </strong></div></td>\n
+Action.c(33):                   <td valign="top" class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;99998/-</td>\n
+Action.c(33):                 </tr>\n
+Action.c(33):                 <tr> \n
+Action.c(33):                   <td valign="top" class="PersonalData"> <div align="right"><strong>Cheque \n
+Action.c(33):                       Facility&nbsp;&nbsp;&nbsp;&nbsp; </strong></div></td>\n
+Action.c(33):                   <td valign="top" class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;YES </td>\n
+Action.c(33):                 </tr>\n
+Action.c(33):                 <tr> \n
+Action.c(33):                   <td valign="top" class="PersonalData"> <div align="right"><strong>Issued \n
+Action.c(33):                       Cheques &nbsp;&nbsp;&nbsp;&nbsp;</strong></div></td>\n
+Action.c(33):                   <td valign="top" class="PersonalData">&nbsp;&nbsp;&nbsp;&nbsp;9</td>\n
+Action.c(33):                 </tr>\n
+Action.c(33):               </table>\n
+Action.c(33):               <div align="center"></div>\n
+Action.c(33):               <p>&nbsp; </p>\n
+Action.c(33):             </blockquote>\n
+Action.c(33):           </blockquote></td>\n
+Action.c(33):       </tr>\n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33):      <tr bgcolor="#6699CC"> \n
+Action.c(33):               <td height="19" colspan="5" valign="top" bordercolor="#6699CC" border=1>\n
+Action.c(33):     <div align="center"><font color="#FFFFFF">Copyright \n
+Action.c(33):                   2007 www.arabianbank.com All Rights Reserved</font></div></td>\n
+Action.c(33):             </tr>\n
+Action.c(33):     <table>\n
+Action.c(33):     </body>\n
+Action.c(33):     </html>\n
+Action.c(33):     \n
+Action.c(33):     \n
+Action.c(33): Notify: Saving Parameter "c_User = IQ14313".
+Action.c(33): Notify: Saving Parameter "c_Balance = 99998/-".
+Action.c(33): Registered web_reg_find successful for "Text=Personal Profile" (count=1)  	[MsgId: MMSG-26364]
+Action.c(33): web_url("AccountSummary.jsp") was successful, 6149 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+File already exists, skipping header
+Action.c(67): Notify: Parameter Substitution: parameter "c_User" =  "IQ14313"
+Action.c(67): Notify: Parameter Substitution: parameter "c_Balance" =  "99998/-"
+Action.c(72): Notify: Parameter Substitution: parameter "c_User" =  "IQ14313"
+Action.c(72): Notify: Parameter Substitution: parameter "c_Balance" =  "99998/-"
+Data Written — User: IQ14313 | Balance: 99998/-
+Action.c(79): Notify: Transaction "AB_AccountSummary_T05_ViewAccountSummary" ended with a "Pass" status (Duration: 0.0604 Wasted Time: 0.0074).
+Action.c(81): lr_think_time: 3.00 seconds.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(3): Notify: Transaction "AB_AccountSummary_T06_UserLogout" started.
+vuser_end.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_end.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_end.c(8): web_url("Logout.jsp") started  	[MsgId: MMSG-26355]
+vuser_end.c(8): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+vuser_end.c(8): Notify: Parameter Substitution: parameter "port" =  "7001"
+vuser_end.c(8): Notify: Parameter Substitution: parameter "host" =  "192.168.1.4"
+vuser_end.c(8): Notify: Parameter Substitution: parameter "port" =  "7001"
+vuser_end.c(8): t=20720ms: 123-byte response headers for "http://192.168.1.4:7001/LoanIQ/Logout.jsp" (RelFrameId=1, Internal ID=18)
+vuser_end.c(8):     HTTP/1.1 200 OK\r\n
+vuser_end.c(8):     Date: Tue, 17 Mar 2026 10:36:25 GMT\r\n
+vuser_end.c(8):     Content-Length: 2027\r\n
+vuser_end.c(8):     Content-Type: text/html; charset=ISO-8859-1\r\n
+vuser_end.c(8):     \r\n
+vuser_end.c(8): t=20723ms: 2027-byte response body for "http://192.168.1.4:7001/LoanIQ/Logout.jsp" (RelFrameId=1, Internal ID=18)
+vuser_end.c(8):     \n
+vuser_end.c(8):     <html>\n
+vuser_end.c(8):     <head>\n
+vuser_end.c(8):     <title>LoanIQ : Logout</title>\n
+vuser_end.c(8):     </head>\n
+vuser_end.c(8):     <body bgcolor="#FFCC99">\n
+vuser_end.c(8):     <table bgcolor="#FFCC99" width="99%" border="0" cellpadding="0" cellspacing="0">\n
+vuser_end.c(8):       <tr valign="bottom"> \n
+vuser_end.c(8):         <td height="89" bgcolor="#FFCC99"><div align="right"></div></td>\n
+vuser_end.c(8):         <td width="35%" background="" bgcolor="#FFCC99">&nbsp;</td>\n
+vuser_end.c(8):         <td width="55%" height="89" valign="top" background="" bgcolor="#FFCC99"><div align="l
+vuser_end.c(8):     eft"><font size="1"><br>\n
+vuser_end.c(8):             <font size="2" face="Arial, Helvetica, sans-serif"><strong> <span class="datestyle
+vuser_end.c(8):     ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs
+vuser_end.c(8):     p;&nbsp;&nbsp;&nbsp; \n
+vuser_end.c(8):     </span></strong></font></font></div></td>\n
+vuser_end.c(8):       </tr>\n
+vuser_end.c(8):       <tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99"> \n
+vuser_end.c(8):         <td height="14" colspan="3"> \n
+vuser_end.c(8):           <div align="right" class="welcome"><font color="#000000"><strong><br>\n
+vuser_end.c(8):             </strong></font></div></td>\n
+vuser_end.c(8):       </tr>\n
+vuser_end.c(8):      <tr> \n
+vuser_end.c(8):         <td height="141" colspan="3"> <blockquote>\n
+vuser_end.c(8):             <blockquote>\n
+vuser_end.c(8):               <div align="center" class="hEADINGS">\n
+vuser_end.c(8):                 <p><br>\n
+vuser_end.c(8):                   <br>\n
+vuser_end.c(8):                 </p>\n
+vuser_end.c(8):                 <p> <br>\n
+vuser_end.c(8):                 </p>\n
+vuser_end.c(8):                 <p> You Are Successfully Logged Out .......! <br>\n
+vuser_end.c(8):     \n
+vuser_end.c(8):                  \n
+vuser_end.c(8):     \t\t\n
+vuser_end.c(8):                   <span class="conditions"> <font color="#000099"> <br>\n
+vuser_end.c(8):                   </font></span><font color="#000099"><a href="./login.jsp" class="conditions"
+vuser_end.c(8):     ><br>\n
+vuser_end.c(8):                   Click Here To Go To Home Page</a><br>\n
+vuser_end.c(8):                   <br>\n
+vuser_end.c(8):                   </font></p>\n
+vuser_end.c(8):     \n
+vuser_end.c(8):                 <p><br>\n
+vuser_end.c(8):                   <br>\n
+vuser_end.c(8):                   <br>\n
+vuser_end.c(8):                   <br>\n
+vuser_end.c(8):                   <br>\n
+vuser_end.c(8):                   <br>\n
+vuser_end.c(8):                 </p>\n
+vuser_end.c(8):                 <p><br>\n
+vuser_end.c(8):                   <br>\n
+vuser_end.c(8):                   <br>\n
+vuser_end.c(8):                 </p>\n
+vuser_end.c(8):               </div>\n
+vuser_end.c(8):             </blockquote>\n
+vuser_end.c(8):           </blockquote></td>\n
+vuser_end.c(8):       </tr>\n
+vuser_end.c(8):       <tr valign="top" bgcolor="#6699CC"> \n
+vuser_end.c(8):         <td colspan="3"> <div align="left"></div>\n
+vuser_end.c(8):           <DIV ALIGN="CENTER"><FONT color="#FFFFFF" SIZE="2" FACE="Tahoma">Copyright \n
+vuser_end.c(8):             2007 www.arabianbank.com All Rights Reserved</FONT></DIV>\n
+vuser_end.c(8):                       </td>\n
+vuser_end.c(8):       </tr>\n
+vuser_end.c(8):     </table>\n
+vuser_end.c(8):     </body>\n
+vuser_end.c(8):     </html>\n
+vuser_end.c(8): Registered web_reg_find successful for "Text=Logged Out" (count=1)  	[MsgId: MMSG-26364]
+vuser_end.c(8): web_url("Logout.jsp") was successful, 2027 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+vuser_end.c(18): Notify: Transaction "AB_AccountSummary_T06_UserLogout" ended with a "Pass" status (Duration: 0.0347 Wasted Time: 0.0072).
+Ending action vuser_end.
+Vuser Terminated.

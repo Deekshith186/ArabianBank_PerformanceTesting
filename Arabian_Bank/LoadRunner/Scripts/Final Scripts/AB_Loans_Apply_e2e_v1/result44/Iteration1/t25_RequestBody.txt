@@ -1,0 +1,5 @@
+"loginName=IQ14314&loanamountrequiredrupees=214002&Tenure=36&title=Mr.&firstname=Akon2&middlena"
+"me=&lastname=Shon2&dateofbirth=14-10-1994&gender1=Female&maritalstatus=Single&Qualification=Po"
+"st+Graduate&phonenumber=9848022331&mobile=7290825095&pincode=523186&yearsatresidence=1&numbero"
+"fdependents=1&residentstatus=Own+house&officeaddress=Madhapur-2&email=Akon2%40gmail.com&pannum"
+"ber=BZJPB99992&currentaddress=D.No.11-12&state=Bavaria&city=Bamberg"

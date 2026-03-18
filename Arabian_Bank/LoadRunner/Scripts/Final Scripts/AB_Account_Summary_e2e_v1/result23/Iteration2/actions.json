@@ -1,0 +1,61 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1771564856040
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: login.jsp",
+                "infFile": "t2.inf",
+                "time": 1771564856118
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1771564856208
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: accounts.jsp",
+                "infFile": "t4.inf",
+                "time": 1771564856259
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_AccountSummary_T02_AccessPersonalBanking",
+                "rawStartTime": 1771564856042,
+                "rawEndTime": 1771564856118,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007258415222167969
+            },
+            {
+                "transactionName": "AB_AccountSummary_T03_UserLogin",
+                "rawStartTime": 1771564856119,
+                "rawEndTime": 1771564856209,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005644321441650391
+            },
+            {
+                "transactionName": "AB_AccountSummary_T04_SelectAccount",
+                "rawStartTime": 1771564856209,
+                "rawEndTime": 1771564856259,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006861448287963867
+            },
+            {
+                "transactionName": "AB_AccountSummary_T05_ViewAccountSummary",
+                "rawStartTime": 1771564856259,
+                "rawEndTime": 1771564856261,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]

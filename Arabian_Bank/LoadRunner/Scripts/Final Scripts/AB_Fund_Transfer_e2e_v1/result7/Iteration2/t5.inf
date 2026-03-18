@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=text/html
+StepName=Url: Account Summary
+Total=1
+FileName1=t5.html
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1772097681003
+RawStepName=Account Summary
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1772097680971
+URL1=http://192.168.1.2:7001/LoanIQ/AccountSummary.jsp

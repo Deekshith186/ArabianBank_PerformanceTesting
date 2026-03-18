@@ -1,0 +1,10 @@
+GET /LoanIQ/Logout.jsp HTTP/1.1
+Referer: http://192.168.1.4:7001/LoanIQ/HomeLoan?loginName=IQ14301&loanamountrequiredrupees=214000&tenure=24&title=Mr.&firstname=Akon1&middlename=&lastname=Shon1&dateofbirth=14-10-1994&gender1=Male&maritalstatus=Single&Qualification=Post+Graduate&phonenumber=9848022331&mobile=7290825091&currentaddress=11-16&country=USA&state=California&city=Los+Angeles&pincode=523186&yearsatresidence=5&numberofdependents=3&residentstatus=Own+house&officeaddress=Madhapur-1&email=Akon1%40gmail.com&pannumber=BZJPB9999M1&youare=Software+Engineer&nameofcompany=Quantum-1&companynature=IT&totalyearsofexperience=5&totalyearsofexperience1=5&otherloan=no
+Accept-Language: en-US,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.1.4:7001
+Cookie: cuname=s; cfname=ss; JSESSIONID=IGnB8ZWM7fRREuSAbzUrLvQ2SBOVl14A3UTpfhtSPI_8tjyAuGdr!-1787524884
+

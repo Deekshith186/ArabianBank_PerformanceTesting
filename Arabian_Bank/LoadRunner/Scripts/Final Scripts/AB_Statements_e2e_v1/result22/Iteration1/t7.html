@@ -1,0 +1,236 @@
+
+
+
+<html>
+<head>
+
+<script>
+var monthtext=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sept','Oct','Nov','Dec'];
+var months = new Array("January","February","March","April","May","June","July","August","September","October","November","December"); 
+var now=new Date();
+var totyear=now.getFullYear();
+var begin_year = totyear;
+var year_count = parseInt(totyear)-parseInt(1998);
+function checkDate() 
+{ 
+var myDayStr   = form1.bday.value;
+var myMonthStr = form1.bmon.value;
+var myYearStr  = form1.byear.value;
+var myDayStr1   = form1.eday.value;
+var myMonthStr1 = form1.emon.value;
+var myYearStr1  = form1.eyear.value;
+
+var myMonth    = new Array('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'); 
+var myDateStr = myDayStr + ' ' + myMonth[myMonthStr] + ' ' + myYearStr;
+var myDateStr1 = myDayStr1 + ' ' + myMonth[myMonthStr1] + ' ' + myYearStr1;
+var myDate = new Date();
+var myDate1 = new Date();
+myDate.setFullYear( myYearStr, myMonthStr, myDayStr );
+myDate1.setFullYear( myYearStr1, myMonthStr1, myDayStr1);
+if ( myDate.getMonth() != myMonthStr ) 
+{
+	  alert( 'Start Date '+myDateStr + ' is NOT a valid date' );
+	  form1.bday.focus();
+	  return false;
+}
+else 
+if (myDate1.getMonth() != myMonthStr1 )
+{
+	 alert( 'End Date'+myDateStr1 + ' is NOT a valid date' );
+	 form1.eday.focus();
+	 return false;
+}
+else return true;
+/*else if(myDateStr > myDateStr1)
+{
+	 alert( 'Start Date'+myDateStr + ' Must Less Than '+myDateStr1);
+	 form1.eday.focus();
+	 return false;
+}*/
+} 
+</script> 
+
+<title>LoanIQ: StatusReport</title>
+</head>
+<body bgcolor="#FFCC99">
+<form name="form1" action="./Test" onSubmit = "return checkDate()" method="post">
+
+<table bgcolor="#FFCC99" width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="bottom"> 
+    <td height="89" bgcolor="#FFCC99"><div align="right"></div></td>
+    <td width="35%" background="" bgcolor="#FFCC99">&nbsp;</td>
+    <td width="55%" height="89" valign="top" background="" bgcolor="#FFCC99"><div align="left"><font size="1"><br>
+        <font size="2" face="Arial, Helvetica, sans-serif"><strong> <span class="datestyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <font color="#000000">
+        <!-- #BeginDate format:acAm1a -->
+        
+       
+
+
+
+
+
+        <!-- #EndDate -->
+        &nbsp;</font></span></strong></font></font></div></td>
+  </tr>
+   <tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99">
+    <td height="18" colspan="3"> 
+      <div align="right" class="welcome"><font color="#000000"><strong>
+
+
+
+
+Welcome Mr.      IQ14285  &nbsp;&nbsp;
+Last Login:   
+
+28/2/2026 &nbsp;&nbsp;
+3-26-8PM
+
+
+
+
+
+
+</font></div></td>
+  </tr>
+   <tr> 
+    <td height="42" colspan="3"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="49%" height="35" valign="top" bordercolor="#6699CC" border=1> 
+            <div align="right"><a href="accounts.jsp"><img src="images/Accounts.JPG" name="image1" width="90" height="30" border="0" id="image1"></a></div></td>
+          <td width="12%"><div align="right"><a href="loans.jsp"><img src="images/Loans.JPG" name="image2" width="70" height="30" border="0"></a></div></td>
+          <td width="14%"><div align="center"><a href="BillPay.jsp"><img src="images/Billpay.JPG" name="image3" width="75" height="30" border="0"></a></div></td>
+          <td width="12%"><div align="center"><a href="CreditCards.jsp"><img src="images/cards.JPG" name="image4" width="100" height="30" border="0" id="image4"></a></div></td>
+          <td width="14%"><div align="center"><a href="Demat.jsp"><img src="images/Demat.JPG" name="image5" width="70" height="30" border="0"></a></div></td>
+          <td width="12%"><div align="right"><a href="Logout.jsp"><img src="images/logout.JPG" width="70" height="30" border="0"></a></div></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr valign="top"> 
+    <td height="20" colspan="3"> <blockquote> 
+        <blockquote> 
+          <p><span class="subhead"><font color="#0000FF"><a href="stmt.jsp">Accounts</a>&gt;</font></span> 
+            <span class="welcome"><font color="#000000"><strong>Statements</strong></font></span></p>
+        </blockquote>
+      </blockquote></td>
+  </tr>
+  <tr valign="top" bgcolor="#FFCC99"> 
+    <td height="230" colspan="3"> 
+      <blockquote>
+        <blockquote> 
+
+
+
+<table width="44%" border="0" align="center">
+              <tr> 
+                <td width="27%" class="datestyle"> <div align="right"><font color="#000000"><strong>Start 
+                    Date:</strong></font><font color="#FF0000">*</font></div></td>
+                <td width="14%" align="right" class="data"><strong>
+<select name=bday> 
+<script> 
+var today=new Date()
+for(i=1;i<=31;i++) 
+document.write("<option value="+ i + ">"+ i); 
+//form1.bday.options[today.getDate()]=new Option(today.getDate(), today.getDate(), true, true)
+</script> 
+</select> 
+
+                  </strong></td>
+                <td width="15%" align="left" class="data"> 
+<select name=bmon> 
+<script> 
+for(i=0;i<12;i++) 
+document.write("<option value="+ i + ">"+ monthtext[i]); 
+//form1.bmon.options[today.getMonth()+1]=new Option(monthtext[today.getMonth()+1], monthtext[today.getMonth()], true, true)
+</script> 
+</select> 
+				  </td>
+                <td width="44%" align="left" class="data"> 
+<select name=byear> 
+<script> 
+for(i=0;i<year_count;i++) 
+document.write("<option value="+ (begin_year-i) + ">"+ (begin_year-i)); 
+//form1.byear.options[0]=new Option(today.getFullYear(), today.getFullYear(), true, true)
+</script> 
+</select>
+				  </td>
+              </tr>
+              <tr> 
+                <td class="datestyle"> <div align="right"><font color="#000000"><strong>End 
+                    Date:</strong></font><font color="#FF0000">*</font></div></td>
+                <td align="right" class="data"><strong> 
+<select name=eday> 
+<script> 
+var today=new Date()
+for(i=1;i<=31;i++) 
+document.write("<option value="+ i + ">"+ i); 
+//form1.eday.options[today.getDate()]=new Option(today.getDate(), today.getDate(), true, true)
+</script> 
+</select> 
+                  </strong></td>
+                <td align="left" class="data"> 
+<select name=emon> 
+<script> 
+for(i=0;i<12;i++) 
+document.write("<option value="+ i + ">"+ monthtext[i]); 
+//form1.emon.options[today.getMonth()+1]=new Option(monthtext[today.getMonth()+1], monthtext[today.getMonth()], true, true)
+</script> 
+</select> 
+                <td align="left" class="data"> 
+<select name=eyear> 
+<script> 
+for(i=0;i<year_count;i++) 
+document.write("<option value="+ (begin_year-i) + ">"+ (begin_year-i)); 
+//form1.eyear.options[0]=new Option(today.getFullYear(), today.getFullYear(), true, true)
+</script> 
+</select>
+
+              </tr>
+
+              <tr> 
+                <td colspan="4" class="datestyle">&nbsp;</td>
+              </tr>
+
+
+              <tr><td></td> <td><strong><div align="right"> FormType:<font color="#FF0000">*</font></div></strong></td>
+                <td colspan="4" class="datestyle"> <div align="left"> 
+                   <select name="type">
+<option value="">--select--</option>
+<option value="pdf">pdf</option>
+<option value="xls">xls</option>
+<option value="html">html</option>
+<option value="doc">doc</option>
+</select> 
+                  </div></td>
+              </tr>
+	<tr>
+	<td><input name="type1" type="hidden" value=IQ14285></td>
+	</tr>
+              <tr> 
+                <td colspan="4" class="datestyle">&nbsp;</td>
+              </tr>
+
+              <tr> 
+                <td colspan="4" class="datestyle"> <div align="center"> 
+                    <input type="submit" value="Submit">
+                  </div></td>
+              </tr>
+
+            </table>
+
+
+
+</blockquote>
+        </blockquote></td>
+    </tr>
+
+
+ <tr bgcolor="#6699CC"> 
+          <td height="19" colspan="5" valign="top" bordercolor="#6699CC" border="1">
+<div align="center"><font color="#FFFFFF">Copyright 
+              2007 www.arabianbank.com All Rights Reserved</font></div></td>
+        </tr>
+<table>
+
+</body>
+</html>

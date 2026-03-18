@@ -1,0 +1,13 @@
+[t7]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=text/html
+StepName=Url: Home Loan
+Total=1
+FileName1=t7.html
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=1772798967335
+RawStepName=Home Loan
+RequestBodyFile=t7_RequestBody.txt
+RawStepStartTime=1772798967325
+URL1=http://192.168.1.4:7001/LoanIQ/hloan.jsp

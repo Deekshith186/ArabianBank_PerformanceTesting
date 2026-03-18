@@ -1,0 +1,70 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=AB_Merged_Scripts_e2e_v1.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2023
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2023.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2023.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="AB_CardsApply_T01_Launch__*delimiter*__AB_CardsApply_T02_AccessPersonalBanking__*delimiter*__AB_CardsApply_T03_UserLogin__*delimiter*__AB_CardsApply_T04_SelectCreditCards__*delimiter*__AB_CardsApply_T05_SelectAmericanExpressCard__*delimiter*__AB_CardsApply_T06_SelectApply__*delimiter*__AB_CardsApply_T07_FillPersonalDetails__*delimiter*__AB_CardsApply_T08_FillCompanyDetails__*delimiter*__AB_CardsApply_T09_UserLogout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result31
+ActiveRunName=result31
+[Transactions]
+AB_CardsApply_T01_Launch=
+AB_CardsApply_T02_AccessPersonalBanking=
+AB_CardsApply_T03_UserLogin=
+AB_CardsApply_T04_SelectCreditCards=
+AB_CardsApply_T05_SelectAmericanExpressCard=
+AB_CardsApply_T06_SelectApply=
+AB_CardsApply_T07_FillPersonalDetails=
+AB_CardsApply_T08_FillCompanyDetails=
+AB_CardsApply_T09_UserLogout=

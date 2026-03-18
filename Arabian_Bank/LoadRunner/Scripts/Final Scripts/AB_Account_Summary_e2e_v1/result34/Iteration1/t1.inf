@@ -1,0 +1,10 @@
+[t1]
+ContentType=DummyContentType
+StepName=Url: LoanIQ
+Total=0
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=1771568953290
+RawStepName=LoanIQ
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1771568953290

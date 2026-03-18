@@ -1,0 +1,113 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1772101427639
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: personal.JPG",
+                "infFile": "t2.inf",
+                "time": 1772101427675
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1772101427729
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: Accounts.JPG",
+                "infFile": "t4.inf",
+                "time": 1772101427756
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: Account Summary",
+                "infFile": "t6.inf",
+                "time": 1772101427816
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: Accounts",
+                "infFile": "t7.inf",
+                "time": 1772101427838
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: Fund Transfer",
+                "infFile": "t8.inf",
+                "time": 1772101427863
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: Bank to Bank Transfer",
+                "infFile": "t9.inf",
+                "time": 1772101427897
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_FundTransfer_T01_Launch",
+                "rawStartTime": 1772101427567,
+                "rawEndTime": 1772101427640,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006961822509765625
+            },
+            {
+                "transactionName": "AB_FundTransfer_T02_AccessPersonalBanking",
+                "rawStartTime": 1772101427640,
+                "rawEndTime": 1772101427676,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005829572677612305
+            },
+            {
+                "transactionName": "AB_FundTransfer_T03_UserLogin",
+                "rawStartTime": 1772101427676,
+                "rawEndTime": 1772101427729,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006381988525390625
+            },
+            {
+                "transactionName": "AB_FundTransfer_T04_SelectAccount",
+                "rawStartTime": 1772101427729,
+                "rawEndTime": 1772101427757,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005856037139892578
+            },
+            {
+                "transactionName": "AB_FundTransfer_T05_ViewAccountSummary",
+                "rawStartTime": 1772101427757,
+                "rawEndTime": 1772101427816,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0070760250091552738
+            },
+            {
+                "transactionName": "AB_FundTransfer_T06_SelectAccountAgain",
+                "rawStartTime": 1772101427816,
+                "rawEndTime": 1772101427838,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004690647125244141
+            },
+            {
+                "transactionName": "AB_FundTransfer_T07_SelectFundTransfer",
+                "rawStartTime": 1772101427838,
+                "rawEndTime": 1772101427864,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005012989044189453
+            },
+            {
+                "transactionName": "AB_FundTransfer_T08_SelectBankToBankTransfer",
+                "rawStartTime": 1772101427864,
+                "rawEndTime": 1772101427898,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005572080612182617
+            }
+        ]
+    }
+]

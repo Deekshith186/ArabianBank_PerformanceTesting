@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Dr.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14-"
+"10-1994&gender1=Female&maritalstatus=Single&Qualification=Post+Graduate&phonenumber=1234567830"
+"&mobile=7290825030&currentaddress=DNo11-16&country=Japan&state=Aichi&city=Inuyama&pincode=5231"
+"86&yearsatresidence=4&numberofdependents=3&residentstatus=company+Provided&officeaddress=Madha"
+"pur-30&email=Akon1%40gmail.com&pannumber=BZJPB999930&youare=Electronics+Engineer&nameofcompany"
+"=Quantum-30&companynature=Non-IT&totalyearsofexperience=4&totalyearsofexperience1=4"

@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Ms.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14-"
+"10-1994&gender1=Male&maritalstatus=Single&Qualification=Under+Graduate&phonenumber=1234567830&"
+"mobile=7290825030&currentaddress=DNo11-16&country=China&state=Yunnan&city=Lijiang&pincode=5231"
+"86&yearsatresidence=0&numberofdependents=2&residentstatus=company+Provided&officeaddress=Madha"
+"pur-30&email=Akon1%40gmail.com&pannumber=BZJPB999930&youare=Aeronautical+Engineer&nameofcompan"
+"y=Quantum-30&companynature=IT&totalyearsofexperience=5&totalyearsofexperience1=3"

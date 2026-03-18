@@ -1,0 +1,512 @@
+
+
+
+
+
+<html>
+	<head>
+		<title>LoanIQ: HomeLoan Apply</title>
+		<script language="javascript" type="text/javascript" src="datetimepicker.js">
+
+		//Date Time Picker script- by TengYong Ng of http://www.rainforestnet.com
+		//Script featured on JavaScript Kit (http://www.javascriptkit.com)
+		//For this script, visit http://www.javascriptkit.com 
+
+		</script>
+		<script type="text/javascript">
+
+			function isNumber(evt) 
+			{
+				//evt = (evt) ? evt : window.event;
+				var charCode = (evt.which) ? evt.which : evt.keyCode;
+				if (charCode > 31 && (charCode < 48 || charCode > 57)) 
+				{
+					return false;
+				}
+				return true;
+			}
+
+			function chkemail()
+			{
+				if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(homeloan.email.value)))
+				{
+					alert("Invalid E-mail Address! Please re-enter.")
+					document.homeloan.email.focus();
+					return (false)
+				}
+			}
+			function getCheck()
+			{
+				f1.loanamountrequiredrupees.value=homeloan.loanamountrequiredrupees.value;
+				f1.Tenure.value=homeloan.Tenure.value;
+				f1.title.value=homeloan.title.value;
+				f1.firstname.value=homeloan.firstname.value;
+				f1.middlename.value=homeloan.middlename.value;
+				f1.lastname.value=homeloan.lastname.value;
+				f1.dateofbirth.value=homeloan.dateofbirth.value;
+				f1.gender1.value=homeloan.gender1.value;
+				f1.maritalstatus.value=homeloan.maritalstatus.value;
+				f1.Qualification.value=homeloan.Qualification.value;
+				f1.phonenumber.value=homeloan.phonenumber.value;
+				f1.mobile.value=homeloan.mobile.value;
+				f1.currentaddress.value=homeloan.currentaddress.value;
+				f1.country.value=homeloan.country.value;
+				f1.state.value=homeloan.state.value;
+				f1.city.value=homeloan.city.value;
+				f1.pincode.value=homeloan.pincode.value;
+				f1.yearsatresidence.value=homeloan.yearsatresidence.value;
+				f1.numberofdependents.value=homeloan.numberofdependents.value;
+				f1.residentstatus.value=homeloan.residentstatus.value;
+				f1.officeaddress.value=homeloan.officeaddress.value;
+				f1.email.value=homeloan.email.value;
+				f1.pannumber.value=homeloan.pannumber.value;
+
+				f1.submit();
+
+			}
+			function validateLogin()
+			{
+				if(homeloan.loanamountrequiredrupees.value.length==0)
+				{
+					alert("Please Enter Required Loan Amount in Rupees...!");
+					homeloan.loanamountrequiredrupees.focus();
+					return false;
+				}
+				if(homeloan.Tenure.value.length==0)
+				{
+					alert("Please Enter TenureMonths...!");
+					homeloan.Tenure.focus();
+					return false;
+				}
+				if(homeloan.title.value.length==0)
+				{
+					alert("Please Enter Title...!");
+					homeloan.title.focus();
+					return false;
+				}
+				if(homeloan.firstname.value.length==0)
+				{
+					alert("Please Enter FirstName...!");
+					homeloan.firstname.focus();
+					return false;
+				}
+				if(homeloan.lastname.value.length==0)
+				{
+					alert("Please Enter LastName...!");
+					homeloan.lastname.focus();
+					return false;
+				}
+				if(homeloan.dateofbirth.value.length==0)
+				{
+					alert("Please Enter DateofBirth...!");
+					homeloan.dateofbirth.focus();
+					return false;
+				}
+				if(homeloan.gender1.value.length==0)
+				{
+					alert("Please Enter Gender...!");
+					homeloan.gender1.focus();
+					return false;
+				}
+				if(homeloan.maritalstatus.value.length==0)
+				{
+					alert("Please Enter MaritalStatus...!");
+					homeloan.maritalstatus.focus();
+					return false;
+				}
+				if(homeloan.Qualification.value.length==0)
+				{
+					alert("Please Enter Qualification...!");
+					homeloan.Qualification.focus();
+					return false;
+				}
+				if(homeloan.phonenumber.value.length==0)
+				{
+					alert("Please Enter Phone Number...!");
+					homeloan.phonenumber.focus();
+					return false;
+				}
+				if(homeloan.mobile.value.length==0)
+				{
+					alert("Please Enter Mobile Number...!");
+					homeloan.mobile.focus();
+					return false;
+				}
+				if(homeloan.currentaddress.value.length==0)
+				{
+					alert("Please Enter Current Address...!");
+					homeloan.currentaddress.focus();
+					return false;
+				}
+				if(homeloan.country.value.length==0)
+				{
+					alert("Please Choose Country Name...!");
+					homeloan.country.focus();
+					return false;
+				}
+				if(homeloan.state.value.length==0)
+				{
+					alert("Please Choose State Name...!");
+					homeloan.state.focus();
+					return false;
+				}
+				if(homeloan.city.value.length==0)
+				{
+					alert("Please Choose City Name...!");
+					homeloan.city.focus();
+					return false;
+				}
+				if(homeloan.pincode.value.length==0)
+				{
+					alert("Please Enter Pincode...!");
+					homeloan.pincode.focus();
+					return false;
+				}
+				if(homeloan.yearsatresidence.value.length==0)
+				{
+					alert("Please Enter YearsAtResidence...!");
+					homeloan.yearsatresidence.focus();
+					return false;
+				}
+				if(homeloan.numberofdependents.value.length==0)
+				{
+					alert("Please Enter NumberOfDependents...!");
+					homeloan.numberofdependents.focus();
+					return false;
+				}
+				if(homeloan.residentstatus.value.length==0)
+				{
+					alert("Please Enter ResidentStatus...!");
+					homeloan.residentstatus.focus();
+					return false;
+				}
+				if(homeloan.officeaddress.value.length==0)
+				{
+					alert("Please Enter OfficeAddress...!");
+					homeloan.officeaddress.focus();
+					return false;
+				}
+				if(homeloan.email.value.length==0)
+				{
+					alert("Please Enter E-mail...!");
+					homeloan.email.focus();
+					return false;
+				}
+				if(homeloan.pannumber.value.length==0)
+				{
+					alert("Please Enter PanNumber...!");
+					homeloan.pannumber.focus();
+					return false;
+				}
+				return true;
+			}
+			
+
+		</script>
+	</head>
+	<body bgcolor="#FFCC99">
+		<form name="homeloan" action="homeloan1.jsp" method="post" onsubmit="return validateLogin()">
+					
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr valign="bottom"> 
+					<td height="89" bgcolor="#FFCC99"><div align="right"></div></td>
+					<td width="35%" background="" bgcolor="#FFCC99">&nbsp;</td>
+					<td width="55%" height="89" valign="top" background="" bgcolor="#FFCC99"><div align="left"><font size="1"><br>
+						<font size="2" face="Arial, Helvetica, sans-serif"><strong> <span class="datestyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						<font color="#000000">
+					</td>
+					<!-- #BeginDate format:acAm1a -->
+
+					
+
+					<!-- #EndDate -->
+					&nbsp;</font></span></strong></font></font></div></td>
+				</tr>
+				<tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99"> 
+					<td height="18" colspan="3"> <div align="right" class="welcome"><font color="#000000"><strong>
+
+					Welcome Mr.      IQ14285  &nbsp;&nbsp;
+					Last Login:   
+
+					7/3/2026 &nbsp;&nbsp;
+					3-41-32PM
+
+					</font></div></td>
+				</tr>
+				<tr> 
+					<td height="42" colspan="3"> 
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr> 
+								<td width="49%" height="35" valign="top" bordercolor="#6699CC" border=1> 
+								<div align="right"><a href="accounts.jsp"><img src="images/Accounts.JPG" name="image1" width="90" height="30" border="0" id="image1"></a></div></td>
+								<td width="12%"><div align="right"><a href="loans.jsp"><img src="images/Loans.JPG" name="image2" width="70" height="30" border="0"></a></div></td>
+								<td width="14%"><div align="center"><a href="BillPay.jsp"><img src="images/Billpay.JPG" name="image3" width="75" height="30" border="0"></a></div></td>
+								<td width="12%"><div align="center"><a href="CreditCards.jsp"><img src="images/cards.JPG" name="image4" width="100" height="30" border="0" id="image4"></a></div></td>
+								<td width="14%"><div align="center"><a href="Demat.jsp"><img src="images/Demat.JPG" name="image5" width="70" height="30" border="0"></a></div></td>
+								<td width="12%"><div align="right"><a href="Logout.jsp"><img src="images/logout.JPG" width="70" height="30" border="0"></a></div></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr valign="top"> 
+					<td height="20" colspan="3"> <blockquote> 
+					<p><span class="subhead"><font color="#0000FF"><a href="loans.jsp">Loans</a>&gt;<a href="hloan.jsp">Home Loan</a>&gt;</font></span> 
+					<span class="welcome"><font color="#000000"><strong>Apply Online</strong></font></span></p>
+					</blockquote></td>
+				</tr>
+				<tr valign="top" bgcolor="#FFCC99"> 
+					<td height="16" colspan="3"><div align="left"> <blockquote> <blockquote> <blockquote> <blockquote> <table width="70%" border="0" align="left" cellpadding="0" cellspacing="0"> 
+						<tr> 
+							<td height="10"> <input name="imageField" type="image" src="images/Appform.gif" width="500" height="22" border="0"> 
+							</td>
+						</tr>
+						<tr> 
+							<td class="datestyle"><font color="#FF0000">All fields marked with a * are mandatory</font></td>
+						</tr>
+						<tr> 
+							<td height="10"> <input name="imageField2" type="image" src="images/Personaldet.gif" width="500" height="22" border="0"> 
+							</td>
+						</tr>
+						<tr>       
+							<td><input type="hidden" name="loginName" value="IQ14285"></td>
+						</tr>
+
+						<tr>
+							
+							<td><table width="97%"><tr><td width="51%" align="left">Loan Amount Required Rupees(Rs)<font color="#FF0000">*</font></td><td width="49%" align="left"><input type="text" name="loanamountrequiredrupees" onKeyPress="return isNumber(event)"></td></tr></table></td>
+							
+							<td>Tenure(Months)<font color="#FF0000">*</font></td>
+							<td>
+								<select name="Tenure">
+									<option value="">select</option>
+									<option value="12">12</option>
+									<option value="24">24</option>
+									<option value="36">36</option>
+									<option value="48">48</option>
+									<option value="60">60</option>
+									<option value="72">72</option>
+								</select>
+							</td>
+						
+							
+						<tr> 
+							<td height="10"> <input name="imageField2" type="image" src="images/Personaldet.gif" width="500" height="22" border="0"> 
+							</td>
+						</tr>
+
+						<tr> 
+							<td height="82" valign="top"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+
+
+
+						
+						<tr>
+							<td width="50%">Title<font color="#FF0000">*</font></td>
+							<td width="50%"><select name="title" id="title">
+											  <option title="title" value="">Select</option>
+											  <option title="title" value="Mr.">Mr.</option>
+											  <option title="title" value="Mrs.">Mrs.</option>
+											  <option title="title" value="Ms.">Ms.</option>
+											  <option title="title" value="Dr.">Dr.</option>
+							</select></td>
+						</tr>
+						
+						<tr>
+						<td>FirstName<font color="#FF0000">*</font></td><td><input type="text" name="firstname"></td>
+						</tr>
+						
+						<tr>
+						<td>MiddleName</td><td><input type="text" name="middlename"></td>
+						</tr>
+						
+						<tr>
+						<td>LastName<font color="#FF0000">*</font></td><td><input type="text" name="lastname"></td>
+						</tr>
+						
+						<tr>
+						<td>DateOfBirth<font color="#FF0000">*</font></td><td><input type="text" name="dateofbirth" id="demo1" size="20"><a href="javascript:NewCal('demo1','ddmmyyyy')"><img alt="Pick a date" src="images/cal.gif" width="20" height="20" border="0"></a></td>
+						</tr>
+						
+						<tr>
+						<td>Gender<font color="#FF0000">*</font></td>
+						<td><select name="gender1" id="gender1">
+						<option title="gender1" value="">select</option>
+						<option title="gender1" value="Male">Male</option>
+						<option title="gender1" value="Female">Female</option>
+						</select>
+						</td>
+						</tr>
+						
+						<tr>
+						<td>Marital Status<font color="#FF0000">*</font></td>
+						<td><select name="maritalstatus" id="maritalstatus">
+						<option title="maritalstatus" value="">select</option>
+						<option title="maritalstatus" value="Single">Single</option>
+						<option title="maritalstatus" value="Married">Married</option>
+						</select>
+						</td>
+						</tr>
+						
+						<tr>
+						<td>Qualification<font color="#FF0000">*</font></td>
+						<td><select name="Qualification" id="Qualification">
+						<option title="Qualification" value="">select</option>
+						<option title="Qualification" value="Diploma">Diploma</option>
+						<option title="Qualification" value="Under Graduate">Under Graduate</option>
+						<option title="Qualification" value="Post Graduate">Post Graduate</option>
+						</select>
+						</td>
+						</tr>
+						
+						<tr>
+						<td>Phone Number(R)<font color="#FF0000">*</font></td><td><input type="text" name="phonenumber" onKeyPress="return isNumber(event)"></td>
+						</tr>
+						
+						<tr>
+						<td>Mobile<font color="#FF0000">*</font></td><td><input type="text" name="mobile" onKeyPress="return isNumber(event)"></td>
+						</tr>
+						
+
+						<tr>
+						<td>Pincode<font color="#FF0000">*</font></td><td><input type="text" name="pincode" onKeyPress="return isNumber(event)" onchange="pwd()"></td>
+						</tr>
+						
+
+						<tr>
+						
+						
+						<td>Years At Residence<font color="#FF0000">*</font></td>
+						<td><select name="yearsatresidence" id="yearsatresidence">
+						<option title="yearsatresidence" value="">select</option>
+						<option title="yearsatresidence" value="0">0</option>
+						<option title="yearsatresidence" value="1">1</option>
+						<option title="yearsatresidence" value="2">2</option>
+						<option title="yearsatresidence" value="3">3</option>
+						<option title="yearsatresidence" value="4">4</option>
+						<option title="yearsatresidence" value="5">5</option>
+						</select>
+						</td>
+						</tr>
+						
+
+						<tr>
+						<td>Number of Dependents<font color="#FF0000">*</font></td>
+						<td><select name="numberofdependents" id="numberofdependents">
+						<option title="numberofdependents" value="">select</option>
+						<option title="numberofdependents" value="0">0</option>
+						<option title="numberofdependents" value="1">1</option>
+						<option title="numberofdependents" value="2">2</option>
+						<option title="numberofdependents" value="3">3</option>
+						<option title="numberofdependents" value="4">4</option>
+						<option title="numberofdependents" value="5">5</option>
+						</select>
+						</td>
+						</tr>
+						
+						<tr>
+						<td>Resident Status<font color="#FF0000">*</font></td>
+						<td><select name="residentstatus" id="residentstatus">
+						<option title="residentstatus" value="">select</option>
+						<option title="residentstatus" value="company Provided">company Provided</option>
+						<option title="residentstatus" value="Own house">Own house</option>
+						</select>
+						</td>
+						</tr>
+						
+						<tr>
+						<td>Office Address<font color="#FF0000">*</font></td><td><input name="officeaddress"></td>
+						</tr>
+						
+						<tr>
+						<td>Email<font color="#FF0000">*</font></td><td><input type="text" name="email" onChange="return chkemail()"></td>
+						</tr>
+						
+						<tr>
+						<td width="20%">PAN Number<font color="#FF0000">*</font></td><td><input type="text" name="pannumber"></td>
+						</tr>
+						
+						<tr>
+						<td>Current Address<font color="#FF0000">*</font></td><td><textarea name="currentaddress"  rows="5" cols="15" tabindex="5"></textarea></td>
+						</tr>
+						
+						<tr>
+							<td width="50%">Country<font color="#FF0000">*</font></td>
+							<td width="50%">
+								<select name="country" id="country" onChange="return getCheck()">
+									<option title="country" value="">Select</option>
+									<option title="country" value="IND">India</option>
+									<option title="country" value="Germany">Germany</option>
+									<option title="country" value="Japan">Japan</option>
+									<option title="country" value="USA">USA</option>
+									<option title="country" value="AUS">Australia</option>
+									<option title="country" value="China">China</option>
+									<option title="country" value="Russia">Russia</option>
+									<option title="country" value="SL">Sri Lanka</option>
+									<option title="country" value="SA">South Africa</option>
+								</select>
+							</td>
+						</tr>
+						
+								<tr>
+									<td>State/Province<font color="#FF0000">*</font></td>
+									<td>
+										<select name="state" onchange="return getCheck()" value="null">
+											<option title="state" value="">Select</option>
+											
+
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>City<font color="#FF0000">*</font></td>
+									<td>
+										<select name="city">
+											<option title="city" value="">Select</option>
+											
+										</select>
+									</td>
+								</tr>
+						<tr>
+						<td></td>
+						<td width="22%"><input type="submit" value="next"></td>
+						</tr>       
+
+						<tr bgcolor="#6699CC"> 
+						<td height="19" colspan="5" valign="top" bordercolor="#6699CC" border="1">
+						<div align="center"><font color="#FFFFFF">Copyright 
+									2007 www.arabianbank.com All Rights Reserved</font></div></td>
+						</tr>
+						</table>
+						</td>
+						</tr>
+	</table>
+
+
+	</form>
+		<form name="f1" action="homeloan.jsp" method="post">
+			<input type=hidden name="loanamountrequiredrupees">
+			<input type=hidden name="Tenure">
+			<input type=hidden name="title">
+			<input type=hidden name="firstname">
+			<input type=hidden name="middlename">
+			<input type=hidden name="lastname">
+			<input type=hidden name="dateofbirth">
+			<input type=hidden name="gender1">
+			<input type=hidden name="maritalstatus">
+			<input type=hidden name="Qualification">
+			<input type=hidden name="phonenumber">
+			<input type=hidden name="mobile">
+			<input type=hidden name="currentaddress">
+			<input type=hidden name="country">
+			<input type=hidden name="state">
+			<input type=hidden name="city">
+			<input type=hidden name="pincode">
+			<input type=hidden name="yearsatresidence">
+			<input type=hidden name="numberofdependents">
+			<input type=hidden name="residentstatus">
+			<input type=hidden name="officeaddress">
+			<input type=hidden name="email">
+			<input type=hidden name="pannumber">
+		</form>
+	</body>
+</html>

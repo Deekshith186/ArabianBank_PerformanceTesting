@@ -1,0 +1,13 @@
+[t5]
+SnapshotXmlFile=snapshot_5.xml
+ContentType=text/html
+StepName=Url: AmericonExpress Card
+Total=1
+FileName1=t5.html
+RequestHeaderFile=t5_RequestHeader.txt
+ResponseHeaderFile=t5_ResponseHeader.txt
+RawStepEndTime=1773127878642
+RawStepName=AmericonExpress Card
+RequestBodyFile=t5_RequestBody.txt
+RawStepStartTime=1773127878621
+URL1=http://192.168.1.4:7001/LoanIQ/americoncard.jsp

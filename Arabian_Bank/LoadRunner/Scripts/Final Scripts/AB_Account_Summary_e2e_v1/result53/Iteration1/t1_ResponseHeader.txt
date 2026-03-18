@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Date: Fri, 20 Feb 2026 09:34:59 GMT
+Pragma: no-cache
+Content-Length: 3246
+Content-Type: text/html; charset=ISO-8859-1
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Server-Timing: dtTrId;desc="98cf314566ab22f77d84058c543d9340", dtSInfo;desc="0"
+Server-Timing: dtRpid;desc="415130597"
+Set-Cookie: dtCookie1zefxo3e=v_4_srv_8_sn_6967849779BC4EDF6ECF83F99706F89D_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; Path=/
+Set-Cookie: JSESSIONID=2iZ6ZwyF68vIF8f2erNrnZIsuIWVHA0ru_yYIIgGYTMLFQ6kJlOf!90905618; path=/; HttpOnly
+X-OneAgent-JS-Injection: true
+

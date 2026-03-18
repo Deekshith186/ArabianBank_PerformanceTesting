@@ -1,0 +1,15 @@
+[
+    {
+        "actionName": "vuser_end",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "AB_AccountSummary_T06_UserLogout",
+                "rawStartTime": 1773743579848,
+                "rawEndTime": 1773743579850,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]

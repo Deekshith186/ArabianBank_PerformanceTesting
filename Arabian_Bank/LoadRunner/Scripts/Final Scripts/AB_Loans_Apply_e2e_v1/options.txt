@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\Offline\Arabian_Bank\LoadRunner\Scripts\Final Scripts\AB_Loans_Apply_e2e_v1
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\offline\arabian_bank\loadrunner\scripts\final scripts\ab_loans_apply_e2e_v1\\logfile.log
+d:\offline\arabian_bank\loadrunner\scripts\final scripts\ab_loans_apply_e2e_v1\\combined_AB_Loans_Apply_e2e_v1.c
+d:\offline\arabian_bank\loadrunner\scripts\final scripts\ab_loans_apply_e2e_v1\\pre_cci.c

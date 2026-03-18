@@ -1,0 +1,152 @@
+
+
+<html>
+	<head>
+		<title>LoanIQ: Amount</title>
+		<script language="JavaScript">
+
+			function isNumber(evt) 
+			{
+				//evt = (evt) ? evt : window.event;
+				var charCode = (evt.which) ? evt.which : evt.keyCode;
+				if (charCode > 31 && (charCode < 48 || charCode > 57)) 
+				{
+					return false;
+				}
+				return true;
+			}
+
+			function check()
+			{
+				if(form1.tamt.value.length==0)
+				{
+					//form1.chk.value=1;
+					alert("Enter Amount...!");
+					document.form1.tamt.focus();
+					return false;
+				}
+				else if(form1.tamt.value<100)
+				{
+					//form1.chk.value=1;
+					alert("Minimum Transaction Amount should be Rs.100/-");
+					document.form1.tamt.focus();
+					return false;
+				}
+				//form1.submit();
+				return true;
+			}
+
+
+		</script>
+	</head>
+	<body bgcolor="#FFCC99">
+		<form name="form1" action="FundTransfer1.jsp" method="post" onsubmit="return check()">
+			<table bgcolor="#FFCC99" width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr valign="bottom"> 
+					<td height="89" bgcolor="#FFCC99"><div align="right"></div></td>
+					<td width="35%" background="" bgcolor="#FFCC99">&nbsp;</td>
+					<td width="55%" height="89" valign="top" background="" bgcolor="#FFCC99"><div align="left"><font size="1"><br>
+						<font size="2" face="Arial, Helvetica, sans-serif"><strong> <span class="datestyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+						<font color="#000000">
+						<!-- #BeginDate format:acAm1a -->
+						
+					   
+					
+
+
+
+
+						<!-- #EndDate -->
+						&nbsp;</font></span></strong></font></font></div></td>
+				</tr>
+				<tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99"> 
+					<td height="18" colspan="3"> 
+						<div align="right" class="welcome"><font color="#000000"><strong>
+
+
+
+
+						Welcome Mr.      IQ14285  &nbsp;&nbsp;
+						Last Login:   
+
+						26/2/2026 &nbsp;&nbsp;
+						5-5-15PM
+
+
+
+
+
+
+						</font>
+						</div>
+					</td>
+				</tr>
+				<tr> 
+					<td height="42" colspan="3"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr> 
+							<td width="49%" height="35" valign="top" bordercolor="#6699CC" border=1> 
+								<div align="right"><a href="accounts.jsp"><img src="images/Accounts.JPG" name="image1" width="90" height="30" border="0" id="image1"></a></div></td>
+							<td width="12%"><div align="right"><a href="loans.jsp"><img src="images/Loans.JPG" name="image2" width="70" height="30" border="0"></a></div></td>
+							<td width="14%"><div align="center"><a href="BillPay.jsp"><img src="images/Billpay.JPG" name="image3" width="75" height="30" border="0"></a></div></td>
+							<td width="12%"><div align="center"><a href="CreditCards.jsp"><img src="images/cards.JPG" name="image4" width="100" height="30" border="0" id="image4"></a></div></td>
+							<td width="14%"><div align="center"><a href="Demat.jsp"><img src="images/Demat.JPG" name="image5" width="70" height="30" border="0"></a></div></td>
+							<td width="12%"><div align="right"><a href="Logout.jsp"><img src="images/logout.JPG" width="70" height="30" border="0"></a></div></td>
+						</tr>
+					  </table>
+					</td>
+				</tr>
+				<tr valign="top"> 
+					<td height="20" colspan="3"> <blockquote> 
+						<blockquote> 
+							<p><span class="subhead"><font color="#0000FF"><a href="fund.jsp">Accounts</a>&gt;</font></span> 
+							<span class="welcome"><font color="#000000"><strong>Fund Transfer</strong></font></span></p>
+						</blockquote>
+					</blockquote></td>
+				</tr>
+				<tr valign="top" bgcolor="#FFCC99"> 
+					<td height="230" colspan="3">
+						<div align="center">
+							<table>
+								<tr>
+									<td>
+										<input type="hidden" name="taccno" value="IQ14290">
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<input type="hidden" name="name" value="Mr..Deekshith3"/>
+										<input type="hidden" name="type" value="S"/>
+										<input type="hidden" name="address" value="11-13"/>
+										<input type="hidden" name="city" value="Nagoya"/>
+										<input type="hidden" name="phoneno" value="9848022333"/>
+										<input type="hidden" name="email" value="bhupathi.deekshit3@gmail.com"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										Amount:<input type="text" name="tamt" onKeyPress="return isNumber(event)"><br>
+									</td>
+								</tr>
+								<tr><td><br/></td></tr>
+								<tr>
+									<td>
+										<div align="center">
+											<input type="submit" value="pay"></input>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+				<tr bgcolor="#6699CC"> 
+					<td height="19" colspan="5" valign="top" bordercolor="#6699CC" border="1">
+						<div align="center"><font color="#FFFFFF">Copyright 
+						2007 www.arabianbank.com All Rights Reserved</font></div>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+"loginName=IQ14285&loanamountrequiredrupees=214002&Tenure=48&title=Mrs.&firstname=Akon2&middlen"
+"ame=&lastname=Shon2&dateofbirth=14-10-1994&gender1=Male&maritalstatus=Married&Qualification=Di"
+"ploma&phonenumber=9848022331&mobile=7290825095&pincode=523186&yearsatresidence=2&numberofdepen"
+"dents=0&residentstatus=company+Provided&officeaddress=Madhapur-2&email=Akon2%40gmail.com&pannu"
+"mber=BZJPB99992&currentaddress=D.No.11-12&state=Baden-Wurttemberg&city=Heidelberg"

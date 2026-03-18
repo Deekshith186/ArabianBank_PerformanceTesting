@@ -1,0 +1,556 @@
+
+
+
+
+
+<html>
+<head>
+
+
+
+<title>LoanIQ: AmericonCard Apply</title>
+
+<script language="javascript" type="text/javascript" src="datetimepicker.js">
+
+//Date Time Picker script- by TengYong Ng of http://www.rainforestnet.com
+//Script featured on JavaScript Kit (http://www.javascriptkit.com)
+//For this script, visit http://www.javascriptkit.com 
+
+</script>
+<script type="text/javascript">
+
+function isNumber(evt) 
+	{
+		//evt = (evt) ? evt : window.event;
+		var charCode = (evt.which) ? evt.which : evt.keyCode;
+		if (charCode > 31 && (charCode < 48 || charCode > 57)) 
+		{
+			return false;
+		}
+		return true;
+	}
+
+
+	function getCheck()
+    {
+	f1.title.value=americoncard.title.value;
+	f1.firstname.value=americoncard.firstname.value;
+	f1.middlename.value=americoncard.middlename.value;
+	f1.lastname.value=americoncard.lastname.value;
+	f1.dateofbirth.value=americoncard.dateofbirth.value;
+	f1.gender1.value=americoncard.gender1.value;
+	f1.maritalstatus.value=americoncard.maritalstatus.value;
+	f1.Qualification.value=americoncard.Qualification.value;
+	f1.phonenumber.value=americoncard.phonenumber.value;
+	f1.mobile.value=americoncard.mobile.value;
+	f1.currentaddress.value=americoncard.currentaddress.value;
+	f1.country.value=americoncard.country.value;
+	f1.state.value=americoncard.state.value;
+	f1.city.value=americoncard.city.value;
+	f1.pincode.value=americoncard.pincode.value;
+	f1.yearsatresidence.value=americoncard.yearsatresidence.value;
+	f1.numberofdependents.value=americoncard.numberofdependents.value;
+	f1.residentstatus.value=americoncard.residentstatus.value;
+	f1.officeaddress.value=americoncard.officeaddress.value;
+	f1.email.value=americoncard.email.value;
+	f1.pannumber.value=americoncard.pannumber.value;
+
+	f1.submit();
+
+    }
+function chkemail()
+{
+	 if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(americoncard.email.value)))
+	{
+		alert("Invalid E-mail Address! Please Re-enter...")
+		document.americoncard.email.focus();
+		return (false)
+	}
+}
+function validateLogin()
+{
+
+if(americoncard.title.value.length==0)
+{
+alert("Please Choose Title...!");
+americoncard.title.focus();
+return false;
+}
+
+if(americoncard.firstname.value.length==0)
+{
+alert("Please Enter FirstName...!");
+americoncard.firstname.focus();
+return false;
+}
+
+if(americoncard.lastname.value.length==0)
+{
+alert("Please Enter LastName...!");
+americoncard.lastname.focus();
+return false;
+}
+
+if(americoncard.dateofbirth.value.length==0)
+{
+alert("Please Enter DateofBirth...!");
+americoncard.dateofbirth.focus();
+return false;
+}
+
+if(americoncard.gender1.value.length==0)
+{
+alert("Please Enter Gender...!");
+americoncard.gender1.focus();
+return false;
+}
+
+if(americoncard.maritalstatus.value.length==0)
+{
+alert("Please Enter MaritalStatus...!");
+americoncard.maritalstatus.focus();
+return false;
+}
+
+if(americoncard.Qualification.value.length==0)
+{
+alert("Please Enter Qualification...!");
+americoncard.Qualification.focus();
+return false;
+}
+
+if(americoncard.phonenumber.value.length==0)
+{
+alert("Please Enter Phone Number...!");
+americoncard.phonenumber.focus();
+return false;
+}
+
+if(americoncard.mobile.value.length==0)
+{
+alert("Please Enter Mobile Number...!");
+americoncard.mobile.focus();
+return false;
+}
+
+if(americoncard.currentaddress.value.length==0)
+{
+alert("Please Enter Current Address...!");
+americoncard.currentaddress.focus();
+return false;
+}
+
+if(americoncard.country.value.length==0)
+{
+alert("Please Choose Country Name...!");
+americoncard.country.focus();
+return false;
+}
+
+if(americoncard.state.value.length==0)
+{
+alert("Please Choose State Name...!");
+americoncard.state.focus();
+return false;
+}
+
+if(americoncard.city.value.length==0)
+{
+alert("Please Choose City Name...!");
+americoncard.city.focus();
+return false;
+}
+
+if(americoncard.pincode.value.length==0)
+{
+alert("Please Enter Pincode...!");
+americoncard.pincode.focus();
+return false;
+}
+
+if(americoncard.yearsatresidence.value.length==0)
+{
+alert("Please Enter YearsAtResidence...!");
+americoncard.yearsatresidence.focus();
+return false;
+}
+
+if(americoncard.numberofdependents.value.length==0)
+{
+alert("Please Enter NumberOfDependents...!");
+americoncard.numberofdependents.focus();
+return false;
+}
+
+if(americoncard.residentstatus.value.length==0)
+{
+alert("Please Enter ResidentStatus...!");
+americoncard.residentstatus.focus();
+return false;
+}
+
+if(americoncard.officeaddress.value.length==0)
+{
+alert("Please Enter OfficeAddress...!");
+americoncard.officeaddress.focus();
+return false;
+}
+
+if(americoncard.email.value.length==0)
+{
+alert("Please Enter E-mail...!");
+americoncard.email.focus();
+return false;
+}
+
+
+if(americoncard.pannumber.value.length==0)
+{
+alert("Please Enter PanNumber...!");
+americoncard.pannumber.focus();
+return false;
+}
+
+
+return true;
+}
+
+</script>
+</head>
+<body bgcolor="#FFCC99">
+
+<form name="americoncard" action="americonapply1.jsp" method="post" onsubmit="return validateLogin()">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="bottom"> 
+    <td height="89" bgcolor="#FFCC99"><div align="right"></div></td>
+    <td width="35%" background="" bgcolor="#FFCC99"">&nbsp;</td>
+    <td width="55%" height="89" valign="top" background="" bgcolor="#FFCC99"><div align="left"><font size="1"><br>
+        <font size="2" face="Arial, Helvetica, sans-serif"><strong> <span class="datestyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <font color="#000000"> 
+        <!-- #BeginDate format:acAm1a -->
+
+
+
+        <!-- #EndDate -->
+        &nbsp;</font></span></strong></font></font></div></td>
+  </tr>
+  <tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99"> 
+    <td height="18" colspan="3"> <div align="right" class="welcome"><font color="#000000"><strong>
+
+Welcome Mr.      IQ14316  &nbsp;&nbsp;
+Last Login:   
+
+10/3/2026 &nbsp;&nbsp;
+11-27-9AM
+
+</font></div></td>
+  </tr>
+  <tr> 
+    <td height="42" colspan="3"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="49%" height="35" valign="top" bordercolor="#6699CC" border=1> 
+            <div align="right"><a href="accounts.jsp"><img src="images/Accounts.JPG" name="image1" width="90" height="30" border="0" id="image1"></a></div></td>
+          <td width="12%"><div align="right"><a href="loans.jsp"><img src="images/Loans.JPG" name="image2" width="70" height="30" border="0"></a></div></td>
+          <td width="14%"><div align="center"><a href="BillPay.jsp"><img src="images/Billpay.JPG" name="image3" width="75" height="30" border="0"></a></div></td>
+          <td width="12%"><div align="center"><a href="CreditCards.jsp"><img src="images/cards.JPG" name="image4" width="100" height="30" border="0" id="image4"></a></div></td>
+          <td width="14%"><div align="center"><a href="Demat.jsp"><img src="images/Demat.JPG" name="image5" width="70" height="30" border="0"></a></div></td>
+          <td width="12%"><div align="right"><a href="Logout.jsp"><img src="images/logout.JPG" width="70" height="30" border="0"></a></div></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr valign="top"> 
+    <td height="20" colspan="3"> <blockquote> 
+        <p><span class="subhead"><font color="#0000FF"><a href="CreditCards.jsp">Credit Cards</a>&gt;<a href="americoncard.jsp">Americon Express Cards</a>&gt;</font></span> 
+          <span class="welcome"><font color="#000000"><strong>Apply Online</strong></font></span></p>
+      </blockquote></td>
+  </tr>
+  <tr valign="top" bgcolor="#FFCC99"> 
+    <td height="16" colspan="3"><div align="left"> <blockquote> <blockquote> <blockquote> <blockquote> <table width="70%" border="0" align="left" cellpadding="0" cellspacing="0"> 
+	<tr> 
+		<td height="10"> <input name="imageField" type="image" src="images/Appform.gif" width="500" height="22" border="0"> 
+		</td>
+	</tr>
+	<tr> 
+        <td class="datestyle"><font color="#FF0000">All fields marked with a * are mandatory</font></td>
+    </tr>
+	<tr> 
+        <td height="10"> <input name="imageField2" type="image" src="images/Personaldet.gif" width="500" height="22" border="0"> 
+        </td>
+    </tr>
+	<tr>       
+		<td><input type="hidden" name="loginName" value="IQ14316"></td>
+	</tr>
+	<tr> 
+        <td height="82" valign="top"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+			
+			<tr>
+				<td width="28%">Title<font color="#FF0000">*</font></td>
+				<td width="50%"><select name="title" id="title">
+								  <option title="title" value="">Select</option>
+								  <option title="title" value="Mr." selected="selected">Mr.</option>
+								  <option title="title" value="Mrs.">Mrs.</option>
+								  <option title="title" value="Ms.">Ms.</option>
+								  <option title="title" value="Dr.">Dr.</option>
+				</select>
+				<script type="text/javascript">
+					document.getElementById("title").value='Mrs.';
+				</script>
+			</td>
+			</tr>
+			
+			<tr>
+			<td width="28%">FirstName<font color="#FF0000">*</font></td><td width="50%"><input type="text" name="firstname" value="Akon30"></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">MiddleName</td><td width="50%"><input type="text" name="middlename" value=""></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">LastName<font color="#FF0000">*</font></td><td width="50%"><input type="text" name="lastname" value="Shon30"></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">DateOfBirth<font color="#FF0000">*</font></td><td width="50%"><input name="dateofbirth" value="14-10-1994" id="demo1" size="20"><a href="javascript:NewCal('demo1','ddmmyyyy')"><img alt="Pick a date" src="images/cal.gif" width="20" height="20" border="0"></a></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Gender<font color="#FF0000">*</font></td>
+			<td width="50%"><select name="gender1" id="gender1">
+			<option title="gender1" value="">select</option>
+			<option title="gender1" value="Male" selected="selected">Male</option>
+			<option title="gender1" value="Female">Female</option>
+			</select>
+
+			<script type="text/javascript">
+			document.getElementById("gender1").value='Female';
+			</script>
+
+
+			</td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Marital Status<font color="#FF0000">*</font></td>
+			<td width="50%"><select name="maritalstatus" id="maritalstatus">
+			<option title="maritalstatus" value="">select</option>
+			<option title="maritalstatus" value="Single" selected="selected">Single</option>
+			<option title="maritalstatus" value="Married">Married</option>
+			</select>
+
+
+			<script type="text/javascript">
+			document.getElementById("maritalstatus").value='Married';
+			</script>
+
+
+			</td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Qualification<font color="#FF0000">*</font></td>
+			<td width="50%"><select name="Qualification" id="Qualification">
+			<option title="Qualification" value="">select</option>
+			<option title="Qualification" value="Diploma" selected="selected">Diploma</option>
+			<option title="Qualification" value="Under Graduate">Under Graduate</option>
+			<option title="Qualification" value="Post Graduate">Post Graduate</option>
+			</select>
+
+			<script type="text/javascript">
+			document.getElementById("Qualification").value='Diploma';
+			</script>
+
+			</td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Phone Number(R)<font color="#FF0000">*</font></td><td width="50%"><input type="text" name="phonenumber" value="1234567830"></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Mobile<font color="#FF0000">*</font></td><td width="50%"><input type="text" name="mobile" value="7290825030"></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Pincode<font color="#FF0000">*</font></td><td width="50%"><input type="text" name="pincode" value="523186"></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Years At Residence<font color="#FF0000">*</font></td>
+			<td width="50%"><select name="yearsatresidence" id="yearsatresidence">
+			<option title="yearsatresidence" value="">select</option>
+			<option title="yearsatresidence" value="0">0</option>
+			<option title="yearsatresidence" value="1">1</option>
+			<option title="yearsatresidence" value="2">2</option>
+			<option title="yearsatresidence" value="3">3</option>
+			<option title="yearsatresidence" value="4">4</option>
+			<option title="yearsatresidence" value="5">5</option>
+			</select>
+
+			<script type="text/javascript">
+			document.getElementById("yearsatresidence").value='4';
+			</script>
+
+			</td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Number Of Dependents<font color="#FF0000">*</font></td>
+			<td width="50%"><select name="numberofdependents" id="numberofdependents">
+			<option title="numberofdependents" value="">select</option>
+			<option title="numberofdependents" value="0">0</option>
+			<option title="numberofdependents" value="1">1</option>
+			<option title="numberofdependents" value="2">2</option>
+			<option title="numberofdependents" value="3">3</option>
+			<option title="numberofdependents" value="4">4</option>
+			<option title="numberofdependents" value="5">5</option>
+			</select>
+
+			<script type="text/javascript">
+			document.getElementById("numberofdependents").value='5';
+			</script>
+
+			</td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Resident Status<font color="#FF0000">*</font></td>
+			<td width="50%"><select name="residentstatus" id="residentstatus">
+			<option title="residentstatus" value="">select</option>
+			<option title="residentstatus" value="company Provided">company Provided</option>
+			<option title="residentstatus" value="Own house">Own house</option>
+			</select>
+
+			<script type="text/javascript">
+			document.getElementById("residentstatus").value='Own house';
+			</script>
+
+			</td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Office Address<font color="#FF0000">*</font></td><td width="50%"><input name="officeaddress" value="Madhapur-30"></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Email<font color="#FF0000">*</font></td><td width="50%"><input type="text" name="email" value="Akon1@gmail.com"></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">PAN Number<font color="#FF0000">*</font></td><td width="50%"><input type="text" name="pannumber" value="BZJPB999930"></td>
+			</tr>
+			
+			<tr>
+			<td width="28%">Current Address<font color="#FF0000">*</font></td><td width="50%"><textarea name="currentaddress" rows="5" cols="15" tabindex="5">DNo11-16</textarea></td>
+			</tr>
+			
+
+			<tr>
+				<td width="28%">Country<font color="#FF0000">*</font></td>
+				<td width="50%">
+					<select name="country" id="country" onChange="return getCheck()" disabled="disabled">
+						<option title="country" value="">Select</option>
+						<option title="country" value="IND" selected>India</option>
+						<option title="country" value="Germany">Germany</option>
+						<option title="country" value="Japan">Japan</option>
+						<option title="country" value="USA">USA</option>
+						<option title="country" value="AUS">Australia</option>
+						<option title="country" value="China">China</option>
+						<option title="country" value="Russia">Russia</option>
+						<option title="country" value="SL">Sri Lanka</option>
+						<option title="country" value="SA">South Africa</option>
+					</select>
+					<script type="text/javascript">
+						document.getElementById("country").value='IND';
+					</script>
+				</td>
+			</tr>
+			
+			
+								<tr>
+									<td>State/Province<font color="#FF0000">*</font></td>
+									<td>
+										<select name="state" onchange="return getCheck()" value="">
+											<option title="state" value="">Select</option>
+											
+											<option title="state" value="AP">Andhra Pradesh</option>
+											
+											<option title="state" value="Maharashtra">Maharashtra</option>
+											
+											<option title="state" value="TN">Tamil Nadu</option>
+											
+											<option title="state" value="Karnataka">Karnataka</option>
+											
+											<option title="state" value="Gujarat">Gujarat</option>
+											
+											<option title="state" value="Odisha">Odisha</option>
+											
+											<option title="state" value="WB">West Bengal</option>
+											
+											<option title="state" value="UP">Uttar Pradesh</option>
+											
+											<option title="state" value="MP">Madhya Pradesh</option>
+											
+											<option title="state" value="JK">Jammu and Kashmir</option>
+											
+											
+
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>City<font color="#FF0000">*</font></td>
+									<td>
+										<select name="city">
+											<option title="city" value="">Select</option>
+											
+										</select>
+									</td>
+								</tr>
+			<tr>
+			<td></td>
+			<td width="22%"><input type="submit" value="next"></td>
+			</tr>       
+
+			<tr bgcolor="#6699CC"> 
+			<td height="19" colspan="5" valign="top" bordercolor="#6699CC" border=1>
+			<div align="center"><font color="#FFFFFF">Copyright 
+						2007 www.arabianbank.com All Rights Reserved</font></div></td>
+			</tr>
+			</table></td></tr>
+</table>
+
+
+</form>
+
+<form name="f1" action="americonapply.jsp" method="post">
+<input type=hidden name="title">
+<input type=hidden name="firstname">
+<input type=hidden name="middlename">
+<input type=hidden name="lastname">
+<input type=hidden name="dateofbirth">
+<input type=hidden name="gender1">
+<input type=hidden name="maritalstatus">
+<input type=hidden name="Qualification">
+<input type=hidden name="phonenumber">
+<input type=hidden name="mobile">
+<input type=hidden name="currentaddress">
+<input type=hidden name="country">
+<input type=hidden name="state">
+<input type=hidden name="city">
+<input type=hidden name="pincode">
+<input type=hidden name="yearsatresidence">
+<input type=hidden name="numberofdependents">
+<input type=hidden name="residentstatus">
+<input type=hidden name="officeaddress">
+<input type=hidden name="email">
+<input type=hidden name="pannumber">
+
+
+
+
+</form>
+
+
+</body>
+</html>

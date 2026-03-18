@@ -1,0 +1,274 @@
+
+
+<html>
+<head>
+<title>AmericonCard page</title>
+<script type="text/javascript">
+function chkemail()
+{
+	 if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(americoncard.email.value)))
+	{
+		alert("Invalid E-mail Address! Please re-enter...")
+		document.americoncard.email.focus();
+		return (false)
+	}
+}
+function validateLogin()
+{
+
+if(americoncard.youare.value.length==0)
+{
+alert("Please Enter YouAre...!");
+document.americoncard.youare.focus();
+return false;
+}
+
+if(americoncard.nameofcompany.value.length==0)
+{
+alert("Please Enter NameOfCompany...!");
+document.americoncard.nameofcompany.focus();
+return false;
+}
+
+if(americoncard.companynature.value.length==0)
+{
+alert("Please Enter CompanyNature...!");
+document.americoncard.companynature.focus();
+return false;
+}
+
+if(americoncard.totalyearsofexperience.value.length==0)
+{
+alert("Please Enter TotalYearsOfExperience...!");
+document.americoncard.totalyearsofexperience.focus();
+return false;
+}
+
+return true;
+}
+</script>
+</head>
+<body bgcolor="#FFCC99">
+<form name="americoncard" action="./AmericonCard" method="post" onSubmit="return validateLogin() ">
+
+<font color="#FFCC99">  
+
+<table bgcolor="#FFCC99" width="100%" border="0" cellpadding="10" cellspacing="0">
+  <tr valign="bottom"> 
+    <td height="89" bgcolor="#FFCC99"><div align="right"></div></td>
+    <td width="35%" background="" bgcolor="#FFCC99">&nbsp;</td>
+    <td width="55%" height="89" valign="top" background="" bgcolor="#FFCC99"><div align="left"><font size="1"><br>
+        <font size="2" face="Arial, Helvetica, sans-serif"><strong> <span class="datestyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <font color="#000000"> 
+        <!-- #BeginDate format:acAm1a -->
+       
+
+
+        <!-- #EndDate -->
+        &nbsp;</font></span></strong></font></font></div></td>
+  </tr>
+  <tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99"> 
+    <td height="18" colspan="3"> <div align="right" class="welcome"><font color="#000000"><strong>
+
+Welcome Mrs.      IQ14319  &nbsp;&nbsp;
+Last Login:   
+
+10/3/2026 &nbsp;&nbsp;
+3-54-27PM
+
+</font></div></td>
+  </tr>
+  <tr> 
+    <td height="42" colspan="3"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="49%" height="35" valign="top" bordercolor="#6699CC" border=1> 
+            <div align="right"><a href="accounts.jsp"><img src="images/Accounts.JPG" name="image1" width="90" height="30" border="0" id="image1"></a></div></td>
+          <td width="12%"><div align="right"><a href="loans.jsp"><img src="images/Loans.JPG" name="image2" width="70" height="30" border="0"></a></div></td>
+          <td width="14%"><div align="center"><a href="BillPay.jsp"><img src="images/Billpay.JPG" name="image3" width="75" height="30" border="0"></a></div></td>
+          <td width="12%"><div align="center"><a href="CreditCards.jsp"><img src="images/cards.JPG" name="image4" width="100" height="30" border="0" id="image4"></a></div></td>
+          <td width="14%"><div align="center"><a href="Demat.jsp"><img src="images/Demat.JPG" name="image5" width="70" height="30" border="0"></a></div></td>
+          <td width="12%"><div align="right"><a href="Logout.jsp"><img src="images/logout.JPG" width="70" height="30" border="0"></a></div></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr valign="top"> 
+    <td height="20" colspan="3"> <blockquote> 
+        <p><span class="subhead"><font color="#0000FF"><a href="CreditCards.jsp">Credit Cards<a>&gt;<a href="americonapply.jsp">Americon Express Cards</a>&gt;</font></span> 
+          <span class="welcome"><font color="#000000"><strong>Apply Online</strong></font></span></p>
+      </blockquote></td>
+  </tr>
+  <tr valign="top" bgcolor="#FFCC99"> 
+    <td height="16" colspan="3"><div align="left"> <blockquote> <blockquote> <blockquote> <blockquote> <table width="70%" border="0" align="left" cellpadding="0" cellspacing="0"> 
+      <tr> 
+        <td height="10"> <input name="imageField" type="image" src="images/button-rec-blue.gif" width="700" height="22" border="0"> 
+        </td>
+      </tr>
+
+
+<tr> 
+
+        
+<td><input type="hidden" name="loginName" value="IQ14319"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="title" value="Mr."></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="firstname" value="Akon5"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="middlename" value=""></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="lastname" value="Shon3"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="dateofbirth" value="18-10-1994"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="gender1" value="Male"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="maritalstatus" value="Married"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="Qualification" value="Post Graduate"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="phonenumber" value="9848022331"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="mobile" value="7290825091"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="currentaddress"  rows="5" cols="15" tabindex="5" value="DNo11-16"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="country" value="Germany"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="state" value="Bavaria"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="city" value="Bayreuth"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="pincode" value="523186"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="yearsatresidence" value="0"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="numberofdependents" value="3"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="residentstatus" value="Own house"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="officeaddress"  rows="5" cols="15" tabindex="5" value="Madhapur-1"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="email" value="Akon1@gmail.com"></td>
+</tr>
+
+<tr>
+<td width="2%"><input type="hidden" name="pannumber" value="BZJPB99991"></td>
+</tr>
+
+<tr>
+			<td>
+				<table border="0" width="100%">
+<tr>
+<td width="6%">You Are<font color="#FF0000">*</font></td>
+<td width="2%"><select name="youare">
+<option value="">--select one--</option>
+<option value="Software Engineer">Software Engineer</option>
+<option value="Hardware Engineer">Hardware Engineer</option>
+<option value="Electrical Engineer">Electrical Engineer</option>
+<option value="Electronics Engineer">Electronics Engineer</option>
+<option value="Aeronautical Engineer">Aeronautical Engineer</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td width="6%" color="black">Name Of Company<font color="#FF0000">*</font></td><td width="2%"><input type="text" name="nameofcompany"></td>
+</tr>
+
+<tr>
+<td width="6%">Company Nature<font color="#FF0000">*</font></td>
+<td width="2%"><select name="companynature">
+<option value="">--select one--</option>
+<option value="IT">IT</option>
+<option value="Non-IT">Non-IT</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td width="6%">Total Years of Experience<font color="#FF0000">*</font></td>
+<td width="2%"><select name="totalyearsofexperience">
+<option value="">Years</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+<select name="totalyearsofexperience1">
+<option value="">Months</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+</td>
+</tr>
+</table></td></tr>
+
+<tr><td>&nbsp;</td></tr>
+<tr>
+<td></td>
+<td><table><tr><td><div align="left"><input type="submit" value="next>>"></div></td>
+
+</form>
+<form action="americonapply.jsp">
+
+<td></td>
+<td><div align="left"><input type="submit" value="<<back"></div></td></tr></table></td>
+</tr>
+
+</form>
+       
+<tr bgcolor="#6699CC"> 
+<td height="19" colspan="5" valign="top" bordercolor="#6699CC" border=1>
+<div align="center"><font color="#FFFFFF">Copyright 
+            2007 www.arabianbank.com All Rights Reserved</font></div></td>
+</tr>
+</table></td></tr>
+</table>
+</form>
+
+</body>
+</html>

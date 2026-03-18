@@ -1,0 +1,13 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/html
+StepName=Submit Data: Login
+Total=1
+FileName1=t3.html
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RawStepEndTime=1772099104908
+RawStepName=Login
+RequestBodyFile=t3_RequestBody.txt
+RawStepStartTime=1772099104865
+URL1=http://192.168.1.2:7001/LoanIQ/Login?JSESSIONID=S_WZVnXsptu52KiXg0Lw6wPsyzUe9yNGfNA86-lsdCBLyh2Ha6Jh!1522688009!1772099106284

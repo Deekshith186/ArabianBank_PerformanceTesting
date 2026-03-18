@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Mrs.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14"
+"-10-1994&gender1=Female&maritalstatus=Married&Qualification=Diploma&phonenumber=1234567830&mob"
+"ile=7290825030&currentaddress=DNo11-16&country=IND&state=Maharashtra&city=Pimpri-Chinchwad&pin"
+"code=523186&yearsatresidence=4&numberofdependents=5&residentstatus=Own+house&officeaddress=Mad"
+"hapur-30&email=Akon1%40gmail.com&pannumber=BZJPB999930&youare=Hardware+Engineer&nameofcompany="
+"Quantum-30&companynature=Non-IT&totalyearsofexperience=5&totalyearsofexperience1=5"

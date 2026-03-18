@@ -1,0 +1,5 @@
+"title=Mr.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14-10-1994&gender1=Male&mar"
+"italstatus=Single&Qualification=Post+Graduate&phonenumber=1234567830&mobile=7290825030&current"
+"address=DNo11-16&country=SA&state=&city=&pincode=523186&yearsatresidence=5&numberofdependents="
+"3&residentstatus=Own+house&officeaddress=Madhapur-30&email=Akon1%40gmail.com&pannumber=BZJPB99"
+"9930"

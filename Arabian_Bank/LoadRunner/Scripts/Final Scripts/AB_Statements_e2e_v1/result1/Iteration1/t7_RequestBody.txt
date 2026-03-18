@@ -1,0 +1,1 @@
+"bday=27&bmon=7&byear=2025&eday=27&emon=0&eyear=2026&type=doc&type1=IQ14285"

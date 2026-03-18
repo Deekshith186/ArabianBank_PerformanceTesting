@@ -1,0 +1,4 @@
+"title=Mr.&firstname=Akon1&middlename=&lastname=Shon2&dateofbirth=14-10-1994&gender1=Male&marit"
+"alstatus=Married&Qualification=Diploma&phonenumber=9848022331&mobile=7290825091&currentaddress"
+"=DNo11-16&country=USA&state=&city=&pincode=523186&yearsatresidence=2&numberofdependents=2&resi"
+"dentstatus=Own+house&officeaddress=Madhapur-1&email=Akon1%40gmail.com&pannumber=BZJPB99991"

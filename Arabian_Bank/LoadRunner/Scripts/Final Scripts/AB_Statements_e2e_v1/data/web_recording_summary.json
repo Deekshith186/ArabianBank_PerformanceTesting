@@ -1,0 +1,930 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 22,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-27-2026",
+    "RecordingDuration": 285890,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1772193328,
+    "RecordingType": "Proxy",
+    "TotalBytesReceived": 28477,
+    "TotalBytesSent": 12734,
+    "TotalRequests": 22,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "office.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2603:1046:c04:1016::2]",
+          "IncludeInScript": false,
+          "Name": "substrate.office.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 243,
+              "HttpStatus": 200,
+              "Size": 3919,
+              "URL": "https://substrate.office.com/profileb2/v2.0/me/V1Profile"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 216,
+              "HttpStatus": 404,
+              "Size": 139,
+              "URL": "https://substrate.office.com/imageb2/v1.0/me/image/$value"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 211,
+              "HttpStatus": 200,
+              "Size": 3919,
+              "URL": "https://substrate.office.com/profileb2/v2.0/me/V1Profile"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 206,
+              "HttpStatus": 200,
+              "Size": 4196,
+              "URL": "https://substrate.office.com/profileb2/v2.0/me/Profile"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 80,
+              "HttpStatus": 200,
+              "Size": 3919,
+              "URL": "https://substrate.office.com/profileb2/v2.0/me/V1Profile"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 37,
+              "HttpStatus": 200,
+              "Size": 3919,
+              "URL": "https://substrate.office.com/profileb2/v2.0/me/V1Profile"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 32,
+              "HttpStatus": 404,
+              "Size": 139,
+              "URL": "https://substrate.office.com/imageB2/v1.0/me/image/$value"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "msn.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:140f:e::b81a:3633]",
+          "IncludeInScript": false,
+          "Name": "ntp.msn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 137,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ntp.msn.com/edge/ntp/service-worker.js?bundlevariant=ruby&bundles=latest&riverAgeMinutes=2880&navAgeMinutes=2880&networkTimeoutSeconds=5&bgTaskNetworkTimeoutSeconds=8&enableNetworkFirst=true&enableEmptySectionRoute=true&enableNavPreload=true&enableStaticAdsRouting=true"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 109,
+              "HttpStatus": 200,
+              "Size": 37567,
+              "URL": "https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&feed_dis=always&en_widget_reg=false&startpage=1&PC=LCTS&prerender=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:140f:e::b81a:3670]",
+          "IncludeInScript": false,
+          "Name": "assets.msn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 15,
+              "EventId": 181,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://assets.msn.com/staticsb/statics/latest/sports/icons/SportsRubyWinnerLight.svg"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 166,
+              "HttpStatus": 200,
+              "Size": 4647,
+              "URL": "https://assets.msn.com/service/segments/recoitems/weather?apikey=UhJ4G66OjyLbn9mXARgajXLiLw6V75sHnfpU60aJBB&activityId=69a18646-1d89-4298-b714-4be98c2f1684&ocid=weather-peregrine&cm=en-in&it=app&user=m-3F83A7A4DCA06CB1316DB103DDDF6D51&scn=APP_ANON&appId=4de6fc9f-3262-47bf-9c99-e189a8234fa2&wrapodata=false&includemapsmetadata=true&cuthour=true&distanceinkm=0&regionDataCount=20&orderby=distance&days=5&pageOcid=anaheim-dhp-peregrine&source=undefined_csr&fdhead=prg-1sw-wxncvf%2Cprg-1sw-wxtrlog%2CPRG-1SW-WXWPDEL%2CPRG-1SW-WXWPDS%2CPRG-1SW-WXWPTLI%2Cprg-1sw-wxaqif%2Cprg-1sw-wxaqifct%2Cprg-1sw-weacopilot&contentcount=3&region=in&market=en-in&locale=en-in"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/x-icon",
+              "DownloadTime": 0,
+              "EventId": 133,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://assets.msn.com/statics/icons/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 128,
+              "HttpStatus": 200,
+              "Size": 88715,
+              "URL": "https://assets.msn.com/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=69a18646-1d89-4298-b714-4be98c2f1684&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-27T17%3A25%3A49.051%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x698&wposchema=byregion"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 123,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://assets.msn.com/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=69a18646-1d89-4298-b714-4be98c2f1684&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-27T17%3A25%3A49.051%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x698&wposchema=byregion"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "40.74.79.222",
+          "IncludeInScript": false,
+          "Name": "arc.msn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 248,
+              "HttpStatus": 200,
+              "Size": 103,
+              "URL": "https://arc.msn.com/v4/api/selection?placement=88000360&nct=1&fmt=json&ISU=0&AREF=0&APRIMB=0&ADEFAB=13&OPSYS=WIN10&locale=en-US&country=IN&edgeid=-3650655221893573246&ACHANNEL=4&ABUILD=145.0.7632.117&poptin=1&devosver=10.0.26200.7922&clr=esdk&UITHEME=light&EPCON=0&AMAJOR=145&AMINOR=0&ABLD=7632&APATCH=117"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2620:1ec:bdf::72]",
+          "IncludeInScript": false,
+          "Name": "prod.rewardsplatform.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 118,
+              "HttpStatus": 200,
+              "Size": 11212,
+              "URL": "https://prod.rewardsplatform.microsoft.com/dapi/me?channel=edge&options=Profile,Promotions,Rebates"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "40.74.81.198",
+          "IncludeInScript": false,
+          "Name": "nav-edge.smartscreen.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 341,
+              "HttpStatus": 200,
+              "Size": 896,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 327,
+              "HttpStatus": 200,
+              "Size": 888,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 313,
+              "HttpStatus": 200,
+              "Size": 890,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 304,
+              "HttpStatus": 200,
+              "Size": 894,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 295,
+              "HttpStatus": 200,
+              "Size": 1012,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 286,
+              "HttpStatus": 200,
+              "Size": 1008,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 233,
+              "HttpStatus": 200,
+              "Size": 886,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 141,
+              "HttpStatus": 200,
+              "Size": 818,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 27,
+              "HttpStatus": 200,
+              "Size": 818,
+              "URL": "https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2603:1046:2000:90::80]",
+          "IncludeInScript": false,
+          "Name": "graph.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 104,
+              "HttpStatus": 200,
+              "Size": 371,
+              "URL": "https://graph.microsoft.com/beta/me/settings/regionalAndLanguageSettings"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2620:1ec:33::11]",
+          "IncludeInScript": false,
+          "Name": "edge.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 318,
+              "HttpStatus": 200,
+              "Size": 49,
+              "URL": "https://edge.microsoft.com/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTQ1LjAuMzgwMC44MhobCAEQCBoNMTc3MjE3MjYxNzYwNCIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 253,
+              "HttpStatus": 200,
+              "Size": 844,
+              "URL": "https://edge.microsoft.com/componentupdater/api/v1/update?cup2key=7:-53TJm7l2FxbExRuVCNf8RqR3w3N3Vt5p5soIDj-ZD4&cup2hreq=06d69d077ea380f8b4f5e81fd7620f51764811de3c02c968071ca3dc1addbc3b"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 238,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://edge.microsoft.com/autofillservice/core/page/-4554793993528216315/-2068690090859129015"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 201,
+              "HttpStatus": 200,
+              "Size": 162,
+              "URL": "https://edge.microsoft.com/extensionwebstorebase/v1/crx"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 31,
+              "EventId": 191,
+              "HttpStatus": 200,
+              "Size": 118,
+              "URL": "https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 146,
+              "HttpStatus": 200,
+              "Size": 177,
+              "URL": "https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 99,
+              "HttpStatus": 200,
+              "Size": 250,
+              "URL": "https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 0,
+              "EventId": 94,
+              "HttpStatus": 200,
+              "Size": 5229,
+              "URL": "https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 65,
+              "HttpStatus": 200,
+              "Size": 3199,
+              "URL": "https://edge.microsoft.com/identity/api/v3/msa"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 295,
+              "URL": "https://edge.microsoft.com/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26200&devicefamily=desktop&installdate=1763359502&clientversion=145.0.3800.82&experimentationmode=2&scpguard=1&scpfull=0&scpver=13"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 42,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://edge.microsoft.com/abusiveadblocking/api/v1/blocklist"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "40.74.81.198",
+          "IncludeInScript": false,
+          "Name": "dl-edge.smartscreen.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 332,
+              "HttpStatus": 200,
+              "Size": 894,
+              "URL": "https://dl-edge.smartscreen.microsoft.com/api/browser/edge/download/3"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "bing.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:140f:3c00::b81c:ad82]",
+          "IncludeInScript": false,
+          "Name": "www.bing.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 15,
+              "EventId": 171,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.bing.com/th?id=OCGE.9p54ptm3wm4f_v3_main&pid=uxf&rf=hubstream_fallback.jpg&w=20&h=20&qlt=90&c=1&rs=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 418,
+              "URL": "https://www.bing.com/api/shopping/v1/user/shoppingsettings?EnabledServiceFeaturesv2=edgeServerUX.shopping.msEdgeShoppingCashbackDismissTimeout2s"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "",
+              "DownloadTime": 0,
+              "EventId": 85,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.bing.com/fd/auth/signin/v2?action=header"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 75,
+              "HttpStatus": 200,
+              "Size": 681407,
+              "URL": "https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 70,
+              "HttpStatus": 200,
+              "Size": 418,
+              "URL": "https://www.bing.com/api/shopping/v1/user/shoppingsettings"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 15,
+              "EventId": 61,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 51,
+              "HttpStatus": 200,
+              "Size": 109,
+              "URL": "https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 46,
+              "HttpStatus": 200,
+              "Size": 109,
+              "URL": "https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:140f:3c00::b81c:ad8a]",
+          "IncludeInScript": false,
+          "Name": "th.bing.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 176,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.c3e513d44ca179ffb7dfaa1c5a205bf8&pid=Wdp&w=688&h=344&qlt=90&c=1&rs=1&dpr=1&p=0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 161,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.56ffd5a4996f67c28e94b3d30a6c56f7&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 156,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.3b3c43f41b1cf10409e8bcd265f905d9&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 151,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.2764b1bf0975a0d0623677eaff3ffd65&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "azureedge.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2620:1ec:bdf::72]",
+          "IncludeInScript": false,
+          "Name": "edge-consumer-static.azureedge.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 196,
+              "HttpStatus": 200,
+              "Size": 101,
+              "URL": "https://edge-consumer-static.azureedge.net/mouse-gesture/config.json"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "akamaized.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.48.226.168",
+          "IncludeInScript": false,
+          "Name": "prod-video-cms-amp-microsoft-com.akamaized.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/vtt",
+              "DownloadTime": 0,
+              "EventId": 186,
+              "HttpStatus": 200,
+              "Size": 796,
+              "URL": "https://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/AA1XbfSQ?blobrefkey=closedcaptionen-in&$blob=1&vtt=true"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "192.168.1.2",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.1.2",
+          "IncludeInScript": true,
+          "Name": "192.168.1.2",
+          "Port": 7001,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 336,
+              "HttpStatus": 200,
+              "Size": 2027,
+              "URL": "http://192.168.1.2:7001/LoanIQ/Logout.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 16,
+              "EventId": 322,
+              "HttpStatus": 200,
+              "Size": 50,
+              "URL": "http://192.168.1.2:7001/LoanIQ/Test"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 308,
+              "HttpStatus": 200,
+              "Size": 8061,
+              "URL": "http://192.168.1.2:7001/LoanIQ/Statements.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 299,
+              "HttpStatus": 200,
+              "Size": 3303,
+              "URL": "http://192.168.1.2:7001/LoanIQ/stmt.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 290,
+              "HttpStatus": 200,
+              "Size": 3569,
+              "URL": "http://192.168.1.2:7001/LoanIQ/accounts.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 281,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/logout.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 277,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/Loans.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 273,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/Demat.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 269,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/Billpay.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 265,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/cards.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 261,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/Accounts.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 257,
+              "HttpStatus": 200,
+              "Size": 2855,
+              "URL": "http://192.168.1.2:7001/LoanIQ/Login?JSESSIONID=Vwqe9Ed501S3rs75pRG3G8JSxanlGahtHRz2YtktP7S2K6Shp2_w!-380725588!1772193335161"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 228,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/signup.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 224,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/login.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 220,
+              "HttpStatus": 200,
+              "Size": 2494,
+              "URL": "http://192.168.1.2:7001/LoanIQ/login.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 113,
+              "HttpStatus": 200,
+              "Size": 2477,
+              "URL": "http://192.168.1.2:7001/LoanIQ/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 22,
+              "HttpStatus": 404,
+              "Size": 1164,
+              "URL": "http://192.168.1.2:7001/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 18,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/nri.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 14,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/business.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 10,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/corporative.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 6,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/personal.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 2,
+              "HttpStatus": 200,
+              "Size": 2477,
+              "URL": "http://192.168.1.2:7001/LoanIQ/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

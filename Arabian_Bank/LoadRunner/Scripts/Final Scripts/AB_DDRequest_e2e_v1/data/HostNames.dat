@@ -1,0 +1,5 @@
+[hosts]
+192.168.1.2=
+ntp.msn.com=
+assets.msn.com=
+img-s-msn-com.akamaized.net=

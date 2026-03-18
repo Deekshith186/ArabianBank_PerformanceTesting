@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3.htm
+URL1=http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=OaDRtaPrliRUlG1v5IsarGCap-1iEfSulto91FkbIZxBxod9RM6a!118641061!1773044868075
+Total=1
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

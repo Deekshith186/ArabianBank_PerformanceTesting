@@ -1,0 +1,13 @@
+[t14]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/html
+StepName=Url: Apply
+Total=1
+FileName1=t14.html
+RequestHeaderFile=t14_RequestHeader.txt
+ResponseHeaderFile=t14_ResponseHeader.txt
+RawStepEndTime=1773058140000
+RawStepName=Apply
+RequestBodyFile=t14_RequestBody.txt
+RawStepStartTime=1773058139843
+URL1=http://192.168.1.4:7001/LoanIQ/americonapply.jsp

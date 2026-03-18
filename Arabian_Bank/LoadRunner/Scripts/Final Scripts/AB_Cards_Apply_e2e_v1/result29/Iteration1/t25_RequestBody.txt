@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Dr.&firstname=Akon4&middlename=&lastname=Shon3&dateofbirth=17-10"
+"-1994&gender1=Female&maritalstatus=Single&Qualification=Diploma&phonenumber=9848022331&mobile="
+"7290825091&currentaddress=DNo11-16&country=SA&state=Free+State&city=Clocolan&pincode=523186&ye"
+"arsatresidence=1&numberofdependents=2&residentstatus=Own+house&officeaddress=Madhapur-1&email="
+"Akon1%40gmail.com&pannumber=BZJPB99991&youare=Software+Engineer&nameofcompany=Quantum-1&compan"
+"ynature=Non-IT&totalyearsofexperience=3&totalyearsofexperience1=3"

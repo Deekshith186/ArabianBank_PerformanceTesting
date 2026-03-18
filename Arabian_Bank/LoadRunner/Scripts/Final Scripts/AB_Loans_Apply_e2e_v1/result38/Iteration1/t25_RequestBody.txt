@@ -1,0 +1,5 @@
+"loginName=IQ14285&loanamountrequiredrupees=214002&Tenure=36&title=Dr.&firstname=Akon2&middlena"
+"me=&lastname=Shon2&dateofbirth=14-10-1994&gender1=Female&maritalstatus=Married&Qualification=D"
+"iploma&phonenumber=9848022331&mobile=7290825095&pincode=523186&yearsatresidence=4&numberofdepe"
+"ndents=4&residentstatus=company+Provided&officeaddress=Madhapur-2&email=Akon2%40gmail.com&pann"
+"umber=BZJPB99992&currentaddress=D.No.11-12&state=Berlin&city=Reichstag"

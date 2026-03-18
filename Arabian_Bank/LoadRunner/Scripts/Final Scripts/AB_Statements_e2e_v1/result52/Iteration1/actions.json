@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1773141837688
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_Statements_T01_Launch",
+                "rawStartTime": 1773141816531,
+                "rawEndTime": 1773141837689,
+                "thinkTime": 0.0,
+                "wastedTime": 0.053522586822509769
+            }
+        ]
+    }
+]

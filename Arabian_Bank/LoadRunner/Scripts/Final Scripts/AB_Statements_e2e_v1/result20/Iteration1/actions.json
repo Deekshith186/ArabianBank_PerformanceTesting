@@ -1,0 +1,100 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1772272490467
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: personal.JPG",
+                "infFile": "t2.inf",
+                "time": 1772272490576
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1772272490666
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Accounts.JPG",
+                "infFile": "t4.inf",
+                "time": 1772272490713
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Statements",
+                "infFile": "t5.inf",
+                "time": 1772272490781
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Detailed-statement",
+                "infFile": "t7.inf",
+                "time": 1772272490853
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: Test",
+                "infFile": "t8.inf",
+                "time": 1772272490923
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_Statements_T01_Launch",
+                "rawStartTime": 1772272490239,
+                "rawEndTime": 1772272490469,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06660699844360352
+            },
+            {
+                "transactionName": "AB_Statements_T02_AccessPersonalBanking",
+                "rawStartTime": 1772272490469,
+                "rawEndTime": 1772272490576,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004819154739379883
+            },
+            {
+                "transactionName": "AB_Statements_T03_UserLogin",
+                "rawStartTime": 1772272490576,
+                "rawEndTime": 1772272490667,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008801460266113282
+            },
+            {
+                "transactionName": "AB_Statements_T04_SelectAccount",
+                "rawStartTime": 1772272490667,
+                "rawEndTime": 1772272490713,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004039764404296875
+            },
+            {
+                "transactionName": "AB_Statements_T05_SelectStatements",
+                "rawStartTime": 1772272490713,
+                "rawEndTime": 1772272490781,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0036797523498535158
+            },
+            {
+                "transactionName": "AB_Statements_T06_SelectDetailedStatements",
+                "rawStartTime": 1772272490781,
+                "rawEndTime": 1772272490854,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005543708801269531
+            },
+            {
+                "transactionName": "AB_Statements_T07_Choose_dates",
+                "rawStartTime": 1772272490854,
+                "rawEndTime": 1772272490923,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0035631656646728517
+            }
+        ]
+    }
+]

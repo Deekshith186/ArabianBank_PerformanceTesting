@@ -1,0 +1,10 @@
+GET http://192.168.1.2:7001/LoanIQ/accounts.jsp HTTP/1.1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.1.2:7001/LoanIQ/Login?JSESSIONID=5PeOCpGdA0aYRyEZeT0xPmwmg6aRrFBK9aADvf28l6sPmc2mb-sS!-1230384288!1771909583261
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=5PeOCpGdA0aYRyEZeT0xPmwmg6aRrFBK9aADvf28l6sPmc2mb-sS!-1230384288; dtCookie=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI; rxVisitor=1771909584723P5AK5MV0J8K9DB7J3ESJOUDQ81LCR6G3; dtCookie1zefxo3e=v_4_srv_2_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxvt=1771911469520|1771909584724; dtPC=-9217$109668621_11h-vMRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0e0; dtSa1zefxo3e=true%7CC%7C-1%7Cimage1%7C-%7C1771909692878%7C109668621_11%7Chttp%3A%2F%2F192.168.1.2%3A7001%2FLoanIQ%2FLogin%3FJSESSIONID%3D5PeOCpGdA0aYRyEZeT0xPmwmg6aRrFBK9aADvf28l6sPmc2mb-sS%21-1230384288%211771909583261%7C%7C%7C%7C
+Host: 192.168.1.2:7001
+

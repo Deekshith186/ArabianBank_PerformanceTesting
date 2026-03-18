@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Dr.&firstname=Akon1&middlename=&lastname=Shon2&dateofbirth=14-10"
+"-1994&gender1=Female&maritalstatus=Married&Qualification=Diploma&phonenumber=9848022331&mobile"
+"=7290825091&currentaddress=DNo11-16&country=Germany&state=Bavaria&city=Bamberg&pincode=523186&"
+"yearsatresidence=4&numberofdependents=0&residentstatus=Own+house&officeaddress=Madhapur-1&emai"
+"l=Akon1%40gmail.com&pannumber=BZJPB99991&youare=Electronics+Engineer&nameofcompany=Quantum-1&c"
+"ompanynature=Non-IT&totalyearsofexperience=5&totalyearsofexperience1=1"

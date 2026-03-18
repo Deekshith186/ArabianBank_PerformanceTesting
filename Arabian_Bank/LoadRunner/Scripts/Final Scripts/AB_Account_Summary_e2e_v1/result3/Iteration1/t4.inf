@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/html
+StepName=Custom Request: rb_bf18472vnr_3
+Total=1
+FileName1=t4.html
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1770720783081
+RawStepName=rb_bf18472vnr_3
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1770720783071
+URL1=http://192.168.1.29:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D17984_sn_JE5JC9TGGM0QPIODKHEJER3VE68AJLLH&svrid=-17984&flavor=post&vi=EFHRGBMSVNKGGMLUVFPMFHVPWDULRACI-0&modifiedSince=1770643675849&bp=3&app=ea7c4b59f27d43eb&crc=2514407681&en=1zefxo3e&end=1

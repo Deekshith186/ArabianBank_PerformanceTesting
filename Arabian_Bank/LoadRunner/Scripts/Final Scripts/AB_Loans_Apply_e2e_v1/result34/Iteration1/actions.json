@@ -1,0 +1,138 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1772878291410
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: personal.JPG",
+                "infFile": "t2.inf",
+                "time": 1772878291504
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1772878291962
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Loans.JPG",
+                "infFile": "t4.inf",
+                "time": 1772878292040
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Home Loan",
+                "infFile": "t5.inf",
+                "time": 1772878292078
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Apply",
+                "infFile": "t15.inf",
+                "time": 1772878292166
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: homeloan.jsp",
+                "infFile": "t17.inf",
+                "time": 1772878292226
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: homeloan.jsp_2",
+                "infFile": "t19.inf",
+                "time": 1772878292345
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: homeloan1.jsp",
+                "infFile": "t25.inf",
+                "time": 1772878292404
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: HomeLoan",
+                "infFile": "t26.inf",
+                "time": 1772878292479
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: logout.JPG",
+                "infFile": "t27.inf",
+                "time": 1772878292507
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_LoanApply_T01_Launch",
+                "rawStartTime": 1772878290662,
+                "rawEndTime": 1772878291412,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08164143562316895
+            },
+            {
+                "transactionName": "AB_LoanApply_T02_AccessPersonalBanking",
+                "rawStartTime": 1772878291412,
+                "rawEndTime": 1772878291505,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00660252571105957
+            },
+            {
+                "transactionName": "AB_LoanApply_T03_UserLogin",
+                "rawStartTime": 1772878291505,
+                "rawEndTime": 1772878291962,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018558025360107423
+            },
+            {
+                "transactionName": "AB_LoanApply_T04_SelectLoans",
+                "rawStartTime": 1772878291962,
+                "rawEndTime": 1772878292041,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005120754241943359
+            },
+            {
+                "transactionName": "AB_LoanApply_T05_SelectHomeLoans",
+                "rawStartTime": 1772878292041,
+                "rawEndTime": 1772878292078,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003470897674560547
+            },
+            {
+                "transactionName": "AB_LoanApply_T06_ApplyLoan",
+                "rawStartTime": 1772878292078,
+                "rawEndTime": 1772878292167,
+                "thinkTime": 0.0,
+                "wastedTime": 0.013494253158569336
+            },
+            {
+                "transactionName": "AB_LoanApply_T07_FillPersonalDetails",
+                "rawStartTime": 1772878292167,
+                "rawEndTime": 1772878292404,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02032637596130371
+            },
+            {
+                "transactionName": "AB_LoanApply_T08_FillCompanyDetails",
+                "rawStartTime": 1772878292404,
+                "rawEndTime": 1772878292479,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037817955017089845
+            },
+            {
+                "transactionName": "AB_LoanApply_T09_UserLogout",
+                "rawStartTime": 1772878292480,
+                "rawEndTime": 1772878292507,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033066272735595705
+            }
+        ]
+    }
+]

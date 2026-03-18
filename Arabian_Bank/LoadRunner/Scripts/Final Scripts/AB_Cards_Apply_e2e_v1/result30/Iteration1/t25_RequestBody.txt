@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Dr.&firstname=Akon2&middlename=&lastname=Shon2&dateofbirth=15-10"
+"-1994&gender1=Male&maritalstatus=Single&Qualification=Post+Graduate&phonenumber=9848022331&mob"
+"ile=7290825091&currentaddress=DNo11-16&country=IND&state=AP&city=Ramagundam&pincode=523186&yea"
+"rsatresidence=5&numberofdependents=3&residentstatus=Own+house&officeaddress=Madhapur-1&email=A"
+"kon1%40gmail.com&pannumber=BZJPB99991&youare=Electronics+Engineer&nameofcompany=Quantum-1&comp"
+"anynature=Non-IT&totalyearsofexperience=5&totalyearsofexperience1=2"

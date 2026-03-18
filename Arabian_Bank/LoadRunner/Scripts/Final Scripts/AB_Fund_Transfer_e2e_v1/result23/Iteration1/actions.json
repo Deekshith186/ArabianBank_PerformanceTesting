@@ -1,0 +1,171 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1772101833351
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: personal.JPG",
+                "infFile": "t2.inf",
+                "time": 1772101833477
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1772101833588
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Accounts.JPG",
+                "infFile": "t4.inf",
+                "time": 1772101833620
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Account Summary",
+                "infFile": "t6.inf",
+                "time": 1772101833657
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Accounts",
+                "infFile": "t7.inf",
+                "time": 1772101833683
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Fund Transfer",
+                "infFile": "t8.inf",
+                "time": 1772101833715
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: Bank to Bank Transfer",
+                "infFile": "t9.inf",
+                "time": 1772101833741
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: showdet.jsp",
+                "infFile": "t10.inf",
+                "time": 1772101833777
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: fund1.jsp",
+                "infFile": "t11.inf",
+                "time": 1772101833801
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: FundTransfer1.jsp",
+                "infFile": "t12.inf",
+                "time": 1772101833901
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: fundtransferresult.jsp",
+                "infFile": "t13.inf",
+                "time": 1772101833929
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: logout.JPG",
+                "infFile": "t14.inf",
+                "time": 1772101833959
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_FundTransfer_T01_Launch",
+                "rawStartTime": 1772101832977,
+                "rawEndTime": 1772101833352,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05290675163269043
+            },
+            {
+                "transactionName": "AB_FundTransfer_T02_AccessPersonalBanking",
+                "rawStartTime": 1772101833353,
+                "rawEndTime": 1772101833477,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004197359085083008
+            },
+            {
+                "transactionName": "AB_FundTransfer_T03_UserLogin",
+                "rawStartTime": 1772101833477,
+                "rawEndTime": 1772101833588,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011615991592407227
+            },
+            {
+                "transactionName": "AB_FundTransfer_T04_SelectAccount",
+                "rawStartTime": 1772101833588,
+                "rawEndTime": 1772101833620,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0038793087005615236
+            },
+            {
+                "transactionName": "AB_FundTransfer_T05_ViewAccountSummary",
+                "rawStartTime": 1772101833620,
+                "rawEndTime": 1772101833658,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003535032272338867
+            },
+            {
+                "transactionName": "AB_FundTransfer_T06_SelectAccountAgain",
+                "rawStartTime": 1772101833658,
+                "rawEndTime": 1772101833683,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0029222965240478517
+            },
+            {
+                "transactionName": "AB_FundTransfer_T07_SelectFundTransfer",
+                "rawStartTime": 1772101833683,
+                "rawEndTime": 1772101833716,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0032815933227539064
+            },
+            {
+                "transactionName": "AB_FundTransfer_T08_SelectBankToBankTransfer",
+                "rawStartTime": 1772101833716,
+                "rawEndTime": 1772101833741,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003017425537109375
+            },
+            {
+                "transactionName": "AB_FundTransfer_T09_AccountReview",
+                "rawStartTime": 1772101833741,
+                "rawEndTime": 1772101833777,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037157535552978517
+            },
+            {
+                "transactionName": "AB_FundTransfer_T10_SubmitAccount",
+                "rawStartTime": 1772101833777,
+                "rawEndTime": 1772101833802,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037238597869873049
+            },
+            {
+                "transactionName": "AB_FundTransfer_T11_PayAmount",
+                "rawStartTime": 1772101833802,
+                "rawEndTime": 1772101833929,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011700630187988282
+            },
+            {
+                "transactionName": "AB_FundTransfer_T12_UserLogout",
+                "rawStartTime": 1772101833929,
+                "rawEndTime": 1772101833960,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0052661895751953129
+            }
+        ]
+    }
+]

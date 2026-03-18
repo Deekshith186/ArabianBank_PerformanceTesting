@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=text/html
+StepName=Submit Data: homeloan.jsp_2
+Total=1
+FileName1=t10.html
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=1772799092596
+RawStepName=homeloan.jsp_2
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1772799092568
+URL1=http://192.168.1.4:7001/LoanIQ/homeloan.jsp

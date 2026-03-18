@@ -1,0 +1,5 @@
+"title=Mr.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14-10-1994&gender1=Male&mar"
+"italstatus=Single&Qualification=Diploma&phonenumber=1234567830&mobile=7290825030&currentaddres"
+"s=DNo11-16&country=IND&state=JK&city=&pincode=523186&yearsatresidence=0&numberofdependents=4&r"
+"esidentstatus=company+Provided&officeaddress=Madhapur-30&email=Akon1%40gmail.com&pannumber=BZJ"
+"PB999930"

@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1773137560643
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: personal.JPG",
+                "infFile": "t2.inf",
+                "time": 1773137560748
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_CardsApply_T01_Launch",
+                "rawStartTime": 1773137558531,
+                "rawEndTime": 1773137560645,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08026337623596192
+            },
+            {
+                "transactionName": "AB_CardsApply_T02_AccessPersonalBanking",
+                "rawStartTime": 1773137560645,
+                "rawEndTime": 1773137560748,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005677700042724609
+            }
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Mrs.&firstname=Akon2&middlename=&lastname=Shon1&dateofbirth=15-1"
+"0-1994&gender1=Female&maritalstatus=Married&Qualification=Diploma&phonenumber=9848022331&mobil"
+"e=7290825091&currentaddress=DNo11-16&country=AUS&state=Victoria&city=Warrnambool&pincode=52318"
+"6&yearsatresidence=2&numberofdependents=2&residentstatus=Own+house&officeaddress=Madhapur-1&em"
+"ail=Akon1%40gmail.com&pannumber=BZJPB99991&youare=Hardware+Engineer&nameofcompany=Quantum-1&co"
+"mpanynature=IT&totalyearsofexperience=1&totalyearsofexperience1=2"

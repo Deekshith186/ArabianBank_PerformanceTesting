@@ -1,0 +1,44 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1770720639858
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: rb_bf18472vnr",
+                "infFile": "t2.inf",
+                "time": 1770720639911
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: rb_bf18472vnr_2",
+                "infFile": "t3.inf",
+                "time": 1770720639991
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: rb_bf18472vnr_3",
+                "infFile": "t4.inf",
+                "time": 1770720640025
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: rb_bf18472vnr_4",
+                "infFile": "t5.inf",
+                "time": 1770720640055
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: rb_bf18472vnr_5",
+                "infFile": "t6.inf",
+                "time": 1770720640095
+            }
+        ],
+        "transactions": []
+    }
+]

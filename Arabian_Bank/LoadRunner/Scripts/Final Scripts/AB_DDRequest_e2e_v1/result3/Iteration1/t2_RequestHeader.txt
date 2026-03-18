@@ -1,0 +1,10 @@
+GET /LoanIQ/login.jsp HTTP/1.1
+Referer: http://192.168.1.2:7001/LoanIQ/
+Accept-Language: en-US,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.1.2:7001
+Cookie: dtCookie1zefxo3e=v_4_srv_2_sn_4E040A71206E6552177FCB53B6D36539_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; JSESSIONID=nDmOJk4mqLYZTPy7IXJoZ3gExnBvHwpw8cezNQQY-oLARjASIDGB!-1230384288
+

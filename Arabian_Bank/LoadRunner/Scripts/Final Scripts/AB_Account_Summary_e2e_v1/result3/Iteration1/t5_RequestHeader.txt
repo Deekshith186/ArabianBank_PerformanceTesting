@@ -1,0 +1,11 @@
+POST /LoanIQ/rb_bf18472vnr?sc=1&si=v_4_srv_-2D17984_sn_JE5JC9TGGM0QPIODKHEJER3VE68AJLLH&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1770643675849&av=1.329.10&cy=event&bc=3779610747&co=snappy&st=1770719053787&ss=1&qc=2707770648&end=1 HTTP/1.1
+Referer: http://192.168.1.29:7001/LoanIQ/
+Accept-Language: en-US,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: 192.168.1.29:7001
+Cookie: dtCookie1zefxo3e=v_4_srv_2_sn_JE5JC9TGGM0QPIODKHEJER3VE68AJLLH_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; JSESSIONID=20ZHLuja58MBvpN8Ru-tmR1hLz_KDlTrL30U0pnPgoW76CZVdH2W!861341624
+Content-Length: 824
+

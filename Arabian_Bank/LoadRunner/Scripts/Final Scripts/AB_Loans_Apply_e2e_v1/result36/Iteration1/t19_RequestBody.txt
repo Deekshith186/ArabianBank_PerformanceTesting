@@ -1,0 +1,5 @@
+"loanamountrequiredrupees=214002&Tenure=60&title=Dr.&firstname=Akon2&middlename=&lastname=Shon2"
+"&dateofbirth=14-10-1994&gender1=Female&maritalstatus=Single&Qualification=Diploma&phonenumber="
+"9848022331&mobile=7290825095&currentaddress=D.No.11-12&country=AUS&state=Norfolk+Island&city=&"
+"pincode=523186&yearsatresidence=1&numberofdependents=1&residentstatus=Own+house&officeaddress="
+"Madhapur-2&email=Akon2%40gmail.com&pannumber=BZJPB99992"

@@ -1,0 +1,13 @@
+[t24]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=text/html
+StepName=Submit Data: americonapply1.jsp
+Total=1
+FileName1=t24.html
+RequestHeaderFile=t24_RequestHeader.txt
+ResponseHeaderFile=t24_ResponseHeader.txt
+RawStepEndTime=1773122229658
+RawStepName=americonapply1.jsp
+RequestBodyFile=t24_RequestBody.txt
+RawStepStartTime=1773122229619
+URL1=http://192.168.1.4:7001/LoanIQ/americonapply1.jsp

@@ -1,0 +1,164 @@
+
+
+
+<html>
+<head>
+<title>LoanIQ: DDRequest</title>
+<script type="text/javascript" src="/LoanIQ/ruxitagentjs_ICA15789NPRTUVXfqrux_10331260218130851.js" data-dtconfig="app=ea7c4b59f27d43eb|owasp=1|featureHash=ICA15789NPRTUVXfqrux|rdnt=1|uxrgce=1|cuc=1zefxo3e|mel=100000|expw=1|dpvc=1|lastModification=1771507651721|postfix=1zefxo3e|tp=500,50,0|srbbv=2|agentUri=/LoanIQ/ruxitagentjs_ICA15789NPRTUVXfqrux_10331260218130851.js|reportUrl=/LoanIQ/rb_bf18472vnr|rid=RID_-754379583|rpid=2145794687" data-config='{"revision":1771507651721,"beaconUri":"\/LoanIQ\/rb_bf18472vnr","agentUri":"\/LoanIQ\/ruxitagentjs_ICA15789NPRTUVXfqrux_10331260218130851.js","environmentId":"1zefxo3e","modules":"ICA15789NPRTUVXfqrux"}' data-envconfig='{"tracestateKeyPrefix":"125feb6f-695a4262"}' data-appconfig='{"app":"ea7c4b59f27d43eb"}'></script><script language="JavaScript">
+
+function getCommission()
+{
+	if(parseFloat(form1.ddamt.value)<100)	
+	{
+		alert('Minumum Amount For DD Request 100/-');
+		form1.ddamt.focus();
+		return false;
+	}
+	f1.amt.value=form1.ddamt.value;
+	f1.payname.value=form1.payname.value;
+	f1.paybank.value=form1.paybank.value;
+	f1.submit();//location.replace("/LoanIQ/ddrequest.jsp?amt="+form1.ddamt.value+"&payname="+form1.payname.value+"&paybank="+form1.paybank.value);
+}	
+function isNumber(evt) 
+{
+	//evt = (evt) ? evt : window.event;
+	var charCode = (evt.which) ? evt.which : evt.keyCode;
+	if (charCode > 31 && (charCode < 48 || charCode > 57)) 
+	{
+		return false;
+	}
+	return true;
+}
+function validate()
+{
+	var payname=document.form1.payname.value;
+	var paybank=document.form1.paybank.value;
+	var ddamt=document.form1.ddamt.value;
+	if(payname==null||payname=="")
+	{
+		alert("Please Enter PayeeName...!");
+		document.form1.payname.focus();
+		return false;
+	}
+	if(paybank==null||paybank=="")
+	{
+		alert("Please Enter PayeeBank...!");
+		document.form1.paybank.focus();
+		return false;
+	}
+	if(ddamt==null||ddamt=="")
+	{
+		alert("Please Enter DD Amount...!");
+		document.form1.ddamt.focus();
+		return false;
+	}
+	return true;
+}
+
+</script>
+</head>
+<body bgcolor="#FFCC99" onLoad='form1.payname.focus()'>
+<form name='form1' action="ddresponse.jsp" method="post" onsubmit="return validate()">
+<table bgcolor="#FFCC99" width="80%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="bottom"> 
+    <td height="89" bgcolor="#FFCC99"><div align="right"></div></td>
+    <td width="35%" background="" bgcolor="#FFCC99">&nbsp;</td>
+    <td width="55%" height="89" valign="top" background="" bgcolor="#FFCC99"><div align="left"><font size="1"><br>
+        <font size="2" face="Arial, Helvetica, sans-serif"><strong> <span class="datestyle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <font color="#000000">
+        <!-- #BeginDate format:acAm1a -->
+       
+
+
+
+        <!-- #EndDate -->
+        &nbsp;</font></span></strong></font></font></div></td>
+  </tr>
+   <tr valign="top" bordercolor="#6699CC" bgcolor="#FFCC99"> 
+    <td height="18" colspan="3"> 
+      <div align="right" class="welcome"><font color="#000000"><strong>
+
+Welcome Mr.      IQ14289  &nbsp;&nbsp;
+Last Login:   
+
+24/2/2026 &nbsp;&nbsp;
+0-27-52PM
+
+</font></div></td>
+  </tr>
+  <tr> 
+    <td height="42" colspan="3"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="49%" height="35" valign="top" bordercolor="#6699CC" border=1> 
+            <div align="right"><a href="accounts.jsp"><img src="images/Accounts.JPG" name="image1" width="90" height="30" border="0" id="image1"></a></div></td>
+          <td width="12%"><div align="right"><a href="loans.jsp"><img src="images/Loans.JPG" name="image2" width="70" height="30" border="0"></a></div></td>
+          <td width="14%"><div align="center"><a href="BillPay.jsp"><img src="images/Billpay.JPG" name="image3" width="75" height="30" border="0"></a></div></td>
+          <td width="12%"><div align="center"><a href="CreditCards.jsp"><img src="images/cards.JPG" name="image4" width="100" height="30" border="0" id="image4"></a></div></td>
+          <td width="14%"><div align="center"><a href="Demat.jsp"><img src="images/Demat.JPG" name="image5" width="70" height="30" border="0"></a></div></td>
+          <td width="12%"><div align="right"><a href="Logout.jsp"><img src="images/logout.JPG" width="70" height="30" border="0"></a></div></td>
+        </tr>
+      </table></td>
+  </tr>
+<tr valign="top"> 
+    <td height="20" colspan="3"> <blockquote> 
+        <blockquote> 
+          <p><span class="subhead"><font color="#6699CC"><a href="ServiceRequests.jsp">Accounts</a>&gt;</font></span> 
+            <span class="welcome"><font color="#000000"><strong>DDRequest</strong></font></span></p>
+        </blockquote>
+      </blockquote></td>
+  </tr>
+  <tr valign="top" bgcolor="#FFCC99"> 
+    <td height="207" colspan="3">
+
+<table width="120%" border="0" cellpadding="0" cellspacing="0">
+    
+          <tr> 
+            <td height="22" valign="TOP" class="datestyle"> <div align="right"><font color="#000000"><strong>Payee 
+                Name</strong></font><font color="#FF0000">*</font></div></td>
+            <td height="22">&nbsp;&nbsp; <input name="payname" type="text" class="PasswordFields"  size="35"></td>
+          </tr>
+          
+          
+          <tr> 
+            <td width="41%" height="22" valign="TOP" class="datestyle"> <div align="right"><font color="#000000"><strong>Payee 
+                Bank</strong></font><font color="#FF0000">*</font></div></td>
+            <td width="59%" height="22"> &nbsp;&nbsp; <input name="paybank" type="text" class="PasswordFields"  size="40"> 
+            </td>
+          </tr>
+          
+          
+          <tr> 
+            <td class="datestyle" valign="TOP" height="0"> <div align="right"><font color="#000000"><strong>Amount</strong></font><font color="#FF0000">*</font></div></td>
+            <td height="0">&nbsp;&nbsp; <input name="ddamt" type="text"  class="PasswordFields" onChange="return getCommission()" onKeyPress="return isNumber(event)"></td>
+          </tr>
+          
+          
+          <tr> 
+            <td class="datestyle" valign="TOP" height="0"> <div align="right"><font color="#000000"><strong>Commission</strong></font><font color="#FF0000">*</font></div></td>
+            <td height="0"> &nbsp;&nbsp; <input name="ddcomm" type="text"  class="PasswordFields" readonly></td>
+          </tr>
+          
+</table>
+<div align="center"><br>
+        <input type="submit" name="Submit" style="WIDTH: 54px; HEIGHT: 23px"  value="Submit">
+        <br>
+        <br>
+        <br>
+      </div>
+          </td>
+  </tr>
+
+  <tr valign="top" bgcolor="#6699CC"> 
+    <td height="16" colspan="3"> 
+      <div align="center" class="conditions"><font color="#FFFFFF">Copyright 
+        2007 www.arabianbank.com All Rights Reserved</font></div></td>
+  </tr>
+</table>
+</form>
+<form name='f1' action='ddrequest.jsp' method=post>
+<input type=hidden name='amt'>
+<input type=hidden name='payname'>
+<input type=hidden name='paybank'>
+</form>
+</body>
+</html>

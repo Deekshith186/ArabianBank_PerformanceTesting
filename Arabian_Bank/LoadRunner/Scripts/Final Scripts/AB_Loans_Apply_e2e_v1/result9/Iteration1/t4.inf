@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/html
+StepName=Url: Loans.JPG
+Total=1
+FileName1=t4.html
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1772799680937
+RawStepName=Loans.JPG
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1772799680923
+URL1=http://192.168.1.4:7001/LoanIQ/loans.jsp

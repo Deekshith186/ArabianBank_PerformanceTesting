@@ -1,0 +1,74 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ_2",
+                "infFile": "t1.inf",
+                "time": 1771911354215
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: login.jsp",
+                "infFile": "t2.inf",
+                "time": 1771911354276
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1771911356695
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: accounts.jsp",
+                "infFile": "t4.inf",
+                "time": 1771911356760
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: ServiceRequests.jsp",
+                "infFile": "t5.inf",
+                "time": 1771911356847
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_DDRequest_T01_Launch",
+                "rawStartTime": 1771911353767,
+                "rawEndTime": 1771911354215,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06572437286376953
+            },
+            {
+                "transactionName": "AB_DDRequest_T02_AccessPersonalBanking",
+                "rawStartTime": 1771911354215,
+                "rawEndTime": 1771911354276,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005814790725708008
+            },
+            {
+                "transactionName": "AB_DDRequest_T03_UserLogin",
+                "rawStartTime": 1771911354277,
+                "rawEndTime": 1771911356695,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008758306503295899
+            },
+            {
+                "transactionName": "AB_DDRequest_T04_SelectAccount",
+                "rawStartTime": 1771911356695,
+                "rawEndTime": 1771911356761,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004319906234741211
+            },
+            {
+                "transactionName": "AB_DDRequest_T05_SelectServiceRequests",
+                "rawStartTime": 1771911356761,
+                "rawEndTime": 1771911356847,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005946636199951172
+            }
+        ]
+    }
+]

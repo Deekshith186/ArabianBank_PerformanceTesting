@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Mr.&firstname=Akon30&middlename=&lastname=Shon30&dateofbirth=14-"
+"10-1994&gender1=Female&maritalstatus=Married&Qualification=Post+Graduate&phonenumber=123456783"
+"0&mobile=7290825030&currentaddress=DNo11-16&country=IND&state=Gujarat&city=sidhpur&pincode=523"
+"186&yearsatresidence=5&numberofdependents=4&residentstatus=Own+house&officeaddress=Madhapur-30"
+"&email=Akon1%40gmail.com&pannumber=BZJPB999930&youare=Electronics+Engineer&nameofcompany=Quant"
+"um-30&companynature=IT&totalyearsofexperience=1&totalyearsofexperience1=5"

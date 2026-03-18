@@ -1,0 +1,125 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: LoanIQ_2",
+                "infFile": "t1.inf",
+                "time": 1771916698422
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: login.jsp",
+                "infFile": "t2.inf",
+                "time": 1771916698466
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1771916698560
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Url: accounts.jsp",
+                "infFile": "t4.inf",
+                "time": 1771916698599
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: ServiceRequests.jsp",
+                "infFile": "t5.inf",
+                "time": 1771916698633
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: ddrequest.jsp",
+                "infFile": "t6.inf",
+                "time": 1771916698676
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Submit Data: ddrequest.jsp_2",
+                "infFile": "t7.inf",
+                "time": 1771916698720
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Submit Data: ddresponse.jsp",
+                "infFile": "t8.inf",
+                "time": 1771916698782
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Submit Data: ddresponseresult.jsp",
+                "infFile": "t9.inf",
+                "time": 1771916698817
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: Logout.jsp",
+                "infFile": "t10.inf",
+                "time": 1771916698847
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_DDRequest_T01_Launch",
+                "rawStartTime": 1771916698340,
+                "rawEndTime": 1771916698422,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011875391006469727
+            },
+            {
+                "transactionName": "AB_DDRequest_T02_AccessPersonalBanking",
+                "rawStartTime": 1771916698424,
+                "rawEndTime": 1771916698467,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007041215896606445
+            },
+            {
+                "transactionName": "AB_DDRequest_T03_UserLogin",
+                "rawStartTime": 1771916698467,
+                "rawEndTime": 1771916698560,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007761478424072266
+            },
+            {
+                "transactionName": "AB_DDRequest_T04_SelectAccount",
+                "rawStartTime": 1771916698560,
+                "rawEndTime": 1771916698599,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007475376129150391
+            },
+            {
+                "transactionName": "AB_DDRequest_T05_SelectServiceRequests",
+                "rawStartTime": 1771916698600,
+                "rawEndTime": 1771916698633,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008036136627197266
+            },
+            {
+                "transactionName": "AB_DDRequest_T06_SelectDDRequest",
+                "rawStartTime": 1771916698633,
+                "rawEndTime": 1771916698676,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006333351135253906
+            },
+            {
+                "transactionName": "AB_DDRequest_T07_SubmitPayee",
+                "rawStartTime": 1771916698676,
+                "rawEndTime": 1771916698818,
+                "thinkTime": 0.0,
+                "wastedTime": 0.020573139190673829
+            },
+            {
+                "transactionName": "AB_DDRequest_T08_UserLogout",
+                "rawStartTime": 1771916698818,
+                "rawEndTime": 1771916698847,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006094932556152344
+            }
+        ]
+    }
+]

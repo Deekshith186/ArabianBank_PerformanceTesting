@@ -1,0 +1,71 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=AB_DDRequest_e2e_v1.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2023
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2023.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2023.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="AB_DDRequest_T01_Launch__*delimiter*__AB_DDRequest_T02_AccessPersonalBanking__*delimiter*__AB_DDRequest_T03_UserLogin__*delimiter*__AB_DDRequest_T04_SelectAccount__*delimiter*__AB_DDRequest_T05_SelectServiceRequests__*delimiter*__AB_DDRequest_T06_SelectDDRequest__*delimiter*__AB_DDRequest_T07_SubmitPayee__*delimiter*__AB_DDRequest_T08_UserLogout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result24
+ActiveRunName=result24
+[Transactions]
+AB_DDRequest_T01_Launch=
+AB_DDRequest_T02_AccessPersonalBanking=
+AB_DDRequest_T03_UserLogin=
+AB_DDRequest_T04_SelectAccount=
+AB_DDRequest_T05_SelectServiceRequests=
+AB_DDRequest_T06_SelectDDRequest=
+AB_DDRequest_T07_SubmitPayee=
+AB_DDRequest_T08_UserLogout=
+[ManuallyExtraFiles]
+correlations.c=

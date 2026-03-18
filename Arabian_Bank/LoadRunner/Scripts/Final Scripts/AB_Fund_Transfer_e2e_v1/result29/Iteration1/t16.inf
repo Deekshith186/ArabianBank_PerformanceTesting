@@ -1,0 +1,13 @@
+[t16]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=text/html
+StepName=Url: showdet.jsp
+Total=1
+FileName1=t16.html
+RequestHeaderFile=t16_RequestHeader.txt
+ResponseHeaderFile=t16_ResponseHeader.txt
+RawStepEndTime=1772102500654
+RawStepName=showdet.jsp
+RequestBodyFile=t16_RequestBody.txt
+RawStepStartTime=1772102500637
+URL1=http://192.168.1.2:7001/LoanIQ/showdet.jsp?taccno=IQ14290

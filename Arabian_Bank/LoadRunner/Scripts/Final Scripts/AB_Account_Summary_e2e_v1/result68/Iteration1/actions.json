@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: accounts.jsp",
+                "infFile": "t4.inf",
+                "time": 1773743778138
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: AccountSummary.jsp",
+                "infFile": "t7.inf",
+                "time": 1773743782201
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_AccountSummary_T04_SelectAccount",
+                "rawStartTime": 1773743778109,
+                "rawEndTime": 1773743778138,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002840280532836914
+            },
+            {
+                "transactionName": "AB_AccountSummary_T05_ViewAccountSummary",
+                "rawStartTime": 1773743782141,
+                "rawEndTime": 1773743782201,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007387399673461914
+            }
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+[t25]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=text/html
+StepName=Submit Data: AmericonCard
+Total=1
+FileName1=t25.html
+RequestHeaderFile=t25_RequestHeader.txt
+ResponseHeaderFile=t25_ResponseHeader.txt
+RawStepEndTime=1773058215962
+RawStepName=AmericonCard
+RequestBodyFile=t25_RequestBody.txt
+RawStepStartTime=1773058215491
+URL1=http://192.168.1.4:7001/LoanIQ/AmericonCard

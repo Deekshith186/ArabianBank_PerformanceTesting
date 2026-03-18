@@ -1,0 +1,963 @@
+[API Trapper      (2a80:2c14)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (1448:5190)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1448:5190)] Load Network Traffic Analyzers:
+[Network Analyzer (1448:5190)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1448:5190)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1448:5190)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1448:5190)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1448:5190)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1448:5190)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1448:5190)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (1448:5190)] Started proxy on port 8888 listening IP 192.168.1.4, 127.0.0.1, in synchronous mode
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:3618
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:21644
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:21645
+[Proxy Recording  (1448:3058)] Trying to connect to http://192.168.1.2:7001/LoanIQ/ ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:49672
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:6390
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:24875
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:52884
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:20335
+[Proxy Recording  (1448:3058)] Trying to connect to http://192.168.1.2:7001/LoanIQ/ ...
+[Proxy Recording  (1448:3058)] Received response of 295 header and 2477 body bytes from http://192.168.1.2:7001/LoanIQ/
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:20337
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:20338
+[Web Request      (1448:3058)] "GET http://192.168.1.2:7001/LoanIQ/"   
+[Network Analyzer (1448:3058)]   (Sid:  1) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid:  1) Server -> Client : 312 bytes  (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid:  1) Server -> Client : 2477 bytes  (Service=HTTP)
+[Proxy Recording  (1448:3058)] Sent 2477 bytes to client @ 192.168.1.4:21644
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:42414
+[Proxy Recording  (1448:49dc)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/personal.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:35926
+[Proxy Recording  (1448:3058)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/corporative.JPG ...
+[Proxy Recording  (1448:49dc)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/personal.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:40511
+[Proxy Recording  (1448:3058)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/corporative.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:41020
+[Proxy Recording  (1448:1714)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/business.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:2483
+[Proxy Recording  (1448:1714)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/business.JPG ...
+[Proxy Recording  (1448:49dc)] Received response of 156 header and 19487 body bytes from http://192.168.1.2:7001/LoanIQ/images/personal.JPG
+[Web Request      (1448:49dc)] "GET http://192.168.1.2:7001/LoanIQ/images/personal.JPG"   
+[Network Analyzer (1448:49dc)]   (Sid:  2) Client -> Server @ : 495 bytes (Service=HTTP)
+[Proxy Recording  (1448:3058)] Received response of 156 header and 64274 body bytes from http://192.168.1.2:7001/LoanIQ/images/corporative.JPG
+[Network Analyzer (1448:49dc)]   (Sid:  2) Server -> Client : 173 bytes  (Service=HTTP)
+[Network Analyzer (1448:49dc)]   (Sid:  2) Server -> Client : 19487 bytes  (Service=HTTP)
+[Proxy Recording  (1448:1714)] Received response of 156 header and 20792 body bytes from http://192.168.1.2:7001/LoanIQ/images/business.JPG
+[Proxy Recording  (1448:49dc)] Sent 19487 bytes to client @ 192.168.1.4:42414
+[Proxy Recording  (1448:49dc)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/nri.JPG ...
+[Proxy Recording  (1448:49dc)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/nri.JPG ...
+[Web Request      (1448:3058)] "GET http://192.168.1.2:7001/LoanIQ/images/corporative.JPG"   
+[Network Analyzer (1448:3058)]   (Sid:  3) Client -> Server @ : 498 bytes (Service=HTTP)
+[Proxy Recording  (1448:49dc)] Received response of 156 header and 15584 body bytes from http://192.168.1.2:7001/LoanIQ/images/nri.JPG
+[Network Analyzer (1448:3058)]   (Sid:  3) Server -> Client : 173 bytes  (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid:  3) Server -> Client : 64274 bytes  (Service=HTTP)
+[Proxy Recording  (1448:3058)] Sent 64274 bytes to client @ 192.168.1.4:35926
+[Web Request      (1448:1714)] "GET http://192.168.1.2:7001/LoanIQ/images/business.JPG"   
+[Network Analyzer (1448:1714)]   (Sid:  4) Client -> Server @ : 495 bytes (Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid:  4) Server -> Client : 173 bytes  (Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid:  4) Server -> Client : 20792 bytes  (Service=HTTP)
+[Proxy Recording  (1448:1714)] Sent 20792 bytes to client @ 192.168.1.4:40511
+[Web Request      (1448:49dc)] "GET http://192.168.1.2:7001/LoanIQ/images/nri.JPG"   
+[Network Analyzer (1448:49dc)]   (Sid:  5) Client -> Server @ : 490 bytes (Service=HTTP)
+[Network Analyzer (1448:49dc)]   (Sid:  5) Server -> Client : 173 bytes  (Service=HTTP)
+[Network Analyzer (1448:49dc)]   (Sid:  5) Server -> Client : 15584 bytes  (Service=HTTP)
+[Proxy Recording  (1448:49dc)] Sent 15584 bytes to client @ 192.168.1.4:41020
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:51976
+[Proxy Recording  (1448:1714)] Trying to connect to http://192.168.1.2:7001/favicon.ico ...
+[Proxy Recording  (1448:1714)] Trying to connect to http://192.168.1.2:7001/favicon.ico ...
+[Proxy Recording.Error (1448:1714)] Failed to connect to server http://192.168.1.2:7001/favicon.ico.
+Message=ProtocolError, status=The remote server returned an error: (404) Not Found.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (1448:1714)] Received response of 101 header and 1164 body bytes from http://192.168.1.2:7001/favicon.ico
+[Web Request      (1448:1714)] "GET http://192.168.1.2:7001/favicon.ico"   
+[Network Analyzer (1448:1714)]   (Sid:  6) Client -> Server @ : 480 bytes (Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid:  6) Server -> Client : 125 bytes  (Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid:  6) Server -> Client : 1164 bytes  (Service=HTTP)
+[Proxy Recording  (1448:1714)] Sent 1164 bytes to client @ 192.168.1.4:51976
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:1078
+[Proxy Recording  (1448:26c0)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording  (1448:26c0)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording  (1448:26c0)] Received response of 557 header and 10581 body bytes from https://login.live.com:443/RST2.srf
+[Proxy Recording  (1448:26c0)] Sent 10581 bytes to client @ 192.168.1.4:21645
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:1059
+[Proxy Recording.Error (1448:230c)] Exception is caught while trying to connect to https://edge.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448:230c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:26674
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:27341
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:54478
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:12907
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:64022
+[Proxy Recording.Error (1448:34b0)] Exception is caught while trying to connect to https://edge.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448:34b0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1448: fe0)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448: fe0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (1448:2eb8)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (1448:2eb8)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:1921
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26200&devicefamily=desktop&installdate=1763359502&clientversion=145.0.3800.70&experimentationmode=2&scpguard=1&scpfull=0&scpver=13 ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26200&devicefamily=desktop&installdate=1763359502&clientversion=145.0.3800.70&experimentationmode=2&scpguard=1&scpfull=0&scpver=13 ...
+[Proxy Recording  (1448: 65c)] Trying to connect to https://edge.microsoft.com:443/identity/api/v3/msa ...
+[Proxy Recording  (1448: 65c)] Trying to connect to https://edge.microsoft.com:443/identity/api/v3/msa ...
+[Proxy Recording  (1448:2eb8)] Received response of 1033 header and 109 body bytes from https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo
+[Network Analyzer (1448:2eb8)]   (Sid:  7) Client -> Server @ : 633 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:2eb8)] "POST https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"   
+[Network Analyzer (1448:2eb8)]   (Sid:  7) Client -> Server @ : 82 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:2eb8)]   (Sid:  7) Server -> Client : 1050 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:2eb8)]   (Sid:  7) Server -> Client : 109 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:2eb8)] Sent 109 bytes to client @ 192.168.1.4:20335
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:50133
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:18483
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:17169
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:50445
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:53183
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:27063
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:47554
+[Proxy Recording  (1448: 65c)] Received response of 316 header and 3199 body bytes from https://edge.microsoft.com:443/identity/api/v3/msa
+[Network Analyzer (1448: 65c)]   (Sid:  8) Client -> Server @ : 835 bytes (SSL)(Service=HTTP)
+[Web Request      (1448: 65c)] "POST https://edge.microsoft.com/identity/api/v3/msa"   
+[Network Analyzer (1448: 65c)]   (Sid:  8) Client -> Server @ : 1242 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448: 65c)]   (Sid:  8) Server -> Client : 333 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448: 65c)]   (Sid:  8) Server -> Client : 3199 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448: 65c)] Sent 3199 bytes to client @ 192.168.1.4:24875
+[Proxy Recording  (1448:3e2c)] Received response of 477 header and 295 body bytes from https://edge.microsoft.com:443/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26200&devicefamily=desktop&installdate=1763359502&clientversion=145.0.3800.70&experimentationmode=2&scpguard=1&scpfull=0&scpver=13
+[Web Request      (1448:3e2c)] "GET https://edge.microsoft.com/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26200&devicefamily=desktop&installdate=1763359502&clientversion=145.0.3800.70&experimentationmode=2&scpguard=1&scpfull=0&scpver=13"   
+[Network Analyzer (1448:3e2c)]   (Sid:  9) Client -> Server @ : 1008 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid:  9) Server -> Client : 494 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid:  9) Server -> Client : 295 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3e2c)] Sent 295 bytes to client @ 192.168.1.4:52884
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:1843
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:58760
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:51713
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:17540
+[Proxy Recording.Error (1448:3058)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448:49dc)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448:3058)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1448:49dc)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (1448:246c)] Trying to connect to https://substrate.office.com:443/imageB2/v1.0/me/image/$value ...
+[Proxy Recording  (1448:246c)] Trying to connect to https://substrate.office.com:443/imageB2/v1.0/me/image/$value ...
+[Proxy Recording  (1448:2c64)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (1448:2c64)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording.Error (1448:246c)] Failed to connect to server https://substrate.office.com:443/imageB2/v1.0/me/image/$value.
+Message=ProtocolError, status=The remote server returned an error: (401) Unauthorized.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (1448:246c)] Received response of 1370 header and 0 body bytes from https://substrate.office.com:443/imageB2/v1.0/me/image/$value
+[Web Request      (1448:246c)] "GET https://substrate.office.com/imageB2/v1.0/me/image/$value"   
+[Network Analyzer (1448:246c)]   (Sid: 10) Client -> Server @ : 1757 bytes (SSL)(Service=HTTP)
+[Proxy Recording.Error (1448:2c64)] Failed to connect to server https://substrate.office.com:443/profileb2/v2.0/me/V1Profile.
+Message=ProtocolError, status=The remote server returned an error: (401) Unauthorized.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (1448:2c64)] Received response of 1407 header and 0 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Network Analyzer (1448:246c)]   (Sid: 10) Server -> Client : 1397 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:246c)] Sent 0 bytes to client @ 192.168.1.4:20337
+[Web Request      (1448:2c64)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Network Analyzer (1448:2c64)]   (Sid: 11) Client -> Server @ : 1756 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 11) Server -> Client : 1434 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:2c64)] Sent 0 bytes to client @ 192.168.1.4:20338
+[Proxy Recording.Error (1448: 65c)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448: 65c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1448:230c)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448:1714)] Exception is caught while trying to connect to https://substrate.office.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448:34b0)] Exception is caught while trying to connect to https://edge.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448:2eb8)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448: fe0)] Exception is caught while trying to connect to https://www.bing.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448:230c)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1448:1714)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1448:34b0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1448:2eb8)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1448:26c0)] Exception is caught while trying to connect to https://nav-edge.smartscreen.microsoft.com:443, message=Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+[Proxy Recording.Error (1448: fe0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording.Error (1448:26c0)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (1448: 65c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings?EnabledServiceFeaturesv2=edgeServerUX.shopping.msEdgeShoppingCashbackDismissTimeout2s ...
+[Proxy Recording  (1448: 65c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings?EnabledServiceFeaturesv2=edgeServerUX.shopping.msEdgeShoppingCashbackDismissTimeout2s ...
+[Proxy Recording  (1448:49dc)] Trying to connect to https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json ...
+[Proxy Recording  (1448:230c)] Trying to connect to https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json ...
+[Proxy Recording  (1448:246c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (1448:49dc)] Trying to connect to https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json ...
+[Proxy Recording  (1448:230c)] Trying to connect to https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json ...
+[Proxy Recording  (1448:246c)] Trying to connect to https://www.bing.com:443/api/shopping/v1/user/shoppingsettings ...
+[Proxy Recording  (1448:2c64)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (1448:2c64)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://edge.microsoft.com:443/abusiveadblocking/api/v1/blocklist ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://edge.microsoft.com:443/abusiveadblocking/api/v1/blocklist ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448: 65c)] Received response of 820 header and 418 body bytes from https://www.bing.com:443/api/shopping/v1/user/shoppingsettings?EnabledServiceFeaturesv2=edgeServerUX.shopping.msEdgeShoppingCashbackDismissTimeout2s
+[Web Request      (1448: 65c)] "GET https://www.bing.com/api/shopping/v1/user/shoppingsettings?EnabledServiceFeaturesv2=edgeServerUX.shopping.msEdgeShoppingCashbackDismissTimeout2s"   
+[Network Analyzer (1448: 65c)]   (Sid: 12) Client -> Server @ : 1239 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448: 65c)]   (Sid: 12) Server -> Client : 809 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448: 65c)]   (Sid: 12) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448: 65c)] Sent 418 bytes to client @ 192.168.1.4:27063
+[Proxy Recording  (1448:3e2c)] Received response of 426 header and 0 body bytes from https://edge.microsoft.com:443/abusiveadblocking/api/v1/blocklist
+[Web Request      (1448:3e2c)] "GET https://edge.microsoft.com/abusiveadblocking/api/v1/blocklist"   
+[Network Analyzer (1448:3e2c)]   (Sid: 13) Client -> Server @ : 678 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 13) Server -> Client : 453 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3e2c)] Sent 0 bytes to client @ 192.168.1.4:50133
+[Proxy Recording  (1448:49dc)] Received response of 692 header and 681403 body bytes from https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json
+[Web Request      (1448:49dc)] "GET https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json"   
+[Network Analyzer (1448:49dc)]   (Sid: 14) Client -> Server @ : 423 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:49dc)]   (Sid: 14) Server -> Client : 709 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:49dc)]   (Sid: 14) Server -> Client : 681403 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:49dc)] Sent 681403 bytes to client @ 192.168.1.4:17169
+[Proxy Recording  (1448:3058)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:3058)] Received response of 251 header and 818 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:3058)]   (Sid: 15) Client -> Server @ : 647 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:3058)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:3058)]   (Sid: 15) Client -> Server @ : 1929 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 15) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 15) Server -> Client : 818 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3058)] Sent 818 bytes to client @ 192.168.1.4:18483
+[Proxy Recording  (1448:246c)] Received response of 1008 header and 418 body bytes from https://www.bing.com:443/api/shopping/v1/user/shoppingsettings
+[Web Request      (1448:246c)] "GET https://www.bing.com/api/shopping/v1/user/shoppingsettings"   
+[Network Analyzer (1448:246c)]   (Sid: 16) Client -> Server @ : 411 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:246c)]   (Sid: 16) Server -> Client : 1025 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:246c)]   (Sid: 16) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:246c)] Sent 418 bytes to client @ 192.168.1.4:50445
+[Proxy Recording  (1448:2eb8)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (1448:2eb8)] Trying to connect to https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo ...
+[Proxy Recording  (1448:230c)] Received response of 692 header and 681403 body bytes from https://www.bing.com:443/bloomfilterfiles/ExpandedDomainsFilterGlobal.json
+[Web Request      (1448:230c)] "GET https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json"   
+[Network Analyzer (1448:230c)]   (Sid: 17) Client -> Server @ : 1249 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 17) Server -> Client : 709 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 17) Server -> Client : 681403 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:2c64)] Received response of 1323 header and 3919 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Proxy Recording  (1448:230c)] Sent 681403 bytes to client @ 192.168.1.4:47554
+[Proxy Recording  (1448:1714)] Trying to connect to https://ntp.msn.com:443/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&feed_dis=always&en_widget_reg=false&startpage=1&PC=LCTS&prerender=1 ...
+[Proxy Recording  (1448:1714)] Trying to connect to https://ntp.msn.com:443/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&feed_dis=always&en_widget_reg=false&startpage=1&PC=LCTS&prerender=1 ...
+[Web Request      (1448:2c64)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Network Analyzer (1448:2c64)]   (Sid: 18) Client -> Server @ : 1934 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 18) Server -> Client : 1312 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 18) Server -> Client : 3919 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:2c64)] Sent 3919 bytes to client @ 192.168.1.4:53183
+[Proxy Recording  (1448:2eb8)] Received response of 1033 header and 109 body bytes from https://www.bing.com:443/api/shopping/v1/savings/rewards/rewardsUserInfo
+[Network Analyzer (1448:2eb8)]   (Sid: 19) Client -> Server @ : 609 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:2eb8)] "POST https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"   
+[Network Analyzer (1448:2eb8)]   (Sid: 19) Client -> Server @ : 82 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:2eb8)]   (Sid: 19) Server -> Client : 1050 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:2eb8)]   (Sid: 19) Server -> Client : 109 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:2eb8)] Sent 109 bytes to client @ 192.168.1.4:51713
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:44927
+[Proxy Recording  (1448:1714)] Received response of 10497 header and 37437 body bytes from https://ntp.msn.com:443/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&feed_dis=always&en_widget_reg=false&startpage=1&PC=LCTS&prerender=1
+[Web Request      (1448:1714)] "GET https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&feed_dis=always&en_widget_reg=false&startpage=1&PC=LCTS&prerender=1"   
+[Network Analyzer (1448:1714)]   (Sid: 20) Client -> Server @ : 7068 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid: 20) Server -> Client : 10486 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid: 20) Server -> Client : 37437 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:1714)] Sent 37437 bytes to client @ 192.168.1.4:1843
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:39745
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:44473
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:1151
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:46507
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:48742
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:43241
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:43159
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://www.bing.com:443/fd/auth/signin/v2?action=header ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://www.bing.com:443/fd/auth/signin/v2?action=header ...
+[Proxy Recording  (1448:34b0)] Trying to connect to https://prod.rewardsplatform.microsoft.com:443/dapi/me?channel=edge&options=Profile,Promotions,Rebates ...
+[Proxy Recording  (1448:34b0)] Trying to connect to https://prod.rewardsplatform.microsoft.com:443/dapi/me?channel=edge&options=Profile,Promotions,Rebates ...
+[Proxy Recording  (1448:3e2c)] Received response of 3456 header and 0 body bytes from https://www.bing.com:443/fd/auth/signin/v2?action=header
+[Web Request      (1448:3e2c)] "GET https://www.bing.com/fd/auth/signin/v2?action=header"   
+[Network Analyzer (1448:3e2c)]   (Sid: 21) Client -> Server @ : 5012 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 21) Server -> Client : 3473 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3e2c)] Sent 0 bytes to client @ 192.168.1.4:44927
+[Proxy Recording  (1448:34b0)] Received response of 444 header and 11167 body bytes from https://prod.rewardsplatform.microsoft.com:443/dapi/me?channel=edge&options=Profile,Promotions,Rebates
+[Web Request      (1448:34b0)] "GET https://prod.rewardsplatform.microsoft.com/dapi/me?channel=edge&options=Profile,Promotions,Rebates"   
+[Network Analyzer (1448:34b0)]   (Sid: 22) Client -> Server @ : 2128 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:34b0)]   (Sid: 22) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:34b0)]   (Sid: 22) Server -> Client : 11167 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:34b0)] Sent 11167 bytes to client @ 192.168.1.4:58760
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:59457
+[Proxy Recording  (1448:2c64)] Trying to connect to https://assets.msn.com:443/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-26T12%3A31%3A49.940%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x732&wposchema=byregion ...
+[Proxy Recording  (1448:2c64)] Trying to connect to https://assets.msn.com:443/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-26T12%3A31%3A49.940%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x732&wposchema=byregion ...
+[Proxy Recording  (1448:2c64)] Received response of 2637 header and 2 body bytes from https://assets.msn.com:443/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-26T12%3A31%3A49.940%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x732&wposchema=byregion
+[Web Request      (1448:2c64)] "OPTIONS https://assets.msn.com/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-26T12%3A31%3A49.940%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x732&wposchema=byregion"   
+[Network Analyzer (1448:2c64)]   (Sid: 23) Client -> Server @ : 1118 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 23) Server -> Client : 2654 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 23) Server -> Client : 2 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:2c64)] Sent 2 bytes to client @ 192.168.1.4:46507
+[Proxy Recording  (1448:230c)] Trying to connect to https://assets.msn.com:443/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-26T12%3A31%3A49.940%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x732&wposchema=byregion ...
+[Proxy Recording  (1448:230c)] Trying to connect to https://assets.msn.com:443/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-26T12%3A31%3A49.940%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x732&wposchema=byregion ...
+[Proxy Recording  (1448:230c)] Received response of 6059 header and 96818 body bytes from https://assets.msn.com:443/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-26T12%3A31%3A49.940%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x732&wposchema=byregion
+[Web Request      (1448:230c)] "GET https://assets.msn.com/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-26T12%3A31%3A49.940%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x732&wposchema=byregion"   
+[Network Analyzer (1448:230c)]   (Sid: 24) Client -> Server @ : 6394 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 24) Server -> Client : 6048 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 24) Server -> Client : 96818 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:230c)] Sent 96818 bytes to client @ 192.168.1.4:1151
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:22008
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:27651
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:10624
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:29910
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:3461
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:30104
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:48402
+[Proxy Recording  (1448:1714)] Trying to connect to https://ntp.msn.com:443/edge/ntp/service-worker.js?bundlevariant=ruby&bundles=latest&riverAgeMinutes=2880&navAgeMinutes=2880&networkTimeoutSeconds=5&bgTaskNetworkTimeoutSeconds=8&enableNetworkFirst=true&enableEmptySectionRoute=true&enableNavPreload=true&enableStaticAdsRouting=true ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://assets.msn.com:443/statics/icons/favicon.ico ...
+[Proxy Recording  (1448:1714)] Trying to connect to https://ntp.msn.com:443/edge/ntp/service-worker.js?bundlevariant=ruby&bundles=latest&riverAgeMinutes=2880&navAgeMinutes=2880&networkTimeoutSeconds=5&bgTaskNetworkTimeoutSeconds=8&enableNetworkFirst=true&enableEmptySectionRoute=true&enableNavPreload=true&enableStaticAdsRouting=true ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://assets.msn.com:443/statics/icons/favicon.ico ...
+[Proxy Recording  (1448:3058)] Received response of 1009 header and 0 body bytes from https://assets.msn.com:443/statics/icons/favicon.ico
+[Proxy Recording  (1448:1714)] Received response of 930 header and 0 body bytes from https://ntp.msn.com:443/edge/ntp/service-worker.js?bundlevariant=ruby&bundles=latest&riverAgeMinutes=2880&navAgeMinutes=2880&networkTimeoutSeconds=5&bgTaskNetworkTimeoutSeconds=8&enableNetworkFirst=true&enableEmptySectionRoute=true&enableNavPreload=true&enableStaticAdsRouting=true
+[Web Request      (1448:3058)] "HEAD https://assets.msn.com/statics/icons/favicon.ico"   
+[Network Analyzer (1448:3058)]   (Sid: 25) Client -> Server @ : 935 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 25) Server -> Client : 1026 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3058)] Sent 0 bytes to client @ 192.168.1.4:43159
+[Web Request      (1448:1714)] "GET https://ntp.msn.com/edge/ntp/service-worker.js?bundlevariant=ruby&bundles=latest&riverAgeMinutes=2880&navAgeMinutes=2880&networkTimeoutSeconds=5&bgTaskNetworkTimeoutSeconds=8&enableNetworkFirst=true&enableEmptySectionRoute=true&enableNavPreload=true&enableStaticAdsRouting=true"   
+[Network Analyzer (1448:1714)]   (Sid: 26) Client -> Server @ : 6972 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid: 26) Server -> Client : 957 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:1714)] Sent 0 bytes to client @ 192.168.1.4:59457
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://th.bing.com:443/th?id=ORMS.e3daaf0379d6ee494cd1bf6756fb7953&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0 ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://th.bing.com:443/th?id=ORMS.e3daaf0379d6ee494cd1bf6756fb7953&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0 ...
+[Proxy Recording  (1448:3e2c)] Received response of 836 header and 18952 body bytes from https://th.bing.com:443/th?id=ORMS.e3daaf0379d6ee494cd1bf6756fb7953&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0
+[Web Request      (1448:3e2c)] "GET https://th.bing.com/th?id=ORMS.e3daaf0379d6ee494cd1bf6756fb7953&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0"   
+[Network Analyzer (1448:3e2c)]   (Sid: 27) Client -> Server @ : 3016 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 27) Server -> Client : 853 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 27) Server -> Client : 18952 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3e2c)] Sent 18952 bytes to client @ 192.168.1.4:22008
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:3159
+[Proxy Recording  (1448:230c)] Trying to connect to https://th.bing.com:443/th?id=ORMS.8e99f6d742a12cc868e4721bafd2c6c1&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1 ...
+[Proxy Recording  (1448:230c)] Trying to connect to https://th.bing.com:443/th?id=ORMS.8e99f6d742a12cc868e4721bafd2c6c1&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1 ...
+[Proxy Recording  (1448:34b0)] Trying to connect to https://assets.msn.com:443/service/segments/recoitems/weather?apikey=UhJ4G66OjyLbn9mXARgajXLiLw6V75sHnfpU60aJBB&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&ocid=weather-peregrine&cm=en-in&it=app&user=m-3F83A7A4DCA06CB1316DB103DDDF6D51&scn=APP_ANON&appId=4de6fc9f-3262-47bf-9c99-e189a8234fa2&wrapodata=false&includemapsmetadata=true&cuthour=true&distanceinkm=0&regionDataCount=20&orderby=distance&days=5&pageOcid=anaheim-dhp-peregrine&source=undefined_csr&fdhead=prg-1sw-wxncvf%2Cprg-1sw-wxtrlog%2CPRG-1SW-WXWPDEL%2CPRG-1SW-WXWPDS%2CPRG-1SW-WXWPTLI%2Cprg-1sw-wxaqif%2Cprg-1sw-wxaqifct%2Cprg-1sw-weacopilot&contentcount=3&region=in&market=en-in&locale=en-in ...
+[Proxy Recording  (1448:34b0)] Trying to connect to https://assets.msn.com:443/service/segments/recoitems/weather?apikey=UhJ4G66OjyLbn9mXARgajXLiLw6V75sHnfpU60aJBB&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&ocid=weather-peregrine&cm=en-in&it=app&user=m-3F83A7A4DCA06CB1316DB103DDDF6D51&scn=APP_ANON&appId=4de6fc9f-3262-47bf-9c99-e189a8234fa2&wrapodata=false&includemapsmetadata=true&cuthour=true&distanceinkm=0&regionDataCount=20&orderby=distance&days=5&pageOcid=anaheim-dhp-peregrine&source=undefined_csr&fdhead=prg-1sw-wxncvf%2Cprg-1sw-wxtrlog%2CPRG-1SW-WXWPDEL%2CPRG-1SW-WXWPDS%2CPRG-1SW-WXWPTLI%2Cprg-1sw-wxaqif%2Cprg-1sw-wxaqifct%2Cprg-1sw-weacopilot&contentcount=3&region=in&market=en-in&locale=en-in ...
+[Proxy Recording  (1448:230c)] Received response of 836 header and 35951 body bytes from https://th.bing.com:443/th?id=ORMS.8e99f6d742a12cc868e4721bafd2c6c1&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1
+[Proxy Recording  (1448:26c0)] Trying to connect to https://img-s-msn-com.akamaized.net:443/tenant/amp/entityid/AA1TNHyi.img ...
+[Proxy Recording  (1448:26c0)] Trying to connect to https://img-s-msn-com.akamaized.net:443/tenant/amp/entityid/AA1TNHyi.img ...
+[Web Request      (1448:230c)] "GET https://th.bing.com/th?id=ORMS.8e99f6d742a12cc868e4721bafd2c6c1&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1"   
+[Network Analyzer (1448:230c)]   (Sid: 28) Client -> Server @ : 2982 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 28) Server -> Client : 853 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 28) Server -> Client : 35951 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:230c)] Sent 35951 bytes to client @ 192.168.1.4:29910
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:51306
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:46325
+[Proxy Recording  (1448:26c0)] Received response of 495 header and 0 body bytes from https://img-s-msn-com.akamaized.net:443/tenant/amp/entityid/AA1TNHyi.img
+[Web Request      (1448:26c0)] "GET https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1TNHyi.img"   
+[Network Analyzer (1448:26c0)]   (Sid: 29) Client -> Server @ : 763 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 29) Server -> Client : 522 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:26c0)] Sent 0 bytes to client @ 192.168.1.4:27651
+[Proxy Recording  (1448:34b0)] Received response of 4033 header and 4628 body bytes from https://assets.msn.com:443/service/segments/recoitems/weather?apikey=UhJ4G66OjyLbn9mXARgajXLiLw6V75sHnfpU60aJBB&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&ocid=weather-peregrine&cm=en-in&it=app&user=m-3F83A7A4DCA06CB1316DB103DDDF6D51&scn=APP_ANON&appId=4de6fc9f-3262-47bf-9c99-e189a8234fa2&wrapodata=false&includemapsmetadata=true&cuthour=true&distanceinkm=0&regionDataCount=20&orderby=distance&days=5&pageOcid=anaheim-dhp-peregrine&source=undefined_csr&fdhead=prg-1sw-wxncvf%2Cprg-1sw-wxtrlog%2CPRG-1SW-WXWPDEL%2CPRG-1SW-WXWPDS%2CPRG-1SW-WXWPTLI%2Cprg-1sw-wxaqif%2Cprg-1sw-wxaqifct%2Cprg-1sw-weacopilot&contentcount=3&region=in&market=en-in&locale=en-in
+[Web Request      (1448:34b0)] "GET https://assets.msn.com/service/segments/recoitems/weather?apikey=UhJ4G66OjyLbn9mXARgajXLiLw6V75sHnfpU60aJBB&activityId=699fefde-522f-44d4-b9bc-44185136b8f8&ocid=weather-peregrine&cm=en-in&it=app&user=m-3F83A7A4DCA06CB1316DB103DDDF6D51&scn=APP_ANON&appId=4de6fc9f-3262-47bf-9c99-e189a8234fa2&wrapodata=false&includemapsmetadata=true&cuthour=true&distanceinkm=0&regionDataCount=20&orderby=distance&days=5&pageOcid=anaheim-dhp-peregrine&source=undefined_csr&fdhead=prg-1sw-wxncvf%2Cprg-1sw-wxtrlog%2CPRG-1SW-WXWPDEL%2CPRG-1SW-WXWPDS%2CPRG-1SW-WXWPTLI%2Cprg-1sw-wxaqif%2Cprg-1sw-wxaqifct%2Cprg-1sw-weacopilot&contentcount=3&region=in&market=en-in&locale=en-in"   
+[Network Analyzer (1448:34b0)]   (Sid: 30) Client -> Server @ : 6421 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:34b0)]   (Sid: 30) Server -> Client : 4050 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:34b0)]   (Sid: 30) Server -> Client : 4628 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:34b0)] Sent 4628 bytes to client @ 192.168.1.4:10624
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:31917
+[Proxy Recording  (1448:2c64)] Trying to connect to https://aks-prod-southeastasia.access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[Proxy Recording  (1448:23c4)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D ...
+[Proxy Recording  (1448:23c4)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://th.bing.com:443/th?id=ORMS.2255575b3cce1fffc127bf4bc76174e1&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1 ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://th.bing.com:443/th?id=ORMS.2255575b3cce1fffc127bf4bc76174e1&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1 ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://www.bing.com:443/th?id=OCGE.9p3c7p411hxh_v4_main&pid=uxf&rf=hubstream_fallback.jpg&w=20&h=20&qlt=90&c=1&rs=1 ...
+[Proxy Recording  (1448:230c)] Trying to connect to https://th.bing.com:443/th?id=ORMS.d2f65cb4b9624888d01363ea78f8fee3&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1 ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://www.bing.com:443/th?id=OCGE.9p3c7p411hxh_v4_main&pid=uxf&rf=hubstream_fallback.jpg&w=20&h=20&qlt=90&c=1&rs=1 ...
+[Proxy Recording  (1448:230c)] Trying to connect to https://th.bing.com:443/th?id=ORMS.d2f65cb4b9624888d01363ea78f8fee3&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1 ...
+[Proxy Recording  (1448:3e2c)] Received response of 636 header and 1449 body bytes from https://www.bing.com:443/th?id=OCGE.9p3c7p411hxh_v4_main&pid=uxf&rf=hubstream_fallback.jpg&w=20&h=20&qlt=90&c=1&rs=1
+[Proxy Recording  (1448:4c54)] Trying to connect to https://prod-video-cms-amp-microsoft-com.akamaized.net:443/tenant/amp/entityid/AA1X1Xh2?blobrefkey=closedcaptionen-in&$blob=1&vtt=true ...
+[Proxy Recording  (1448:4c54)] Trying to connect to https://prod-video-cms-amp-microsoft-com.akamaized.net:443/tenant/amp/entityid/AA1X1Xh2?blobrefkey=closedcaptionen-in&$blob=1&vtt=true ...
+[Web Request      (1448:3e2c)] "GET https://www.bing.com/th?id=OCGE.9p3c7p411hxh_v4_main&pid=uxf&rf=hubstream_fallback.jpg&w=20&h=20&qlt=90&c=1&rs=1"   
+[Network Analyzer (1448:3e2c)]   (Sid: 31) Client -> Server @ : 2996 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1448:3058)] Received response of 836 header and 79898 body bytes from https://th.bing.com:443/th?id=ORMS.2255575b3cce1fffc127bf4bc76174e1&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1
+[Network Analyzer (1448:3e2c)]   (Sid: 31) Server -> Client : 653 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 31) Server -> Client : 1449 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3e2c)] Sent 1449 bytes to client @ 192.168.1.4:51306
+[Web Request      (1448:3058)] "GET https://th.bing.com/th?id=ORMS.2255575b3cce1fffc127bf4bc76174e1&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1"   
+[Network Analyzer (1448:3058)]   (Sid: 32) Client -> Server @ : 2982 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 32) Server -> Client : 853 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 32) Server -> Client : 79898 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3058)] Sent 79898 bytes to client @ 192.168.1.4:3159
+[Proxy Recording  (1448:230c)] Received response of 836 header and 35323 body bytes from https://th.bing.com:443/th?id=ORMS.d2f65cb4b9624888d01363ea78f8fee3&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1
+[Web Request      (1448:230c)] "GET https://th.bing.com/th?id=ORMS.d2f65cb4b9624888d01363ea78f8fee3&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1"   
+[Network Analyzer (1448:230c)]   (Sid: 33) Client -> Server @ : 2982 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1448:4c54)] Received response of 380 header and 2757 body bytes from https://prod-video-cms-amp-microsoft-com.akamaized.net:443/tenant/amp/entityid/AA1X1Xh2?blobrefkey=closedcaptionen-in&$blob=1&vtt=true
+[Network Analyzer (1448:230c)]   (Sid: 33) Server -> Client : 853 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 33) Server -> Client : 35323 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:230c)] Sent 35323 bytes to client @ 192.168.1.4:46325
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:48451
+[Web Request      (1448:4c54)] "GET https://prod-video-cms-amp-microsoft-com.akamaized.net/tenant/amp/entityid/AA1X1Xh2?blobrefkey=closedcaptionen-in&$blob=1&vtt=true"   
+[Network Analyzer (1448:4c54)]   (Sid: 34) Client -> Server @ : 725 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:57504
+[Network Analyzer (1448:4c54)]   (Sid: 34) Server -> Client : 397 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:1714)] Trying to connect to https://th.bing.com:443/th?id=ORMS.e972a35fe9335d540109b79961013bd8&pid=Wdp&w=688&h=344&qlt=90&c=1&rs=1&dpr=1&p=0 ...
+[Proxy Recording  (1448:1714)] Trying to connect to https://th.bing.com:443/th?id=ORMS.e972a35fe9335d540109b79961013bd8&pid=Wdp&w=688&h=344&qlt=90&c=1&rs=1&dpr=1&p=0 ...
+[Network Analyzer (1448:4c54)]   (Sid: 34) Server -> Client : 2757 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:4c54)] Sent 2757 bytes to client @ 192.168.1.4:48402
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://th.bing.com:443/th?id=ORMS.00d1a30a680a2300a3e54f98a184e4ab&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0 ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://th.bing.com:443/th?id=ORMS.00d1a30a680a2300a3e54f98a184e4ab&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0 ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://th.bing.com:443/th?id=ORMS.b0b02d5404cfd9efa5e5a1377fc732b0&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0 ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://th.bing.com:443/th?id=ORMS.b0b02d5404cfd9efa5e5a1377fc732b0&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0 ...
+[Proxy Recording  (1448:23c4)] Received response of 490 header and 3711 body bytes from https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D
+[Network Analyzer (1448:23c4)]   (Sid: 35) Client -> Server @ : 2936 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:23c4)] "POST https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D"   
+[Network Analyzer (1448:23c4)]   (Sid: 35) Client -> Server @ : 341 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:23c4)]   (Sid: 35) Server -> Client : 479 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:23c4)]   (Sid: 35) Server -> Client : 3711 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:23c4)] Sent 3711 bytes to client @ 192.168.1.4:30104
+[Proxy Recording  (1448:1714)] Received response of 836 header and 60064 body bytes from https://th.bing.com:443/th?id=ORMS.e972a35fe9335d540109b79961013bd8&pid=Wdp&w=688&h=344&qlt=90&c=1&rs=1&dpr=1&p=0
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:15493
+[Web Request      (1448:1714)] "GET https://th.bing.com/th?id=ORMS.e972a35fe9335d540109b79961013bd8&pid=Wdp&w=688&h=344&qlt=90&c=1&rs=1&dpr=1&p=0"   
+[Proxy Recording  (1448:3e2c)] Received response of 836 header and 12625 body bytes from https://th.bing.com:443/th?id=ORMS.00d1a30a680a2300a3e54f98a184e4ab&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0
+[Network Analyzer (1448:1714)]   (Sid: 36) Client -> Server @ : 2992 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1448:3058)] Received response of 836 header and 15691 body bytes from https://th.bing.com:443/th?id=ORMS.b0b02d5404cfd9efa5e5a1377fc732b0&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0
+[Network Analyzer (1448:1714)]   (Sid: 36) Server -> Client : 853 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid: 36) Server -> Client : 60064 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:1714)] Sent 60064 bytes to client @ 192.168.1.4:31917
+[Web Request      (1448:3e2c)] "GET https://th.bing.com/th?id=ORMS.00d1a30a680a2300a3e54f98a184e4ab&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0"   
+[Network Analyzer (1448:3e2c)]   (Sid: 37) Client -> Server @ : 2992 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 37) Server -> Client : 853 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 37) Server -> Client : 12625 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3e2c)] Sent 12625 bytes to client @ 192.168.1.4:48451
+[Web Request      (1448:3058)] "GET https://th.bing.com/th?id=ORMS.b0b02d5404cfd9efa5e5a1377fc732b0&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0"   
+[Network Analyzer (1448:3058)]   (Sid: 38) Client -> Server @ : 2992 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 38) Server -> Client : 853 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 38) Server -> Client : 15691 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3058)] Sent 15691 bytes to client @ 192.168.1.4:57504
+[Proxy Recording  (1448:230c)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D ...
+[Proxy Recording  (1448:230c)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D ...
+[Proxy Recording  (1448:230c)] Received response of 490 header and 390 body bytes from https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D
+[Network Analyzer (1448:230c)]   (Sid: 39) Client -> Server @ : 2937 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:230c)] "POST https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D"   
+[Network Analyzer (1448:230c)]   (Sid: 39) Client -> Server @ : 2718 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 39) Server -> Client : 479 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 39) Server -> Client : 390 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:230c)] Sent 390 bytes to client @ 192.168.1.4:15493
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:18516
+[Proxy Recording  (1448:1714)] Trying to connect to https://login.live.com:443/ppsecure/GetUserKeyData.srf ...
+[Proxy Recording  (1448:1714)] Trying to connect to https://login.live.com:443/ppsecure/GetUserKeyData.srf ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:18518
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://login.live.com:443/RST2.srf ...
+[Proxy Recording  (1448:1714)] Received response of 551 header and 486 body bytes from https://login.live.com:443/ppsecure/GetUserKeyData.srf
+[Network Analyzer (1448:1714)]   (Sid: 40) Client -> Server @ : 1207 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:1714)] "POST https://login.live.com/ppsecure/GetUserKeyData.srf"   
+[Network Analyzer (1448:1714)]   (Sid: 40) Client -> Server @ : 1245 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid: 40) Server -> Client : 568 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:1714)]   (Sid: 40) Server -> Client : 486 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:1714)] Sent 486 bytes to client @ 192.168.1.4:18516
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:14307
+[Proxy Recording  (1448:26c0)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D ...
+[Proxy Recording  (1448:26c0)] Trying to connect to https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D ...
+[Proxy Recording  (1448:3e2c)] Received response of 557 header and 20649 body bytes from https://login.live.com:443/RST2.srf
+[Proxy Recording  (1448:3e2c)] Sent 20649 bytes to client @ 192.168.1.4:18518
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:1141
+[Proxy Recording  (1448:26c0)] Received response of 490 header and 2603 body bytes from https://edge.microsoft.com:443/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D
+[Network Analyzer (1448:26c0)]   (Sid: 41) Client -> Server @ : 2936 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:26c0)] "POST https://edge.microsoft.com/sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=bGDX4ONibAy3Mas8AQ3fBA%3D%3D"   
+[Network Analyzer (1448:26c0)]   (Sid: 41) Client -> Server @ : 442 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 41) Server -> Client : 479 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 41) Server -> Client : 2603 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:26c0)] Sent 2603 bytes to client @ 192.168.1.4:14307
+[User action                 ] StartTransactionEvent AB_FundTransfer_T01_Launch [Proxy Recording  (1448:4c54)] Trying to connect to https://graph.microsoft.com:443/beta/me/settings/regionalAndLanguageSettings ...
+[Proxy Recording  (1448:4c54)] Trying to connect to https://graph.microsoft.com:443/beta/me/settings/regionalAndLanguageSettings ...
+[Proxy Recording  (1448:4c54)] Received response of 575 header and 371 body bytes from https://graph.microsoft.com:443/beta/me/settings/regionalAndLanguageSettings
+[Web Request      (1448:4c54)] "GET https://graph.microsoft.com/beta/me/settings/regionalAndLanguageSettings"   
+[Network Analyzer (1448:4c54)]   (Sid: 42) Client -> Server @ : 1984 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:4c54)]   (Sid: 42) Server -> Client : 564 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:4c54)]   (Sid: 42) Server -> Client : 371 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:4c54)] Sent 371 bytes to client @ 192.168.1.4:1141
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:23074
+[Proxy Recording  (1448:230c)] Trying to connect to http://192.168.1.2:7001/LoanIQ/ ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:15245
+[Proxy Recording  (1448:230c)] Trying to connect to http://192.168.1.2:7001/LoanIQ/ ...
+[Proxy Recording  (1448:230c)] Received response of 189 header and 2477 body bytes from http://192.168.1.2:7001/LoanIQ/
+[Web Request      (1448:230c)] "GET http://192.168.1.2:7001/LoanIQ/"   
+[Network Analyzer (1448:230c)]   (Sid: 43) Client -> Server @ : 561 bytes (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 43) Server -> Client : 206 bytes  (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 43) Server -> Client : 2477 bytes  (Service=HTTP)
+[Proxy Recording  (1448:230c)] Sent 2477 bytes to client @ 192.168.1.4:23074
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:3e2c)] Received response of 251 header and 818 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:3e2c)]   (Sid: 44) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:3e2c)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:3e2c)]   (Sid: 44) Client -> Server @ : 1929 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 44) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 44) Server -> Client : 818 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3e2c)] Sent 818 bytes to client @ 192.168.1.4:15245
+[User action                 ] EndTransactionEvent AB_FundTransfer_T01_Launch [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:21266
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:65413
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:37876
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:47287
+[Proxy Recording  (1448:23c4)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (1448:23c4)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (1448:4c54)] Trying to connect to https://edge-consumer-static.azureedge.net:443/mouse-gesture/config.json ...
+[Proxy Recording  (1448:4c54)] Trying to connect to https://edge-consumer-static.azureedge.net:443/mouse-gesture/config.json ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/Profile ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/Profile ...
+[Proxy Recording  (1448:34b0)] Trying to connect to https://edge.microsoft.com:443/extensionwebstorebase/v1/crx ...
+[Proxy Recording  (1448:34b0)] Trying to connect to https://edge.microsoft.com:443/extensionwebstorebase/v1/crx ...
+[Proxy Recording  (1448:4c54)] Received response of 719 header and 101 body bytes from https://edge-consumer-static.azureedge.net:443/mouse-gesture/config.json
+[Web Request      (1448:4c54)] "GET https://edge-consumer-static.azureedge.net/mouse-gesture/config.json"   
+[Network Analyzer (1448:4c54)]   (Sid: 45) Client -> Server @ : 432 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:4c54)]   (Sid: 45) Server -> Client : 736 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:4c54)]   (Sid: 45) Server -> Client : 101 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:4c54)] Sent 101 bytes to client @ 192.168.1.4:21266
+[Proxy Recording  (1448:23c4)] Received response of 1322 header and 3919 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Web Request      (1448:23c4)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Network Analyzer (1448:23c4)]   (Sid: 46) Client -> Server @ : 1934 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:23c4)]   (Sid: 46) Server -> Client : 1311 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:23c4)]   (Sid: 46) Server -> Client : 3919 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:23c4)] Sent 3919 bytes to client @ 192.168.1.4:37876
+[Proxy Recording  (1448:3e2c)] Received response of 1322 header and 4195 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/Profile
+[Web Request      (1448:3e2c)] "GET https://substrate.office.com/profileb2/v2.0/me/Profile"   
+[Network Analyzer (1448:3e2c)]   (Sid: 47) Client -> Server @ : 1932 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 47) Server -> Client : 1311 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 47) Server -> Client : 4195 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3e2c)] Sent 4195 bytes to client @ 192.168.1.4:47287
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:26572
+[Proxy Recording  (1448:230c)] Trying to connect to https://substrate.office.com:443/imageb2/v1.0/me/image/$value ...
+[Proxy Recording  (1448:230c)] Trying to connect to https://substrate.office.com:443/imageb2/v1.0/me/image/$value ...
+[Proxy Recording  (1448:34b0)] Received response of 459 header and 161 body bytes from https://edge.microsoft.com:443/extensionwebstorebase/v1/crx
+[Network Analyzer (1448:34b0)]   (Sid: 48) Client -> Server @ : 902 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:34b0)] "POST https://edge.microsoft.com/extensionwebstorebase/v1/crx"   
+[Network Analyzer (1448:34b0)]   (Sid: 48) Client -> Server @ : 944 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:34b0)]   (Sid: 48) Server -> Client : 476 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:34b0)]   (Sid: 48) Server -> Client : 161 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:34b0)] Sent 161 bytes to client @ 192.168.1.4:65413
+[Proxy Recording.Error (1448:230c)] Failed to connect to server https://substrate.office.com:443/imageb2/v1.0/me/image/$value.
+Message=ProtocolError, status=The remote server returned an error: (404) Not Found.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (1448:230c)] Received response of 1220 header and 139 body bytes from https://substrate.office.com:443/imageb2/v1.0/me/image/$value
+[Web Request      (1448:230c)] "GET https://substrate.office.com/imageb2/v1.0/me/image/$value"   
+[Network Analyzer (1448:230c)]   (Sid: 49) Client -> Server @ : 1851 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 49) Server -> Client : 1216 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 49) Server -> Client : 139 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:230c)] Sent 139 bytes to client @ 192.168.1.4:26572
+[User action                 ] StartTransactionEvent AB_FundTransfer_T02_AccessPersonalBanking [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:32143
+[Proxy Recording  (1448:2c64)] Trying to connect to http://192.168.1.2:7001/LoanIQ/login.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:61403
+[Proxy Recording  (1448:2c64)] Trying to connect to http://192.168.1.2:7001/LoanIQ/login.jsp ...
+[Proxy Recording  (1448:2c64)] Received response of 189 header and 2494 body bytes from http://192.168.1.2:7001/LoanIQ/login.jsp
+[Web Request      (1448:2c64)] "GET http://192.168.1.2:7001/LoanIQ/login.jsp"   
+[Network Analyzer (1448:2c64)]   (Sid: 50) Client -> Server @ : 586 bytes (Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 50) Server -> Client : 206 bytes  (Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 50) Server -> Client : 2494 bytes  (Service=HTTP)
+[Proxy Recording  (1448:2c64)] Sent 2494 bytes to client @ 192.168.1.4:32143
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:42123
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:44625
+[Proxy Recording  (1448:34b0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/login.JPG ...
+[Proxy Recording  (1448:34b0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/login.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:17948
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:58784
+[Proxy Recording  (1448:230c)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/signup.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:20814
+[Proxy Recording  (1448:230c)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/signup.JPG ...
+[Proxy Recording  (1448:34b0)] Received response of 155 header and 5123 body bytes from http://192.168.1.2:7001/LoanIQ/images/login.JPG
+[Web Request      (1448:34b0)] "GET http://192.168.1.2:7001/LoanIQ/images/login.JPG"   
+[Network Analyzer (1448:34b0)]   (Sid: 51) Client -> Server @ : 501 bytes (Service=HTTP)
+[Proxy Recording  (1448:230c)] Received response of 155 header and 6019 body bytes from http://192.168.1.2:7001/LoanIQ/images/signup.JPG
+[Network Analyzer (1448:34b0)]   (Sid: 51) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (1448:34b0)]   (Sid: 51) Server -> Client : 5123 bytes  (Service=HTTP)
+[Proxy Recording  (1448:34b0)] Sent 5123 bytes to client @ 192.168.1.4:42123
+[Web Request      (1448:230c)] "GET http://192.168.1.2:7001/LoanIQ/images/signup.JPG"   
+[Network Analyzer (1448:230c)]   (Sid: 52) Client -> Server @ : 502 bytes (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 52) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 52) Server -> Client : 6019 bytes  (Service=HTTP)
+[Proxy Recording  (1448:230c)] Sent 6019 bytes to client @ 192.168.1.4:44625
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:3e2c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:3e2c)] Received response of 251 header and 886 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:3e2c)]   (Sid: 53) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:3e2c)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:3e2c)]   (Sid: 53) Client -> Server @ : 2041 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 53) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3e2c)]   (Sid: 53) Server -> Client : 886 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3e2c)] Sent 886 bytes to client @ 192.168.1.4:61403
+[Proxy Recording  (1448:3058)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://substrate.office.com:443/profileb2/v2.0/me/V1Profile ...
+[Proxy Recording  (1448:4c54)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-4554793993528216315/-2068690090859129015 ...
+[Proxy Recording  (1448:4c54)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-4554793993528216315/-2068690090859129015 ...
+[Proxy Recording  (1448:26c0)] Trying to connect to https://arc.msn.com:443/v4/api/selection?placement=88000360&nct=1&fmt=json&ISU=0&AREF=0&APRIMB=0&ADEFAB=13&OPSYS=WIN10&locale=en-US&country=IN&edgeid=-3650655221893573246&ACHANNEL=4&ABUILD=145.0.7632.110&poptin=1&devosver=10.0.26200.7922&clr=esdk&UITHEME=light&EPCON=0&AMAJOR=145&AMINOR=0&ABLD=7632&APATCH=110 ...
+[Proxy Recording  (1448:26c0)] Trying to connect to https://arc.msn.com:443/v4/api/selection?placement=88000360&nct=1&fmt=json&ISU=0&AREF=0&APRIMB=0&ADEFAB=13&OPSYS=WIN10&locale=en-US&country=IN&edgeid=-3650655221893573246&ACHANNEL=4&ABUILD=145.0.7632.110&poptin=1&devosver=10.0.26200.7922&clr=esdk&UITHEME=light&EPCON=0&AMAJOR=145&AMINOR=0&ABLD=7632&APATCH=110 ...
+[Proxy Recording  (1448:4c54)] Received response of 258 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-4554793993528216315/-2068690090859129015
+[Web Request      (1448:4c54)] "GET https://edge.microsoft.com/autofillservice/core/page/-4554793993528216315/-2068690090859129015"   
+[Network Analyzer (1448:4c54)]   (Sid: 54) Client -> Server @ : 417 bytes (SSL)(Service=HTTP)
+[Proxy Recording  (1448:3058)] Received response of 1323 header and 3919 body bytes from https://substrate.office.com:443/profileb2/v2.0/me/V1Profile
+[Network Analyzer (1448:4c54)]   (Sid: 54) Server -> Client : 275 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:4c54)]   (Sid: 54) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:4c54)] Sent 20 bytes to client @ 192.168.1.4:58784
+[Web Request      (1448:3058)] "GET https://substrate.office.com/profileb2/v2.0/me/V1Profile"   
+[Network Analyzer (1448:3058)]   (Sid: 55) Client -> Server @ : 1934 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 55) Server -> Client : 1312 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 55) Server -> Client : 3919 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3058)] Sent 3919 bytes to client @ 192.168.1.4:20814
+[Proxy Recording  (1448:26c0)] Received response of 489 header and 103 body bytes from https://arc.msn.com:443/v4/api/selection?placement=88000360&nct=1&fmt=json&ISU=0&AREF=0&APRIMB=0&ADEFAB=13&OPSYS=WIN10&locale=en-US&country=IN&edgeid=-3650655221893573246&ACHANNEL=4&ABUILD=145.0.7632.110&poptin=1&devosver=10.0.26200.7922&clr=esdk&UITHEME=light&EPCON=0&AMAJOR=145&AMINOR=0&ABLD=7632&APATCH=110
+[Web Request      (1448:26c0)] "GET https://arc.msn.com/v4/api/selection?placement=88000360&nct=1&fmt=json&ISU=0&AREF=0&APRIMB=0&ADEFAB=13&OPSYS=WIN10&locale=en-US&country=IN&edgeid=-3650655221893573246&ACHANNEL=4&ABUILD=145.0.7632.110&poptin=1&devosver=10.0.26200.7922&clr=esdk&UITHEME=light&EPCON=0&AMAJOR=145&AMINOR=0&ABLD=7632&APATCH=110"   
+[Network Analyzer (1448:26c0)]   (Sid: 56) Client -> Server @ : 657 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 56) Server -> Client : 506 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 56) Server -> Client : 103 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:26c0)] Sent 103 bytes to client @ 192.168.1.4:17948
+[User action                 ] EndTransactionEvent AB_FundTransfer_T02_AccessPersonalBanking [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:20820
+[Proxy Recording  (1448:23c4)] Trying to connect to https://mobile.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (1448:23c4)] Trying to connect to https://mobile.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (1448:23c4)] Received response of 398 header and 9 body bytes from https://mobile.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (1448:23c4)] Sent 9 bytes to client @ 192.168.1.4:20820
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:30952
+[Proxy Recording  (1448:4c54)] Trying to connect to https://aks-prod-southeastasia.access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[User action                 ] StartTransactionEvent AB_FundTransfer_T03_UserLogin [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:4115
+[Proxy Recording  (1448:3058)] Trying to connect to https://edge.microsoft.com:443/componentupdater/api/v1/update?cup2key=7:NgBWXtUQT6u0DmbmxiXo7za72Ooy4SCTrpm7ysZZ_kk&cup2hreq=c34dd0a169a5dd6d1cf5b8436750bb3e9c32c2dde78957c9a7a1440308ad6cb3 ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://edge.microsoft.com:443/componentupdater/api/v1/update?cup2key=7:NgBWXtUQT6u0DmbmxiXo7za72Ooy4SCTrpm7ysZZ_kk&cup2hreq=c34dd0a169a5dd6d1cf5b8436750bb3e9c32c2dde78957c9a7a1440308ad6cb3 ...
+[Proxy Recording  (1448:3058)] Received response of 899 header and 841 body bytes from https://edge.microsoft.com:443/componentupdater/api/v1/update?cup2key=7:NgBWXtUQT6u0DmbmxiXo7za72Ooy4SCTrpm7ysZZ_kk&cup2hreq=c34dd0a169a5dd6d1cf5b8436750bb3e9c32c2dde78957c9a7a1440308ad6cb3
+[Web Request      (1448:3058)] "POST https://edge.microsoft.com/componentupdater/api/v1/update?cup2key=7:NgBWXtUQT6u0DmbmxiXo7za72Ooy4SCTrpm7ysZZ_kk&cup2hreq=c34dd0a169a5dd6d1cf5b8436750bb3e9c32c2dde78957c9a7a1440308ad6cb3"
+[Network Analyzer (1448:3058)]   (Sid: 57) Client -> Server @ : 1854 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 57) Client -> Server @ : 14156 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 57) Server -> Client : 916 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 57) Server -> Client : 841 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:3058)] Sent 841 bytes to client @ 192.168.1.4:4115
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:36330
+[Proxy Recording  (1448:2c64)] Trying to connect to http://192.168.1.2:7001/LoanIQ/Login?JSESSIONID=p02YwOzwGLplhiahPZO-DqLgOR8FQGJqUJlxf6fC_PUgvsX4Ytpg!1522688009!1772089306352 ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:45917
+[Proxy Recording  (1448:2c64)] Trying to connect to http://192.168.1.2:7001/LoanIQ/Login?JSESSIONID=p02YwOzwGLplhiahPZO-DqLgOR8FQGJqUJlxf6fC_PUgvsX4Ytpg!1522688009!1772089306352 ...
+[Proxy Recording  (1448:2c64)] Received response of 189 header and 2854 body bytes from http://192.168.1.2:7001/LoanIQ/Login?JSESSIONID=p02YwOzwGLplhiahPZO-DqLgOR8FQGJqUJlxf6fC_PUgvsX4Ytpg!1522688009!1772089306352
+[Network Analyzer (1448:2c64)]   (Sid: 58) Client -> Server @ : 809 bytes (Service=HTTP)
+[Web Request      (1448:2c64)] "POST http://192.168.1.2:7001/LoanIQ/Login?JSESSIONID=p02YwOzwGLplhiahPZO-DqLgOR8FQGJqUJlxf6fC_PUgvsX4Ytpg!1522688009!1772089306352"   
+[Network Analyzer (1448:2c64)]   (Sid: 58) Client -> Server @ : 43 bytes (Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 58) Server -> Client : 206 bytes  (Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 58) Server -> Client : 2854 bytes  (Service=HTTP)
+[Proxy Recording  (1448:2c64)] Sent 2854 bytes to client @ 192.168.1.4:36330
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:25074
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:45333
+[Proxy Recording  (1448:26c0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/Accounts.JPG ...
+[Proxy Recording  (1448:2c64)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/Loans.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:55998
+[Proxy Recording  (1448:26c0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/Accounts.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:22845
+[Proxy Recording  (1448:4c54)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/Billpay.JPG ...
+[Proxy Recording  (1448:2c64)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/Loans.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:57600
+[Proxy Recording  (1448:3058)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/cards.JPG ...
+[Proxy Recording  (1448:4c54)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/Billpay.JPG ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:17759
+[Proxy Recording  (1448:1438)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/Demat.JPG ...
+[Proxy Recording  (1448:3058)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/cards.JPG ...
+[Proxy Recording  (1448:26c0)] Received response of 156 header and 13310 body bytes from http://192.168.1.2:7001/LoanIQ/images/Accounts.JPG
+[Proxy Recording  (1448:1438)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/Demat.JPG ...
+[Proxy Recording  (1448:2c64)] Received response of 156 header and 10330 body bytes from http://192.168.1.2:7001/LoanIQ/images/Loans.JPG
+[Proxy Recording  (1448:2548)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/logout.JPG ...
+[Proxy Recording  (1448:4c54)] Received response of 156 header and 10448 body bytes from http://192.168.1.2:7001/LoanIQ/images/Billpay.JPG
+[Proxy Recording  (1448:2548)] Trying to connect to http://192.168.1.2:7001/LoanIQ/images/logout.JPG ...
+[Proxy Recording  (1448:1438)] Received response of 155 header and 9879 body bytes from http://192.168.1.2:7001/LoanIQ/images/Demat.JPG
+[Proxy Recording  (1448:3058)] Received response of 156 header and 14303 body bytes from http://192.168.1.2:7001/LoanIQ/images/cards.JPG
+[Web Request      (1448:26c0)] "GET http://192.168.1.2:7001/LoanIQ/images/Accounts.JPG"   
+[Network Analyzer (1448:26c0)]   (Sid: 59) Client -> Server @ : 589 bytes (Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 59) Server -> Client : 173 bytes  (Service=HTTP)
+[Proxy Recording  (1448:2548)] Received response of 156 header and 10813 body bytes from http://192.168.1.2:7001/LoanIQ/images/logout.JPG
+[Network Analyzer (1448:26c0)]   (Sid: 59) Server -> Client : 13310 bytes  (Service=HTTP)
+[Proxy Recording  (1448:26c0)] Sent 13310 bytes to client @ 192.168.1.4:25074
+[Web Request      (1448:2548)] "GET http://192.168.1.2:7001/LoanIQ/images/logout.JPG"   
+[Network Analyzer (1448:2548)]   (Sid: 60) Client -> Server @ : 587 bytes (Service=HTTP)
+[Network Analyzer (1448:2548)]   (Sid: 60) Server -> Client : 173 bytes  (Service=HTTP)
+[Network Analyzer (1448:2548)]   (Sid: 60) Server -> Client : 10813 bytes  (Service=HTTP)
+[Proxy Recording  (1448:2548)] Sent 10813 bytes to client @ 192.168.1.4:17759
+[Web Request      (1448:4c54)] "GET http://192.168.1.2:7001/LoanIQ/images/Billpay.JPG"   
+[Network Analyzer (1448:4c54)]   (Sid: 61) Client -> Server @ : 588 bytes (Service=HTTP)
+[Network Analyzer (1448:4c54)]   (Sid: 61) Server -> Client : 173 bytes  (Service=HTTP)
+[Network Analyzer (1448:4c54)]   (Sid: 61) Server -> Client : 10448 bytes  (Service=HTTP)
+[Proxy Recording  (1448:4c54)] Sent 10448 bytes to client @ 192.168.1.4:55998
+[Web Request      (1448:3058)] "GET http://192.168.1.2:7001/LoanIQ/images/cards.JPG"   
+[Network Analyzer (1448:3058)]   (Sid: 62) Client -> Server @ : 586 bytes (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 62) Server -> Client : 173 bytes  (Service=HTTP)
+[Network Analyzer (1448:3058)]   (Sid: 62) Server -> Client : 14303 bytes  (Service=HTTP)
+[Proxy Recording  (1448:3058)] Sent 14303 bytes to client @ 192.168.1.4:22845
+[Web Request      (1448:1438)] "GET http://192.168.1.2:7001/LoanIQ/images/Demat.JPG"   
+[Network Analyzer (1448:1438)]   (Sid: 63) Client -> Server @ : 586 bytes (Service=HTTP)
+[Network Analyzer (1448:1438)]   (Sid: 63) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (1448:1438)]   (Sid: 63) Server -> Client : 9879 bytes  (Service=HTTP)
+[Proxy Recording  (1448:1438)] Sent 9879 bytes to client @ 192.168.1.4:57600
+[Web Request      (1448:2c64)] "GET http://192.168.1.2:7001/LoanIQ/images/Loans.JPG"   
+[Network Analyzer (1448:2c64)]   (Sid: 64) Client -> Server @ : 586 bytes (Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 64) Server -> Client : 173 bytes  (Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 64) Server -> Client : 10330 bytes  (Service=HTTP)
+[Proxy Recording  (1448:2c64)] Sent 10330 bytes to client @ 192.168.1.4:45333
+[Proxy Recording  (1448:230c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:230c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:230c)] Received response of 252 header and 1008 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:230c)]   (Sid: 65) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:230c)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:230c)]   (Sid: 65) Client -> Server @ : 2144 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 65) Server -> Client : 269 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:230c)]   (Sid: 65) Server -> Client : 1008 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:230c)] Sent 1008 bytes to client @ 192.168.1.4:45917
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:17760
+[Proxy Recording  (1448:3058)] Trying to connect to https://mobile.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (1448:3058)] Trying to connect to https://mobile.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (1448:3058)] Received response of 399 header and 10 body bytes from https://mobile.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (1448:3058)] Sent 10 bytes to client @ 192.168.1.4:17760
+[User action                 ] EndTransactionEvent AB_FundTransfer_T03_UserLogin [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:17762
+[Proxy Recording  (1448:1438)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (1448:1438)] Trying to connect to https://self.events.data.microsoft.com:443/OneCollector/1.0/ ...
+[Proxy Recording  (1448:1438)] Received response of 398 header and 9 body bytes from https://self.events.data.microsoft.com:443/OneCollector/1.0/
+[Proxy Recording  (1448:1438)] Sent 9 bytes to client @ 192.168.1.4:17762
+[User action                 ] StartTransactionEvent AB_FundTransfer_T04_SelectAccount [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:2596
+[Proxy Recording  (1448:26c0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/accounts.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:3709
+[Proxy Recording  (1448:26c0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/accounts.jsp ...
+[Proxy Recording  (1448:26c0)] Received response of 106 header and 3569 body bytes from http://192.168.1.2:7001/LoanIQ/accounts.jsp
+[Web Request      (1448:26c0)] "GET http://192.168.1.2:7001/LoanIQ/accounts.jsp"   
+[Network Analyzer (1448:26c0)]   (Sid: 66) Client -> Server @ : 683 bytes (Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 66) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 66) Server -> Client : 3569 bytes  (Service=HTTP)
+[Proxy Recording  (1448:26c0)] Sent 3569 bytes to client @ 192.168.1.4:2596
+[Proxy Recording  (1448:2c64)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:2c64)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:2c64)] Received response of 252 header and 1012 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:2c64)]   (Sid: 67) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:2c64)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:2c64)]   (Sid: 67) Client -> Server @ : 2232 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 67) Server -> Client : 269 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:2c64)]   (Sid: 67) Server -> Client : 1012 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:2c64)] Sent 1012 bytes to client @ 192.168.1.4:3709
+[User action                 ] EndTransactionEvent AB_FundTransfer_T04_SelectAccount [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:28264
+[Proxy Recording  (1448:4c54)] Trying to connect to https://accounts.google.com:443/domainreliability/upload ...
+[Proxy Recording  (1448:4c54)] Trying to connect to https://accounts.google.com:443/domainreliability/upload ...
+[Proxy Recording  (1448:4c54)] Received response of 770 header and 0 body bytes from https://accounts.google.com:443/domainreliability/upload
+[Proxy Recording  (1448:4c54)] Sent 0 bytes to client @ 192.168.1.4:28264
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:28267
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:28268
+[Proxy Recording.Error (1448:3058)] Exception is caught while connecting to , message=Stream was not readable.
+[Proxy Recording  (1448:26c0)] Trying to connect to https://filedownload.lenovo.com:443/SecurityAddin/config.json ...
+[Proxy Recording  (1448:26c0)] Trying to connect to https://filedownload.lenovo.com:443/SecurityAddin/config.json ...
+[Proxy Recording.Error (1448:26c0)] Failed to connect to server https://filedownload.lenovo.com:443/SecurityAddin/config.json.
+Message=ProtocolError, status=The remote server returned an error: (404) Not Found.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (1448:26c0)] Received response of 206 header and 10 body bytes from https://filedownload.lenovo.com:443/SecurityAddin/config.json
+[Proxy Recording  (1448:26c0)] Sent 10 bytes to client @ 192.168.1.4:28268
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:28271
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:28272
+[Proxy Recording.Error (1448:4c54)] Exception is caught while connecting to , message=The decryption operation failed, see inner exception.
+[Proxy Recording.Error (1448:1438)] Exception is caught while connecting to , message=The decryption operation failed, see inner exception.
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:38569
+[Proxy Recording  (1448:3058)] Trying to connect to https://aks-prod-southeastasia.access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[User action                 ] StartTransactionEvent AB_FundTransfer_T05_ViewAccountSummary [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:20865
+[Proxy Recording  (1448:26c0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/AccountSummary.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:30739
+[Proxy Recording  (1448:26c0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/AccountSummary.jsp ...
+[Proxy Recording  (1448:26c0)] Received response of 106 header and 6166 body bytes from http://192.168.1.2:7001/LoanIQ/AccountSummary.jsp
+[Web Request      (1448:26c0)] "GET http://192.168.1.2:7001/LoanIQ/AccountSummary.jsp"   
+[Network Analyzer (1448:26c0)]   (Sid: 68) Client -> Server @ : 607 bytes (Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 68) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer (1448:26c0)]   (Sid: 68) Server -> Client : 6166 bytes  (Service=HTTP)
+[Proxy Recording  (1448:26c0)] Sent 6166 bytes to client @ 192.168.1.4:20865
+[Proxy Recording  (1448:4c54)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:4c54)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:4c54)] Received response of 251 header and 914 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:4c54)]   (Sid: 69) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:4c54)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:4c54)]   (Sid: 69) Client -> Server @ : 2074 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:4c54)]   (Sid: 69) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:4c54)]   (Sid: 69) Server -> Client : 914 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:4c54)] Sent 914 bytes to client @ 192.168.1.4:30739
+[User action                 ] EndTransactionEvent AB_FundTransfer_T05_ViewAccountSummary [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:30742
+[Proxy Recording  (1448:50d0)] Trying to connect to https://roaming.svc.cloud.microsoft:443/rs/RoamingSoapService.svc ...
+[Proxy Recording  (1448:50d0)] Trying to connect to https://roaming.svc.cloud.microsoft:443/rs/RoamingSoapService.svc ...
+[Proxy Recording  (1448:50d0)] Received response of 1750 header and 712 body bytes from https://roaming.svc.cloud.microsoft:443/rs/RoamingSoapService.svc
+[Proxy Recording  (1448:50d0)] Sent 712 bytes to client @ 192.168.1.4:30742
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:30745
+[Proxy Recording  (1448:12f0)] Trying to connect to https://roaming.svc.cloud.microsoft:443/rs/RoamingSoapService.svc ...
+[Proxy Recording  (1448:12f0)] Trying to connect to https://roaming.svc.cloud.microsoft:443/rs/RoamingSoapService.svc ...
+[Proxy Recording  (1448:12f0)] Received response of 1750 header and 712 body bytes from https://roaming.svc.cloud.microsoft:443/rs/RoamingSoapService.svc
+[Proxy Recording  (1448:12f0)] Sent 712 bytes to client @ 192.168.1.4:30745
+[User action                 ] StartTransactionEvent AB_FundTransfer_T06_SelectAccountAgain [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:19772
+[Proxy Recording  (1448:50d0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/accounts.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:2041
+[Proxy Recording  (1448:50d0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/accounts.jsp ...
+[Proxy Recording  (1448:50d0)] Received response of 106 header and 3569 body bytes from http://192.168.1.2:7001/LoanIQ/accounts.jsp
+[Web Request      (1448:50d0)] "GET http://192.168.1.2:7001/LoanIQ/accounts.jsp"   
+[Network Analyzer (1448:50d0)]   (Sid: 70) Client -> Server @ : 607 bytes (Service=HTTP)
+[Network Analyzer (1448:50d0)]   (Sid: 70) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer (1448:50d0)]   (Sid: 70) Server -> Client : 3569 bytes  (Service=HTTP)
+[Proxy Recording  (1448:50d0)] Sent 3569 bytes to client @ 192.168.1.4:19772
+[Proxy Recording  (1448:12f0)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:12f0)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:12f0)] Received response of 251 header and 914 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:12f0)]   (Sid: 71) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:12f0)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:12f0)]   (Sid: 71) Client -> Server @ : 2080 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 71) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 71) Server -> Client : 914 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:12f0)] Sent 914 bytes to client @ 192.168.1.4:2041
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:2044
+[Proxy Recording.Error (1448:418c)] Exception is caught while trying to connect to https://assets.msn.com:443, message=Authentication failed because the remote party has closed the transport stream.
+[Proxy Recording.Error (1448:418c)] Exception is caught while connecting to , message=Stream was not readable.
+[User action                 ] EndTransactionEvent AB_FundTransfer_T06_SelectAccountAgain [User action                 ] StartTransactionEvent AB_FundTransfer_T07_SelectFundTransfer [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:9768
+[Proxy Recording  (1448:50d0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/FundTransfer.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:6494
+[Proxy Recording  (1448:50d0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/FundTransfer.jsp ...
+[Proxy Recording  (1448:50d0)] Received response of 106 header and 3177 body bytes from http://192.168.1.2:7001/LoanIQ/FundTransfer.jsp
+[Web Request      (1448:50d0)] "GET http://192.168.1.2:7001/LoanIQ/FundTransfer.jsp"   
+[Network Analyzer (1448:50d0)]   (Sid: 72) Client -> Server @ : 605 bytes (Service=HTTP)
+[Network Analyzer (1448:50d0)]   (Sid: 72) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer (1448:50d0)]   (Sid: 72) Server -> Client : 3177 bytes  (Service=HTTP)
+[Proxy Recording  (1448:50d0)] Sent 3177 bytes to client @ 192.168.1.4:9768
+[Proxy Recording  (1448:12f0)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:12f0)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:12f0)] Received response of 251 header and 908 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:12f0)]   (Sid: 73) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:12f0)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:12f0)]   (Sid: 73) Client -> Server @ : 2072 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 73) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 73) Server -> Client : 908 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:12f0)] Sent 908 bytes to client @ 192.168.1.4:6494
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:6496
+[Proxy Recording.Error (1448:418c)] Exception is caught while trying to connect to https://assets.msn.com:443, message=Authentication failed because the remote party has closed the transport stream.
+[Proxy Recording.Error (1448:418c)] Exception is caught while connecting to , message=Stream was not readable.
+[User action                 ] EndTransactionEvent AB_FundTransfer_T07_SelectFundTransfer [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:6497
+[Proxy Recording.Error (1448:12f0)] Exception is caught while trying to connect to https://assets.msn.com:443, message=Authentication failed because the remote party has closed the transport stream.
+[Proxy Recording.Error (1448:12f0)] Exception is caught while connecting to , message=Stream was not readable.
+[User action                 ] StartTransactionEvent AB_FundTransfer_T08_SelectBankToBankTransfer [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:61110
+[Proxy Recording  (1448:418c)] Trying to connect to http://192.168.1.2:7001/LoanIQ/fund.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:58456
+[Proxy Recording  (1448:418c)] Trying to connect to http://192.168.1.2:7001/LoanIQ/fund.jsp ...
+[Proxy Recording  (1448:418c)] Received response of 106 header and 4749 body bytes from http://192.168.1.2:7001/LoanIQ/fund.jsp
+[Web Request      (1448:418c)] "GET http://192.168.1.2:7001/LoanIQ/fund.jsp"   
+[Network Analyzer (1448:418c)]   (Sid: 74) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (1448:418c)]   (Sid: 74) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer (1448:418c)]   (Sid: 74) Server -> Client : 4749 bytes  (Service=HTTP)
+[Proxy Recording  (1448:418c)] Sent 4749 bytes to client @ 192.168.1.4:61110
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:57264
+[Proxy Recording  (1448:50d0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-4554793993528216315/2351172957939093248 ...
+[Proxy Recording  (1448:50d0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-4554793993528216315/2351172957939093248 ...
+[Proxy Recording  (1448:12f0)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:12f0)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:12f0)] Received response of 251 header and 896 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:12f0)]   (Sid: 75) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:12f0)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:12f0)]   (Sid: 75) Client -> Server @ : 2072 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 75) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 75) Server -> Client : 896 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:12f0)] Sent 896 bytes to client @ 192.168.1.4:58456
+[Proxy Recording  (1448:50d0)] Received response of 260 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-4554793993528216315/2351172957939093248
+[Web Request      (1448:50d0)] "GET https://edge.microsoft.com/autofillservice/core/page/-4554793993528216315/2351172957939093248"   
+[Network Analyzer (1448:50d0)]   (Sid: 76) Client -> Server @ : 440 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:50d0)]   (Sid: 76) Server -> Client : 277 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:50d0)]   (Sid: 76) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:50d0)] Sent 20 bytes to client @ 192.168.1.4:57264
+[User action                 ] EndTransactionEvent AB_FundTransfer_T08_SelectBankToBankTransfer [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:62768
+[Proxy Recording  (1448:418c)] Trying to connect to https://access-point.cloudmessaging.edge.microsoft.com:443/ ...
+[User action                 ] StartTransactionEvent AB_FundTransfer_T09_AccountReview [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:24764
+[Proxy Recording  (1448:418c)] Trying to connect to http://192.168.1.2:7001/LoanIQ/showdet.jsp?taccno=IQ14290 ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:6723
+[Proxy Recording  (1448:418c)] Trying to connect to http://192.168.1.2:7001/LoanIQ/showdet.jsp?taccno=IQ14290 ...
+[Proxy Recording  (1448:418c)] Received response of 105 header and 593 body bytes from http://192.168.1.2:7001/LoanIQ/showdet.jsp?taccno=IQ14290
+[Web Request      (1448:418c)] "GET http://192.168.1.2:7001/LoanIQ/showdet.jsp?taccno=IQ14290"   
+[Network Analyzer (1448:418c)]   (Sid: 77) Client -> Server @ : 611 bytes (Service=HTTP)
+[Network Analyzer (1448:418c)]   (Sid: 77) Server -> Client : 122 bytes  (Service=HTTP)
+[Network Analyzer (1448:418c)]   (Sid: 77) Server -> Client : 593 bytes  (Service=HTTP)
+[Proxy Recording  (1448:418c)] Sent 593 bytes to client @ 192.168.1.4:24764
+[Proxy Recording  (1448:12f0)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:12f0)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:12f0)] Received response of 251 header and 906 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:12f0)]   (Sid: 78) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:12f0)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:12f0)]   (Sid: 78) Client -> Server @ : 2074 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 78) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 78) Server -> Client : 906 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:12f0)] Sent 906 bytes to client @ 192.168.1.4:6723
+[User action                 ] EndTransactionEvent AB_FundTransfer_T09_AccountReview [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:54411
+[Proxy Recording  (1448:443c)] Trying to connect to https://edge.microsoft.com:443/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTQ1LjAuMzgwMC43MBobCAEQCBoNMTc3MjAwMjkyNTQ2MiIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362 ...
+[Proxy Recording  (1448:443c)] Trying to connect to https://edge.microsoft.com:443/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTQ1LjAuMzgwMC43MBobCAEQCBoNMTc3MjAwMjkyNTQ2MiIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362 ...
+[Proxy Recording  (1448:443c)] Received response of 310 header and 143 body bytes from https://edge.microsoft.com:443/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTQ1LjAuMzgwMC43MBobCAEQCBoNMTc3MjAwMjkyNTQ2MiIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362
+[Web Request      (1448:443c)] "GET https://edge.microsoft.com/extensionrevocation/v1/threatListUpdates:fetch?req=ChcKBm1zZWRnZRINMTQ1LjAuMzgwMC43MBobCAEQCBoNMTc3MjAwMjkyNTQ2MiIEIAEgAigEIgIIAQ==&ct=application/x-protobuf&key=d414dd4f9db345fa8003e32adc81b362"   
+[Network Analyzer (1448:443c)]   (Sid: 79) Client -> Server @ : 751 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:443c)]   (Sid: 79) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:443c)]   (Sid: 79) Server -> Client : 143 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:443c)] Sent 143 bytes to client @ 192.168.1.4:54411
+[User action                 ] StartTransactionEvent AB_FundTransfer_T10_SubmitAccount [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:45887
+[Proxy Recording  (1448:12f0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/fund1.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:35727
+[Proxy Recording  (1448:12f0)] Trying to connect to http://192.168.1.2:7001/LoanIQ/fund1.jsp ...
+[Proxy Recording  (1448:12f0)] Received response of 106 header and 4873 body bytes from http://192.168.1.2:7001/LoanIQ/fund1.jsp
+[Network Analyzer (1448:12f0)]   (Sid: 80) Client -> Server @ : 723 bytes (Service=HTTP)
+[Web Request      (1448:12f0)] "POST http://192.168.1.2:7001/LoanIQ/fund1.jsp"   
+[Network Analyzer (1448:12f0)]   (Sid: 80) Client -> Server @ : 24 bytes (Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 80) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 80) Server -> Client : 4873 bytes  (Service=HTTP)
+[Proxy Recording  (1448:12f0)] Sent 4873 bytes to client @ 192.168.1.4:45887
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:2504
+[Proxy Recording  (1448:12f0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-4554793993528216315/-3893482032979401455 ...
+[Proxy Recording  (1448:12f0)] Trying to connect to https://edge.microsoft.com:443/autofillservice/core/page/-4554793993528216315/-3893482032979401455 ...
+[Proxy Recording  (1448:418c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:418c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:418c)] Received response of 251 header and 890 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:418c)]   (Sid: 81) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:418c)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:418c)]   (Sid: 81) Client -> Server @ : 2057 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:418c)]   (Sid: 81) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:418c)]   (Sid: 81) Server -> Client : 890 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:418c)] Sent 890 bytes to client @ 192.168.1.4:35727
+[Proxy Recording  (1448:12f0)] Received response of 260 header and 20 body bytes from https://edge.microsoft.com:443/autofillservice/core/page/-4554793993528216315/-3893482032979401455
+[Web Request      (1448:12f0)] "GET https://edge.microsoft.com/autofillservice/core/page/-4554793993528216315/-3893482032979401455"   
+[Network Analyzer (1448:12f0)]   (Sid: 82) Client -> Server @ : 417 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 82) Server -> Client : 277 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:12f0)]   (Sid: 82) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:12f0)] Sent 20 bytes to client @ 192.168.1.4:2504
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:47375
+[Proxy Recording  (1448:443c)] Trying to connect to https://accounts.google.com:443/RotateBoundCookies ...
+[Proxy Recording  (1448:443c)] Trying to connect to https://accounts.google.com:443/RotateBoundCookies ...
+[Proxy Recording.Error (1448:443c)] Failed to connect to server https://accounts.google.com:443/RotateBoundCookies.
+Message=ProtocolError, status=The remote server returned an error: (401) Unauthorized.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (1448:443c)] Received response of 2423 header and 0 body bytes from https://accounts.google.com:443/RotateBoundCookies
+[Proxy Recording  (1448:443c)] Sent 0 bytes to client @ 192.168.1.4:47375
+[Proxy Recording  (1448:443c)] Trying to connect to /RotateBoundCookies ...
+[Proxy Recording.Error (1448:443c)] Exception is caught while connecting to /RotateBoundCookies, message=Invalid URI: The format of the URI could not be determined.
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:24459
+[Proxy Recording  (1448:12f0)] Trying to connect to https://accounts.google.com:443/RotateBoundCookies ...
+[Proxy Recording  (1448:12f0)] Trying to connect to https://accounts.google.com:443/RotateBoundCookies ...
+[Proxy Recording  (1448:12f0)] Received response of 3446 header and 0 body bytes from https://accounts.google.com:443/RotateBoundCookies
+[Proxy Recording  (1448:12f0)] Sent 0 bytes to client @ 192.168.1.4:24459
+[User action                 ] EndTransactionEvent AB_FundTransfer_T10_SubmitAccount [User action                 ] StartTransactionEvent AB_FundTransfer_T11_PayAmount [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:13307
+[Proxy Recording  (1448: 608)] Trying to connect to http://192.168.1.2:7001/LoanIQ/FundTransfer1.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:29919
+[Proxy Recording  (1448: 608)] Trying to connect to http://192.168.1.2:7001/LoanIQ/FundTransfer1.jsp ...
+[Proxy Recording  (1448: 608)] Received response of 106 header and 2921 body bytes from http://192.168.1.2:7001/LoanIQ/FundTransfer1.jsp
+[Network Analyzer (1448: 608)]   (Sid: 83) Client -> Server @ : 733 bytes (Service=HTTP)
+[Web Request      (1448: 608)] "POST http://192.168.1.2:7001/LoanIQ/FundTransfer1.jsp"   
+[Network Analyzer (1448: 608)]   (Sid: 83) Client -> Server @ : 133 bytes (Service=HTTP)
+[Network Analyzer (1448: 608)]   (Sid: 83) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer (1448: 608)]   (Sid: 83) Server -> Client : 2921 bytes  (Service=HTTP)
+[Proxy Recording  (1448: 608)] Sent 2921 bytes to client @ 192.168.1.4:13307
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:45566
+[Proxy Recording  (1448: 608)] Trying to connect to http://192.168.1.2:7001/LoanIQ/fundtransferresult.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:15676
+[Proxy Recording  (1448: 608)] Trying to connect to http://192.168.1.2:7001/LoanIQ/fundtransferresult.jsp ...
+[Proxy Recording  (1448: 608)] Received response of 106 header and 3220 body bytes from http://192.168.1.2:7001/LoanIQ/fundtransferresult.jsp
+[Network Analyzer (1448: 608)]   (Sid: 84) Client -> Server @ : 745 bytes (Service=HTTP)
+[Web Request      (1448: 608)] "POST http://192.168.1.2:7001/LoanIQ/fundtransferresult.jsp"   
+[Network Analyzer (1448: 608)]   (Sid: 84) Client -> Server @ : 12 bytes (Service=HTTP)
+[Network Analyzer (1448: 608)]   (Sid: 84) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer (1448: 608)]   (Sid: 84) Server -> Client : 3220 bytes  (Service=HTTP)
+[Proxy Recording  (1448: 608)] Sent 3220 bytes to client @ 192.168.1.4:45566
+[Proxy Recording  (1448:43d4)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:43d4)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:43d4)] Received response of 251 header and 902 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:43d4)]   (Sid: 85) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:43d4)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:43d4)]   (Sid: 85) Client -> Server @ : 2067 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:43d4)]   (Sid: 85) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:43d4)]   (Sid: 85) Server -> Client : 902 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:43d4)] Sent 902 bytes to client @ 192.168.1.4:29919
+[Proxy Recording  (1448:400c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:400c)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448:400c)] Received response of 251 header and 916 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448:400c)]   (Sid: 86) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448:400c)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448:400c)]   (Sid: 86) Client -> Server @ : 2088 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448:400c)]   (Sid: 86) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448:400c)]   (Sid: 86) Server -> Client : 916 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448:400c)] Sent 916 bytes to client @ 192.168.1.4:15676
+[User action                 ] EndTransactionEvent AB_FundTransfer_T11_PayAmount [User action                 ] StartTransactionEvent AB_FundTransfer_T12_UserLogout [Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:35830
+[Proxy Recording  (1448:43d4)] Trying to connect to http://192.168.1.2:7001/LoanIQ/Logout.jsp ...
+[Proxy Recording  (1448: d40)] Client request from @ 192.168.1.4:44035
+[Proxy Recording  (1448:43d4)] Trying to connect to http://192.168.1.2:7001/LoanIQ/Logout.jsp ...
+[Proxy Recording  (1448:43d4)] Received response of 106 header and 2027 body bytes from http://192.168.1.2:7001/LoanIQ/Logout.jsp
+[Web Request      (1448:43d4)] "GET http://192.168.1.2:7001/LoanIQ/Logout.jsp"   
+[Network Analyzer (1448:43d4)]   (Sid: 87) Client -> Server @ : 609 bytes (Service=HTTP)
+[Network Analyzer (1448:43d4)]   (Sid: 87) Server -> Client : 123 bytes  (Service=HTTP)
+[Network Analyzer (1448:43d4)]   (Sid: 87) Server -> Client : 2027 bytes  (Service=HTTP)
+[Proxy Recording  (1448:43d4)] Sent 2027 bytes to client @ 192.168.1.4:35830
+[Proxy Recording  (1448: f60)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448: f60)] Trying to connect to https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3 ...
+[Proxy Recording  (1448: f60)] Received response of 251 header and 910 body bytes from https://nav-edge.smartscreen.microsoft.com:443/api/browser/edge/navigate/3
+[Network Analyzer (1448: f60)]   (Sid: 88) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Web Request      (1448: f60)] "POST https://nav-edge.smartscreen.microsoft.com/api/browser/edge/navigate/3"   
+[Network Analyzer (1448: f60)]   (Sid: 88) Client -> Server @ : 2086 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1448: f60)]   (Sid: 88) Server -> Client : 268 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1448: f60)]   (Sid: 88) Server -> Client : 910 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (1448: f60)] Sent 910 bytes to client @ 192.168.1.4:44035
+[User action                 ] EndTransactionEvent AB_FundTransfer_T12_UserLogout 

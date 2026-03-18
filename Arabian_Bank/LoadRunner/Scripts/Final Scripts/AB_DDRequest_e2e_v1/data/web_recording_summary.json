@@ -1,0 +1,1375 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 101,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Feb-24-2026",
+    "RecordingDuration": 214172,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1771909582,
+    "RecordingType": "Proxy",
+    "TotalBytesReceived": 182670,
+    "TotalBytesSent": 221976,
+    "TotalRequests": 101,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "msn.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:140f:3c00::1730:e288]",
+          "IncludeInScript": false,
+          "Name": "ntp.msn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 0,
+              "EventId": 113,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://ntp.msn.com/edge/ntp/service-worker.js?bundlevariant=ruby&bundles=latest&riverAgeMinutes=2880&navAgeMinutes=2880&networkTimeoutSeconds=5&bgTaskNetworkTimeoutSeconds=8&enableNetworkFirst=true&enableEmptySectionRoute=true&enableNavPreload=true&enableStaticAdsRouting=true"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 90,
+              "HttpStatus": 200,
+              "Size": 37369,
+              "URL": "https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&feed_dis=always&en_widget_reg=false&startpage=1&PC=LCTS&prerender=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:140f:3c00::1730:e2a9]",
+          "IncludeInScript": false,
+          "Name": "assets.msn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 145,
+              "HttpStatus": 200,
+              "Size": 4932,
+              "URL": "https://assets.msn.com/service/segments/recoitems/weather?apikey=UhJ4G66OjyLbn9mXARgajXLiLw6V75sHnfpU60aJBB&activityId=699d31de-968a-4c7c-a470-437f078f7d50&ocid=weather-peregrine&cm=en-in&it=app&user=m-3F83A7A4DCA06CB1316DB103DDDF6D51&scn=APP_ANON&appId=4de6fc9f-3262-47bf-9c99-e189a8234fa2&wrapodata=false&includemapsmetadata=true&cuthour=true&distanceinkm=0&regionDataCount=20&orderby=distance&days=5&pageOcid=anaheim-dhp-peregrine&source=undefined_csr&fdhead=prg-1sw-wxncvf%2Cprg-1sw-wxtrlog%2CPRG-1SW-WXWPDEL%2CPRG-1SW-WXWPDS%2CPRG-1SW-WXWPTLI%2Cprg-1sw-wxaqif%2Cprg-1sw-wxaqifct%2Cprg-1sw-weacopilot&contentcount=3&region=in&market=en-in&locale=en-in"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 108,
+              "HttpStatus": 200,
+              "Size": 102599,
+              "URL": "https://assets.msn.com/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699d31de-968a-4c7c-a470-437f078f7d50&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-24T10%3A36%3A39.849%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x698&wposchema=byregion"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 99,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://assets.msn.com/service/news/feed/pages/rubyfeed?User=m-3F83A7A4DCA06CB1316DB103DDDF6D51&activityId=699d31de-968a-4c7c-a470-437f078f7d50&apikey=1hYoJsIRvPEnSkk0hlnJF2092mHqiz7xFenIFKa9uc&apptype=edgeChromium&audienceMode=adult&caller=bgtask&clientTimeStamp=2026-02-24T10%3A36%3A39.849%2B05%3A30&clientUtcOffset=330&cm=en-in&column=c4&contentType=article,video,slideshow,webcontent&dhp=1&dprValue=1&duotone=true&it=app&memory=8&newsSkip=0&newsTop=48&ocid=rubyntp&pgname=ruby&pgtype=dhp&prerender=1&scn=APP_ANON&timeOut=2000&uxmode=ruby&vpSize=1528x698&wposchema=byregion"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "image/x-icon",
+              "DownloadTime": 0,
+              "EventId": 95,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://assets.msn.com/statics/icons/favicon.ico"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "microsoft.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2620:1ec:33::11]",
+          "IncludeInScript": false,
+          "Name": "edge.microsoft.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 433,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://edge.microsoft.com/autofillservice/core/page/-4554793993528216315/-8020389994087060434"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 16,
+              "EventId": 252,
+              "HttpStatus": 200,
+              "Size": 837,
+              "URL": "https://edge.microsoft.com/componentupdater/api/v1/update?cup2key=7:DgYYN3VxKhXOoTH_b6ob_A_1NhkUR5poVeQabU2wzRs&cup2hreq=5a5b452f573ad5a17390ed566a5e58ac5cf7b0673e0ec2fe2be369b3056a3107"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 235,
+              "HttpStatus": 200,
+              "Size": 20,
+              "URL": "https://edge.microsoft.com/autofillservice/core/page/-4554793993528216315/-2068690090859129015"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 202,
+              "HttpStatus": 200,
+              "Size": 161,
+              "URL": "https://edge.microsoft.com/extensionwebstorebase/v1/crx"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 62,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://edge.microsoft.com/abusiveadblocking/api/v1/blocklist"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 49,
+              "HttpStatus": 200,
+              "Size": 3199,
+              "URL": "https://edge.microsoft.com/identity/api/v3/msa"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 31,
+              "HttpStatus": 200,
+              "Size": 295,
+              "URL": "https://edge.microsoft.com/serviceexperimentation/v3/?osname=win&channel=stable&osver=10.0.26200&devicefamily=desktop&installdate=1763359502&clientversion=145.0.3800.70&experimentationmode=2&scpguard=1&scpfull=0&scpver=13"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "2&3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "bing.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:140f:3c00::b81c:ad4a]",
+          "IncludeInScript": false,
+          "Name": "www.bing.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 15,
+              "EventId": 140,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.bing.com/th?id=OCGE.9n3rf7wr68ql_v12_main&pid=uxf&rf=hubstream_fallback.jpg&w=20&h=20&qlt=90&c=1&rs=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 81,
+              "HttpStatus": 200,
+              "Size": 681399,
+              "URL": "https://www.bing.com/bloomfilterfiles/ExpandedDomainsFilterGlobal.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 76,
+              "HttpStatus": 200,
+              "Size": 109,
+              "URL": "https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 71,
+              "HttpStatus": 200,
+              "Size": 418,
+              "URL": "https://www.bing.com/api/shopping/v1/user/shoppingsettings"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 66,
+              "HttpStatus": 200,
+              "Size": 418,
+              "URL": "https://www.bing.com/api/shopping/v1/user/shoppingsettings?EnabledServiceFeaturesv2=edgeServerUX.shopping.msEdgeShoppingCashbackDismissTimeout2s"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 40,
+              "HttpStatus": 200,
+              "Size": 109,
+              "URL": "https://www.bing.com/api/shopping/v1/savings/rewards/rewardsUserInfo"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:140f:3c00::b81c:ad4a]",
+          "IncludeInScript": false,
+          "Name": "th.bing.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 184,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.f34b6aea60b17f15cc25f2dd6c7b6829&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 0,
+              "EventId": 179,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=OMSN.AA1WW83G.webp-Gem&pid=wdpv2&w=312&h=172&qlt=90&c=1&rs=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 169,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.f2fd6548d7ad58b165085bb4539a7462&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 164,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.ff914cc4ac4a3c9f5231a128d9eb7205&pid=Wdp&w=312&h=172&qlt=90&c=1&rs=1&dpr=1&p=0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 155,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.59314f372461ce86030d9054c08370b8&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 150,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.225f53bbe2ad046cf4b21c1539462d37&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 122,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://th.bing.com/th?id=ORMS.ab8776612b9ec48c0bee4b3a1e96d541&pid=Wdp&w=686&h=368&qlt=90&c=1&rs=1"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": false
+    },
+    {
+      "DomainName": "azureedge.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2620:1ec:bdf::58]",
+          "IncludeInScript": false,
+          "Name": "edge-consumer-static.azureedge.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 197,
+              "HttpStatus": 200,
+              "Size": 101,
+              "URL": "https://edge-consumer-static.azureedge.net/mouse-gesture/config.json"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "akamaized.net",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2600:140f:3c00::1730:e2a9]",
+          "IncludeInScript": false,
+          "Name": "img-s-msn-com.akamaized.net",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 0,
+              "EventId": 174,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA19Mndr.img?w=16&h=16&q=100&m=6&f=png&u=t"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 16,
+              "EventId": 135,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QESxA.img?w=24&h=24&q=100&m=6&f=webp&u=t"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/webp",
+              "DownloadTime": 0,
+              "EventId": 117,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1QRwRr.img?w=24&h=24&q=100&m=6&f=webp&u=t"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "192.168.1.2",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.1.2",
+          "IncludeInScript": true,
+          "Name": "192.168.1.2",
+          "Port": 7001,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 549,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=3109707556&co=snappy&st=1771909798758&ss=0&qc=3616883402&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 545,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=2252712876&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 541,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=2617444716&co=snappy&st=1771909796731&ss=1&qc=3740090180&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 537,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=2414162386&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 533,
+              "HttpStatus": 200,
+              "Size": 2798,
+              "URL": "http://192.168.1.2:7001/LoanIQ/Logout.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 529,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=4227418967&co=snappy&st=1771909793093&ss=0&qc=3634509009&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 525,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=1&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=3785455063&co=snappy&st=1771909785086&ss=1&qc=4273516405&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 521,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=4166058493&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 517,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1067892178&co=snappy&st=1771909773812&ss=0&qc=3440790665&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 513,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=2842125696&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 509,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=451985867&co=snappy&st=1771909771777&ss=1&qc=3356511715&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 505,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1328579746&co=snappy&st=1771909771775&ss=1&qc=2957011122&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 501,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=940664891&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 497,
+              "HttpStatus": 200,
+              "Size": 3916,
+              "URL": "http://192.168.1.2:7001/LoanIQ/ddresponseresult.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 493,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=4068210344&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 489,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1204184259&co=snappy&st=1771909770856&ss=1&qc=460038720&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 485,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1413307447&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 481,
+              "HttpStatus": 200,
+              "Size": 3894,
+              "URL": "http://192.168.1.2:7001/LoanIQ/ddresponse.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 477,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=792127749&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=546534956&co=snappy&st=1771909768875&ss=0&qc=2101546082&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 469,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1935406482&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 465,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=2595524932&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 461,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=938986436&co=snappy&st=1771909766836&ss=1&qc=3527335379&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 457,
+              "HttpStatus": 200,
+              "Size": 7067,
+              "URL": "http://192.168.1.2:7001/LoanIQ/ddrequest.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 453,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=3187532798&co=snappy&st=1771909758547&ss=0&qc=59685495&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 449,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=1&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1750655397&co=snappy&st=1771909751350&ss=1&qc=3428201570&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 445,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1980491146&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 441,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=499092680&co=snappy&st=1771909739070&ss=0&qc=3867786479&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 437,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=3680613661&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 428,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=681212638&co=snappy&st=1771909737038&ss=1&qc=362521289&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 424,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=3221206840&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 420,
+              "HttpStatus": 200,
+              "Size": 7041,
+              "URL": "http://192.168.1.2:7001/LoanIQ/ddrequest.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 416,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=2930214260&co=snappy&st=1771909731685&ss=0&qc=1720742419&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 412,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=1&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=3938960913&co=snappy&st=1771909724439&ss=1&qc=870595457&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 408,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=2384716665&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 404,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1714187428&co=snappy&st=1771909714793&ss=0&qc=3206481292&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 400,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=3158854508&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 396,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1360787241&co=snappy&st=1771909712753&ss=1&qc=1510083349&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 392,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=148307794&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 388,
+              "HttpStatus": 200,
+              "Size": 4327,
+              "URL": "http://192.168.1.2:7001/LoanIQ/ServiceRequests.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 384,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=3847461517&co=snappy&st=1771909709359&ss=0&qc=2542721570&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 380,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=1&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=605888121&co=snappy&st=1771909702097&ss=1&qc=1722560475&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 376,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1737251411&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 372,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=253141204&co=snappy&st=1771909695006&ss=0&qc=2171126720&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 368,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1718674803&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 364,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1247591119&co=snappy&st=1771909692960&ss=1&qc=2908872472&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 360,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=601244177&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 356,
+              "HttpStatus": 200,
+              "Size": 4342,
+              "URL": "http://192.168.1.2:7001/LoanIQ/accounts.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 352,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=3780718452&co=snappy&st=1771909689525&ss=0&qc=1573498334&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 348,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=1&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=4238988656&co=snappy&st=1771909682240&ss=1&qc=51637164&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 344,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=796581055&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 340,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1179562846&co=snappy&st=1771909671535&ss=0&qc=711228847&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 336,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1635961967&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 332,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/logout.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 328,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/Demat.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 324,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/cards.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 320,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/Billpay.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 16,
+              "EventId": 316,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/Loans.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 312,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/Accounts.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 308,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=2335907150&co=snappy&st=1771909668613&ss=1&qc=1426960610&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 304,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=507825065&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 300,
+              "HttpStatus": 200,
+              "Size": 3627,
+              "URL": "http://192.168.1.2:7001/LoanIQ/Login?JSESSIONID=5PeOCpGdA0aYRyEZeT0xPmwmg6aRrFBK9aADvf28l6sPmc2mb-sS!-1230384288!1771909583261"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 296,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=3258133292&co=snappy&st=1771909663731&ss=0&qc=3214398300&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 292,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1664132242&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 288,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=3761527935&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 284,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=3602776109&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 280,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1932762661&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 276,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1260050340&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 272,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=691089949&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 268,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=2865213172&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 264,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=600769951&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 260,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=3730798688&co=snappy&st=1771909656465&ss=0&qc=3483845322&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 256,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=1&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=48507647&co=snappy&st=1771909648302&ss=1&qc=87258647&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 247,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=2254898813&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 243,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=2662828241&co=snappy&st=1771909634601&ss=0&qc=1707844826&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 16,
+              "EventId": 239,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1798724900&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 230,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/signup.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 226,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/login.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 222,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=3139178108&co=snappy&st=1771909632488&ss=1&qc=3165915887&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 218,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=2655445103&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 214,
+              "HttpStatus": 200,
+              "Size": 3265,
+              "URL": "http://192.168.1.2:7001/LoanIQ/login.jsp"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 210,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=667420964&co=snappy&st=1771909629299&ss=0&qc=152256103&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 15,
+              "EventId": 206,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=1&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1487884623&co=snappy&st=1771909622676&ss=1&qc=2389793419&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 192,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=366605186&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 188,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1533364214&co=snappy&st=1771909608624&ss=0&qc=3258780049&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 159,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=686108136&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 130,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1273992547&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 126,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=2&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=1213056532&co=snappy&st=1771909606593&ss=1&qc=2070565544&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 103,
+              "HttpStatus": 200,
+              "Size": 3248,
+              "URL": "http://192.168.1.2:7001/LoanIQ/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 85,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=2155367227&co=snappy&st=1771909595159&ss=0&qc=1890657575&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 57,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=1&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=2608390989&co=snappy&st=1771909588354&ss=1&qc=1500062436&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 53,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1392733580&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 44,
+              "HttpStatus": 200,
+              "Size": 66,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?sc=5&si=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&ty=js&pv=4&ai=ea7c4b59f27d43eb&en=1zefxo3e&cr=1771507651721&av=1.331.17&cy=event&bc=314394680&co=snappy&st=1771909586801&ss=0&qc=4178263185&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 0,
+              "EventId": 35,
+              "HttpStatus": 200,
+              "Size": 141,
+              "URL": "http://192.168.1.2:7001/LoanIQ/rb_bf18472vnr?type=js3&sn=v_4_srv_-2D9217_sn_4705KCJGEDBNSV8MJPRP6VIKG61K54PI&svrid=-9217&flavor=post&vi=MRGBPWBJSAJCIAAMLELKSCKLJTLUORPT-0&modifiedSince=1771507651721&bp=3&app=ea7c4b59f27d43eb&crc=1440331764&en=1zefxo3e&end=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 26,
+              "HttpStatus": 404,
+              "Size": 1164,
+              "URL": "http://192.168.1.2:7001/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 22,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/nri.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 18,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/business.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 0,
+              "EventId": 14,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/corporative.JPG"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 0,
+              "EventId": 10,
+              "HttpStatus": 200,
+              "Size": 126868,
+              "URL": "http://192.168.1.2:7001/LoanIQ/ruxitagentjs_ICA15789NPRTUVXfqrux_10331260218130851.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 15,
+              "EventId": 6,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "http://192.168.1.2:7001/LoanIQ/images/personal.JPG"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 2,
+              "HttpStatus": 200,
+              "Size": 3247,
+              "URL": "http://192.168.1.2:7001/LoanIQ/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 5
+}

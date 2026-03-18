@@ -1,0 +1,48 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1773743559558
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: login.jsp",
+                "infFile": "t2.inf",
+                "time": 1773743564613
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1773743567701
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_AccountSummary_T01_Launch",
+                "rawStartTime": 1773743559146,
+                "rawEndTime": 1773743559559,
+                "thinkTime": 0.0,
+                "wastedTime": 0.20695805549621583
+            },
+            {
+                "transactionName": "AB_AccountSummary_T02_AccessPersonalBanking",
+                "rawStartTime": 1773743564566,
+                "rawEndTime": 1773743564614,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003940582275390625
+            },
+            {
+                "transactionName": "AB_AccountSummary_T03_UserLogin",
+                "rawStartTime": 1773743567620,
+                "rawEndTime": 1773743567701,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009357929229736328
+            }
+        ]
+    }
+]

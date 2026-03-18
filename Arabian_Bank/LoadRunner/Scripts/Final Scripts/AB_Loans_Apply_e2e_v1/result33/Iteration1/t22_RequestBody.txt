@@ -1,0 +1,5 @@
+"loginName=IQ14285&loanamountrequiredrupees=214002&Tenure=24&title=Mrs.&firstname=Akon2&middlen"
+"ame=&lastname=Shon2&dateofbirth=14-10-1994&gender1=Male&maritalstatus=Single&Qualification=Und"
+"er+Graduate&phonenumber=9848022331&mobile=7290825095&pincode=523186&yearsatresidence=3&numbero"
+"fdependents=1&residentstatus=Own+house&officeaddress=Madhapur-2&email=Akon2%40gmail.com&pannum"
+"ber=BZJPB99992&currentaddress=D.No.11-12&state=Norfolk+Island&city=Douglas"

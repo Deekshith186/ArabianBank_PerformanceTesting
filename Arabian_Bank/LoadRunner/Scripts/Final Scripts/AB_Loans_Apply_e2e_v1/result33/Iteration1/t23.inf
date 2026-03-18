@@ -1,0 +1,13 @@
+[t23]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=text/html
+StepName=Submit Data: HomeLoan
+Total=1
+FileName1=t23.html
+RequestHeaderFile=t23_RequestHeader.txt
+ResponseHeaderFile=t23_ResponseHeader.txt
+RawStepEndTime=1772877968158
+RawStepName=HomeLoan
+RequestBodyFile=t23_RequestBody.txt
+RawStepStartTime=1772877968092
+URL1=http://192.168.1.4:7001/LoanIQ/HomeLoan?loginName=IQ14285&loanamountrequiredrupees=214002&tenure=24&title=Mrs.&firstname=Akon2&middlename=&lastname=Shon2&dateofbirth=14-10-1994&gender1=Male&maritalstatus=Single&Qualification=Under+Graduate&phonenumber=9848022331&mobile=7290825095&currentaddress=D.No.11-12&country=AUS&state=Norfolk+Island&city=Douglas&pincode=523186&yearsatresidence=3&numberofdependents=1&residentstatus=Own+house&officeaddress=Madhapur-2&email=Akon2@gmail.com&pannumber=BZJPB99992&youare={c_RandomYouAre}&nameofcompany=Quantum-2&companynature={c_Randomcompanynature}&totalyearsofexperience={c_Randomtotalyearsofexperience}&totalyearsofexperience1={c_Randomtotalyearsofexperience1}&otherloan={c_Randomotherloan}

@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ",
+                "infFile": "t1.inf",
+                "time": 1770721459419
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: rb_bf18472vnr_5",
+                "infFile": "t2.inf",
+                "time": 1770721459454
+            }
+        ],
+        "transactions": []
+    }
+]

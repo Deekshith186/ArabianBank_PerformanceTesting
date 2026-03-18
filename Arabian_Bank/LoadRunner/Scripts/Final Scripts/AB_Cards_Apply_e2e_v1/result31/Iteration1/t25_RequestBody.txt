@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Dr.&firstname=Akon4&middlename=&lastname=Shon1&dateofbirth=17-10"
+"-1994&gender1=Male&maritalstatus=Single&Qualification=Post+Graduate&phonenumber=9848022331&mob"
+"ile=7290825091&currentaddress=DNo11-16&country=Russia&state=Magadan+Oblast&city=Magadan&pincod"
+"e=523186&yearsatresidence=3&numberofdependents=4&residentstatus=Own+house&officeaddress=Madhap"
+"ur-1&email=Akon1%40gmail.com&pannumber=BZJPB99991&youare=Hardware+Engineer&nameofcompany=Quant"
+"um-1&companynature=Non-IT&totalyearsofexperience=1&totalyearsofexperience1=2"

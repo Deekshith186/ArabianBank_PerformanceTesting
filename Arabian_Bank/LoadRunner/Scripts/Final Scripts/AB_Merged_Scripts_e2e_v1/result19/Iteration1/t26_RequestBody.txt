@@ -1,0 +1,6 @@
+"loginName=%7Bc_accno%7D&title=Ms.&firstname=Akon2&middlename=&lastname=Shon1&dateofbirth=15-10"
+"-1994&gender1=Female&maritalstatus=Single&Qualification=Diploma&phonenumber=9848022331&mobile="
+"7290825091&currentaddress=DNo11-16&country=Japan&state=Fukuoka&city=Hakataza&pincode=523186&ye"
+"arsatresidence=4&numberofdependents=1&residentstatus=company+Provided&officeaddress=Madhapur-1"
+"&email=Akon1%40gmail.com&pannumber=BZJPB99991&youare=Electrical+Engineer&nameofcompany=Quantum"
+"-1&companynature=Non-IT&totalyearsofexperience=4&totalyearsofexperience1=3"

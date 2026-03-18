@@ -1,0 +1,15 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "AB_DDRequest_T01_Launch",
+                "rawStartTime": 1773143541249,
+                "rawEndTime": 1773143545921,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018797874450683595
+            }
+        ]
+    }
+]

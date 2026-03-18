@@ -1,0 +1,186 @@
+Virtual User Script started at: 12-03-2026 11:00:26
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 11; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\Offline\Arabian_Bank\LoadRunner\Scripts\Final Scripts\AB_Statements_e2e_v1\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "AB_Statements_T01_Launch" started.
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(9): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(9): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_url("LoanIQ") started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(12): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(12): Found resource "http://192.168.1.4:7001/LoanIQ/images/personal.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+Action.c(12): Found resource "http://192.168.1.4:7001/LoanIQ/images/corporative.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+Action.c(12): Found resource "http://192.168.1.4:7001/LoanIQ/images/business.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+Action.c(12): Found resource "http://192.168.1.4:7001/LoanIQ/images/nri.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/"  	[MsgId: MMSG-26659]
+Action.c(12): Registered web_reg_find successful for "Text=Welcome To LoanIQ" (count=3)  	[MsgId: MMSG-26364]
+Action.c(12): web_url("LoanIQ") was successful, 122614 body bytes, 1004 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(22): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(24): Notify: Transaction "AB_Statements_T01_Launch" ended with a "Pass" status (Duration: 0.4440 Wasted Time: 0.0527).
+Action.c(26): lr_think_time: 3.00 seconds.
+Action.c(28): Notify: Transaction "AB_Statements_T02_AccessPersonalBanking" started.
+Action.c(30): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(30): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_url("personal.JPG") started  	[MsgId: MMSG-26355]
+Action.c(39): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(39): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(39): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(39): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(39): Notify: Saving Parameter "c_JSESSIONID = azvghle9DQok9qhOtvPQYXGfDgo00vwR-S9c4tXXlQckR9RaPzpp!1311516965!1773293426621".
+Action.c(39): Found resource "http://192.168.1.4:7001/LoanIQ/images/login.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/login.jsp"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "http://192.168.1.4:7001/LoanIQ/images/signup.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/login.jsp"  	[MsgId: MMSG-26659]
+Action.c(39): Registered web_reg_find successful for "Text=Forgot Password?" (count=1)  	[MsgId: MMSG-26364]
+Action.c(39): web_url("personal.JPG") was successful, 13636 body bytes, 550 header bytes  	[MsgId: MMSG-26386]
+Action.c(49): Notify: Transaction "AB_Statements_T02_AccessPersonalBanking" ended with a "Pass" status (Duration: 0.0550 Wasted Time: 0.0039).
+Action.c(51): lr_think_time: 3.00 seconds.
+Action.c(53): Notify: Transaction "AB_Statements_T03_UserLogin" started.
+Action.c(55): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(55): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(58): web_submit_data("Login") started  	[MsgId: MMSG-26355]
+Action.c(58): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(58): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(58): Notify: Parameter Substitution: parameter "c_JSESSIONID" =  "azvghle9DQok9qhOtvPQYXGfDgo00vwR-S9c4tXXlQckR9RaPzpp!1311516965!1773293426621"
+Action.c(58): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(58): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(58): Notify: Parameter Substitution: parameter "p_accno" =  "IQ14319"
+Action.c(58): Notify: Parameter Substitution: parameter "p_password" =  "Akon@186"
+Action.c(58): Found resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=azvghle9DQok9qhOtvPQYXGfDgo00vwR-S9c4tXXlQckR9RaPzpp!1311516965!1773293426621"  	[MsgId: MMSG-26659]
+Action.c(58): Found resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=azvghle9DQok9qhOtvPQYXGfDgo00vwR-S9c4tXXlQckR9RaPzpp!1311516965!1773293426621"  	[MsgId: MMSG-26659]
+Action.c(58): Found resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=azvghle9DQok9qhOtvPQYXGfDgo00vwR-S9c4tXXlQckR9RaPzpp!1311516965!1773293426621"  	[MsgId: MMSG-26659]
+Action.c(58): Found resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=azvghle9DQok9qhOtvPQYXGfDgo00vwR-S9c4tXXlQckR9RaPzpp!1311516965!1773293426621"  	[MsgId: MMSG-26659]
+Action.c(58): Found resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=azvghle9DQok9qhOtvPQYXGfDgo00vwR-S9c4tXXlQckR9RaPzpp!1311516965!1773293426621"  	[MsgId: MMSG-26659]
+Action.c(58): Found resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" in HTML "http://192.168.1.4:7001/LoanIQ/Login?JSESSIONID=azvghle9DQok9qhOtvPQYXGfDgo00vwR-S9c4tXXlQckR9RaPzpp!1311516965!1773293426621"  	[MsgId: MMSG-26659]
+Action.c(58): Registered web_reg_find successful for "Text=Welcome" (count=1)  	[MsgId: MMSG-26364]
+Action.c(58): web_submit_data("Login") was successful, 71939 body bytes, 1243 header bytes  	[MsgId: MMSG-26386]
+Action.c(74): Notify: Transaction "AB_Statements_T03_UserLogin" ended with a "Pass" status (Duration: 0.0835 Wasted Time: 0.0114).
+Action.c(76): lr_think_time: 3.00 seconds.
+Action.c(78): Notify: Transaction "AB_Statements_T04_SelectAccount" started.
+Action.c(80): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(80): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(83): web_url("Accounts.JPG") started  	[MsgId: MMSG-26355]
+Action.c(83): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(83): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(83): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(83): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(83): Notify: Parameter Substitution: parameter "c_JSESSIONID" =  "azvghle9DQok9qhOtvPQYXGfDgo00vwR-S9c4tXXlQckR9RaPzpp!1311516965!1773293426621"
+Action.c(83): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(83): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(83): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(83): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(83): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(83): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(83): Registered web_reg_find successful for "Text=Account" (count=5)  	[MsgId: MMSG-26364]
+Action.c(83): web_url("Accounts.JPG") was successful, 3570 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(93): Notify: Transaction "AB_Statements_T04_SelectAccount" ended with a "Pass" status (Duration: 0.0327 Wasted Time: 0.0054).
+Action.c(95): lr_think_time: 3.00 seconds.
+Action.c(97): Notify: Transaction "AB_Statements_T05_SelectStatements" started.
+Action.c(99): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(99): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(102): web_url("Statements") started  	[MsgId: MMSG-26355]
+Action.c(102): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(102): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(102): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(102): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(102): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(102): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(102): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(102): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(102): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(102): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(102): Registered web_reg_find successful for "Text=Statements" (count=4)  	[MsgId: MMSG-26364]
+Action.c(102): web_url("Statements") was successful, 3304 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(112): Notify: Transaction "AB_Statements_T05_SelectStatements" ended with a "Pass" status (Duration: 0.0571 Wasted Time: 0.0043).
+Action.c(114): lr_think_time: 3.00 seconds.
+Action.c(116): Notify: Transaction "AB_Statements_T06_SelectDetailedStatements" started.
+Action.c(118): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(118): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(121): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(121): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(128): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(128): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(136): web_url("Detailed-statement") started  	[MsgId: MMSG-26355]
+Action.c(136): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(136): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(136): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(136): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(136): Resource "http://192.168.1.4:7001/LoanIQ/images/Accounts.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://192.168.1.4:7001/LoanIQ/images/Loans.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://192.168.1.4:7001/LoanIQ/images/Billpay.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://192.168.1.4:7001/LoanIQ/images/cards.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://192.168.1.4:7001/LoanIQ/images/Demat.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Resource "http://192.168.1.4:7001/LoanIQ/images/logout.JPG" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(136): Notify: Saving Parameter "c_accno = IQ14319".
+Action.c(136): Notify: Saving Parameter "c_filetype_1 = pdf".
+Action.c(136): Notify: Saving Parameter "c_filetype_2 = xls".
+Action.c(136): Notify: Saving Parameter "c_filetype_3 = html".
+Action.c(136): Notify: Saving Parameter "c_filetype_4 = doc".
+Action.c(136): Notify: Saving Parameter "c_filetype_count = 4".
+Action.c(136): Registered web_reg_find successful for "Text=FormType" (count=1)  	[MsgId: MMSG-26364]
+Action.c(136): web_url("Detailed-statement") was successful, 8063 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(146): Notify: Parameter Substitution: parameter "c_filetype_count" =  "4"
+Action.c(146): Notify: Parameter Substitution: parameter "c_filetype_4" =  "doc"
+Action.c(146): Notify: Saving Parameter "c_Randomfiletype = doc".
+Action.c(148): Notify: Transaction "AB_Statements_T06_SelectDetailedStatements" ended with a "Pass" status (Duration: 0.0699 Wasted Time: 0.0094).
+Action.c(150): lr_think_time: 5.00 seconds.
+Action.c(152): Notify: Transaction "AB_Statements_T07_Choose_dates" started.
+Action.c(154): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(154): Notify: Parameter Substitution: parameter "c_Randomfiletype" =  "doc"
+Action.c(154): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(158): The week count starts from 0.
+Action.c(158): Notify: Saving Parameter "EDAY = 12".
+Action.c(159): The week count starts from 0.
+Action.c(159): Notify: Saving Parameter "EMON = 03".
+Action.c(160): The week count starts from 0.
+Action.c(160): Notify: Saving Parameter "EYEAR = 2026".
+Action.c(165): The week count starts from 0.
+Action.c(165): Notify: Saving Parameter "BDAY = 13".
+Action.c(166): The week count starts from 0.
+Action.c(166): Notify: Saving Parameter "BMON = 09".
+Action.c(167): The week count starts from 0.
+Action.c(167): Notify: Saving Parameter "BYEAR = 2025".
+Action.c(169): web_submit_data("Test") started  	[MsgId: MMSG-26355]
+Action.c(169): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(169): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(169): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(169): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(169): Notify: Parameter Substitution: parameter "BDAY" =  "13"
+Action.c(169): Notify: Parameter Substitution: parameter "BMON" =  "09"
+Action.c(169): Notify: Parameter Substitution: parameter "BYEAR" =  "2025"
+Action.c(169): Notify: Parameter Substitution: parameter "EDAY" =  "12"
+Action.c(169): Notify: Parameter Substitution: parameter "EMON" =  "03"
+Action.c(169): Notify: Parameter Substitution: parameter "EYEAR" =  "2026"
+Action.c(169): Notify: Parameter Substitution: parameter "c_Randomfiletype" =  "doc"
+Action.c(169): Notify: Parameter Substitution: parameter "c_accno" =  "IQ14319"
+Action.c(169): Registered web_reg_find successful for "Text=downloadfilename.doc" (count=1)  	[MsgId: MMSG-26364]
+Action.c(169): web_submit_data("Test") was successful, 242 body bytes, 187 header bytes, 16 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(187): Notify: Transaction "AB_Statements_T07_Choose_dates" ended with a "Pass" status (Duration: 0.0447 Wasted Time: 0.0042).
+Action.c(189): lr_think_time: 3.00 seconds.
+Action.c(191): Notify: Transaction "AB_Statements_T08_UserLogout" started.
+Action.c(193): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(193): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(196): web_url("Logout.jsp") started  	[MsgId: MMSG-26355]
+Action.c(196): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(196): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(196): Notify: Parameter Substitution: parameter "p_host" =  "192.168.1.4"
+Action.c(196): Notify: Parameter Substitution: parameter "p_port" =  "7001"
+Action.c(196): Registered web_reg_find successful for "Text=You Are Successfully Logged Out" (count=1)  	[MsgId: MMSG-26364]
+Action.c(196): web_url("Logout.jsp") was successful, 2027 body bytes, 123 header bytes  	[MsgId: MMSG-26386]
+Action.c(207): Notify: Transaction "AB_Statements_T08_UserLogout" ended with a "Pass" status (Duration: 0.0365 Wasted Time: 0.0050).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 8680), ended OK."

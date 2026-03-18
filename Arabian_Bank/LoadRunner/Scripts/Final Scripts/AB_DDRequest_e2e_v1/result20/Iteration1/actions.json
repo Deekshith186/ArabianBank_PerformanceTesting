@@ -1,0 +1,61 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: LoanIQ_2",
+                "infFile": "t1.inf",
+                "time": 1773143684318
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: login.jsp",
+                "infFile": "t2.inf",
+                "time": 1773143684420
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: Login",
+                "infFile": "t3.inf",
+                "time": 1773143684504
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: accounts.jsp",
+                "infFile": "t4.inf",
+                "time": 1773143684536
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "AB_DDRequest_T01_Launch",
+                "rawStartTime": 1773143683597,
+                "rawEndTime": 1773143684318,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06030535697937012
+            },
+            {
+                "transactionName": "AB_DDRequest_T02_AccessPersonalBanking",
+                "rawStartTime": 1773143684320,
+                "rawEndTime": 1773143684420,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0037789344787597658
+            },
+            {
+                "transactionName": "AB_DDRequest_T03_UserLogin",
+                "rawStartTime": 1773143684421,
+                "rawEndTime": 1773143684504,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010275602340698243
+            },
+            {
+                "transactionName": "AB_DDRequest_T04_SelectAccount",
+                "rawStartTime": 1773143684504,
+                "rawEndTime": 1773143684537,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004027605056762695
+            }
+        ]
+    }
+]
